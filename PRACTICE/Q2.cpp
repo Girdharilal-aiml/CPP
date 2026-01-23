@@ -16,6 +16,13 @@ int main(){
         cout<<"Access Granted"<<endl;
     }else{
         cout<<"Access Denied"<<endl;
-        
+        if(user!="USER" && pass != 0000){
+            cout<<"Wrong user and pass"<<endl;
+        }
+        else if(user!="USER"){
+            cout<<"Wrong user"<<endl;
+        }else if(pass != 0000){
+            cout<<"Wrong pass"<<endl;
+        }
     }
 }
