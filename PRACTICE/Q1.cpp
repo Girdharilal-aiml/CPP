@@ -10,13 +10,13 @@ int main(){
     cin>>b;
     cout<<a<<" "<<b<<endl;
     if(a%2==0){
-        cout<<"Even"<<a<<endl;
+        cout<<"Even"<<" "<<a<<endl;
     }else{
-        cout<<"Odd"<<endl;
+        cout<<"Odd"<<" "<<a<<endl;
     }
     if(b%2==0){
-        cout<<"Even"<<b<<endl;
+        cout<<"Even"<<" "<<b<<endl;
     }else{
-        cout<<"Odd"<<endl;
+        cout<<"Odd"<<" "<<b<<endl;
     }
 }
