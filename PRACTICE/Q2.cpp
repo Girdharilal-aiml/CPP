@@ -12,5 +12,10 @@ int main(){
     cout<<"Enter Password: ";
     cin>>pass;
 
-   
+    if(user== "USER" && pass== 0000){
+        cout<<"Access Granted"<<endl;
+    }else{
+        cout<<"Access Denied"<<endl;
+        
+    }
 }
