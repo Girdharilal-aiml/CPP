@@ -4,5 +4,8 @@
 using namespace std;
 
 int main(){
+    int pass;
+    string user;
+
     
 }
