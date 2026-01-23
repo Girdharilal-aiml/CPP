@@ -4,22 +4,22 @@
 using namespace std;
 
 int main(){
-    int pass;
-    string user;
+    int password;
+    string username;
 
     cout<<"Enter Username: ";
-    cin>>user;
+    cin>>username;
     cout<<"Enter Password: ";
     cin>>pass;
 
-    if(user== "USER" && pass== 0000){
+    if(username== "USER" && pass== 0000){
         cout<<"Access Granted"<<endl;
     }else{
         cout<<"Access Denied"<<endl;
-        if(user!="USER" && pass != 0000){
+        if(username !="USER" && pass != 0000){
             cout<<"Wrong user and pass"<<endl;
         }
-        else if(user!="USER"){
+        else if(username!="USER"){
             cout<<"Wrong user"<<endl;
         }else if(pass != 0000){
             cout<<"Wrong pass"<<endl;
