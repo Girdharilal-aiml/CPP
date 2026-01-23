@@ -9,5 +9,10 @@ int main(){
     cin>>a;
     cin>>b;
     cout<<a<<" "<<b<<endl;
+    if(a%2==0){
+        cout<<"Even"<<a<<endl;
+    }else{
+        cout<<"Odd"<<endl;
+    }
     
 }
