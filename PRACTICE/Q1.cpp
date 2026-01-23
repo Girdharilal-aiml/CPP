@@ -14,5 +14,9 @@ int main(){
     }else{
         cout<<"Odd"<<endl;
     }
-    
+    if(b%2==0){
+        cout<<"Even"<<b<<endl;
+    }else{
+        cout<<"Odd"<<endl;
+    }
 }
