@@ -12,14 +12,14 @@ int main(){
     cout<<"Enter Password: ";
     cin>>password;
 
-    if(username== "USER" && password== 0000){
+    if(username == "USER" && password == 0000){
         cout<<"Access Granted"<<endl;
     }else{
         cout<<"Access Denied"<<endl;
-        if(username !="USER" && password != 0000){
+        if(username != "USER" && password != 0000){
             cout<<"Wrong user and pass"<<endl;
         }
-        else if(username!="USER"){
+        else if(username != "USER"){
             cout<<"Wrong user"<<endl;
         }else if(password != 0000){
             cout<<"Wrong pass"<<endl;
