@@ -7,5 +7,10 @@ int main(){
     int pass;
     string user;
 
-    
+    cout<<"Enter Username: ";
+    cin>>user;
+    cout<<"Enter Password: ";
+    cin>>pass;
+
+   
 }
