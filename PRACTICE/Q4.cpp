@@ -11,30 +11,27 @@ output accordingly.
 using namespace std;
 
 int main(){
-    float input[2],output;
+    float input1,input2;
     char op;
 
     cout<<"Enter First Number: "<<endl;
-    cin>>input[0];
+    cin>>input1;
 
     cout<<"Enter Second Number: "<<endl;
-    cin>>input[1];
+    cin>>input2;
 
     cout<<"Enter Operator(-, *, / ,or add(a)): "<<endl;
     cin>>op;
 
     if(op == 'a')
-        output = input[1] - (-input[0]);
+    cout<<"Output is: "<<input2 - (-input1)<<endl;
     else if(op == '-')
-        output = input[1] - input[0];
+    cout<<"Output is: "<<input2 - input1<<endl;
     else if(op == '*')
-        output = input[1] * input[0];
+    cout<<"Output is: "<<input2 * input1<<endl;
     else if(op == '/')
-        output = input[1] / input[0];
+    cout<<"Output is: "<<input2 / input1<<endl;
     else
         cout<<"Invalid Operation"<<endl;
-
-    if(op == 'a' || op == '-' || op == '/' || op == '*' )
-        cout<<"Output is: "<<output<<endl;
 
 }
