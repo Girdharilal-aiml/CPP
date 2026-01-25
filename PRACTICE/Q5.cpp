@@ -3,3 +3,10 @@
 numbers in that list and print the counts.
 */
 
+#include"iostream"
+using namespace std;
+
+int main(){
+    
+
+}
