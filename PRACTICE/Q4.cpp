@@ -23,6 +23,16 @@ int main(){
     cout<<"Enter Operator(-, *, / ,or add(a)): "<<endl;
     cin>>op;
 
-    
+    if(op == 'a')
+        output = input[1] - (-input[0]);
+    else if(op == '-')
+        output = input[1] - input[0];
+    else if(op == '*')
+        output = input[1] * input[0];
+    else if(op == '/')
+        output = input[1] / input[0];
+    else
+        cout<<"Invalid Operation"<<endl;
 
+    
 }
