@@ -26,7 +26,13 @@ int main(){
     cout<<"Enter ICT marks: "<<endl;
     cin>>ICT;
 
+    Total = PF+OOP+DLD+ICT;
+    Average = Total/4;
+    cout<<"Total marks: "<<Total<<endl;
+    cout<<"Average marks: "<<Average<<endl;
     
+
+    cout<<Grade<<endl;
 
     
 }
