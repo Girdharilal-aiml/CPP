@@ -11,6 +11,9 @@ output accordingly.
 using namespace std;
 
 int main(){
+    float input[2],output;
+    char op;
+
     
 
 }
