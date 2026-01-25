@@ -8,7 +8,15 @@ int main(){
     cout<<"Enter n: ";
     cin>>n;
 
-    
+    if(n>1){
+        for(int i=n;i>=1; i--){
+            fact = fact * i;
+        }
+    }else if( n == 1 || n==0){
+        fact = 1;
+    }else{
+        cout<<"Invalid number:"<<endl;
+    }
 
     cout<<"Factorial is: "<<fact<<""<< endl;
 
