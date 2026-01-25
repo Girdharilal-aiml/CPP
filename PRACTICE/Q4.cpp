@@ -34,5 +34,7 @@ int main(){
     else
         cout<<"Invalid Operation"<<endl;
 
-    
+    if(op == 'a' || op == '-' || op == '/' || op == '*' )
+        cout<<"Output is: "<<output<<endl;
+
 }
