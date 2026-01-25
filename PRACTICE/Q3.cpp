@@ -14,6 +14,9 @@ Below 60: Grade F
 using namespace std;
 
 int main(){
+    float PF,OOP,DLD,ICT,Average,Total;
+    char Grade;
+
     
 
     
