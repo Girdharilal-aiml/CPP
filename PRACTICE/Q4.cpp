@@ -14,6 +14,15 @@ int main(){
     float input[2],output;
     char op;
 
+    cout<<"Enter First Number: "<<endl;
+    cin>>input[0];
+
+    cout<<"Enter Second Number: "<<endl;
+    cin>>input[1];
+
+    cout<<"Enter Operator(-, *, / ,or add(a)): "<<endl;
+    cin>>op;
+
     
 
 }
