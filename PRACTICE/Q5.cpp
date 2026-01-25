@@ -23,6 +23,7 @@ int main(){
         }
     }
 
-    
+    cout<<"TOTAL EVEN COUNT: "<<even<<""<<endl;
+    cout<<"TOTAL ODD COUNT: "<<odd<<""<<endl;
 
 }
