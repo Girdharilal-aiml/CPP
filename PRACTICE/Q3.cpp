@@ -17,6 +17,15 @@ int main(){
     float PF,OOP,DLD,ICT,Average,Total;
     char Grade;
 
+    cout<<"Enter PF marks: "<<endl;
+    cin>>PF;
+    cout<<"Enter OOP marks: "<<endl;
+    cin>>OOP;
+    cout<<"Enter DLD marks: "<<endl;
+    cin>>DLD;
+    cout<<"Enter ICT marks: "<<endl;
+    cin>>ICT;
+
     
 
     
