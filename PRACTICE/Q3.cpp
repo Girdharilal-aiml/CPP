@@ -10,4 +10,11 @@ Use the following grading metrics:
 Below 60: Grade F
 */
 
+#include<iostream>
+using namespace std;
 
+int main(){
+    
+
+    
+}
