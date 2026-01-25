@@ -33,7 +33,7 @@ int main(){
         if(input2 == 0){
             cout<<"Infinity";
         }else{
-            cout<<"Output is: "<<input2 / input1<<endl;
+            cout<<"Output is: "<<input1 / input2<<endl;
         }
     }
     else
