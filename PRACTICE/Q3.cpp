@@ -30,7 +30,16 @@ int main(){
     Average = Total/4;
     cout<<"Total marks: "<<Total<<endl;
     cout<<"Average marks: "<<Average<<endl;
-    
+    if(Average>=90)
+        Grade = 'A';
+    else if(Average>=80 && Average<=89)
+        Grade = 'B';
+    else if(Average>=70 && Average<=79)
+        Grade = 'C';
+    else if(Average>=60 && Average<=69)
+        Grade = 'D';
+    else if(Average<=60)
+        Grade = 'F';
 
     cout<<Grade<<endl;
 
