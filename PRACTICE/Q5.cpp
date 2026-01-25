@@ -10,7 +10,7 @@ int main(){
     int n, even=0, odd=0;
     cout<<"Enter size of array: "<<endl;
     cin>>n;
-    int arr[n];
+    int* arr = new int[n];
     for(int i = 0; i<n ;i++){
         cout<<"Enter Number arr["<<i<<"]: ";
         cin>>arr[i];
