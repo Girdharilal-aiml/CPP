@@ -7,6 +7,9 @@ numbers in that list and print the counts.
 using namespace std;
 
 int main(){
+    int n, even=0, odd=0;
+    cout<<"Enter size of array: "<<endl;
+    cin>>n;
     
 
 }
