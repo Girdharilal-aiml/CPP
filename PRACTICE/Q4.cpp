@@ -7,3 +7,10 @@ c) Your program should ask the user which operation he/she wants to perform and 
 output accordingly.
 */
 
+#include"iostream"
+using namespace std;
+
+int main(){
+    
+
+}
