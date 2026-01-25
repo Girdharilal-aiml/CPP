@@ -29,8 +29,13 @@ int main(){
     cout<<"Output is: "<<input2 - input1<<endl;
     else if(op == '*')
     cout<<"Output is: "<<input2 * input1<<endl;
-    else if(op == '/')
-    cout<<"Output is: "<<input2 / input1<<endl;
+    else if(op == '/'){
+        if(input2 == 0){
+            cout<<"Infinity";
+        }else{
+            cout<<"Output is: "<<input2 / input1<<endl;
+        }
+    }
     else
         cout<<"Invalid Operation"<<endl;
 
