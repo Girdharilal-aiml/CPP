@@ -10,6 +10,19 @@ int main(){
     int n, even=0, odd=0;
     cout<<"Enter size of array: "<<endl;
     cin>>n;
+    int arr[n];
+    for(int i = 0; i<n ;i++){
+        cout<<"Enter Number arr["<<i<<"]: ";
+        cin>>arr[i];
+    }
+    for(int i = 0; i<n ;i++){
+        if(arr[i]%2 == 0){
+            even++;
+        }else{
+            odd++;
+        }
+    }
+
     
 
 }
