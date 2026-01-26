@@ -20,7 +20,18 @@ int main(){
     cout<<"Enter the number of units consumed: ";
     cin>>unit_consumed;
 
-    
+    if(unit_consumed>0 && unit_consumed<=50){
+        unit_price = 0.50;
+        bill = unit_price*unit_consumed;
+    }else if(unit_consumed>50 && unit_consumed<=150){
+        unit_price = 0.75;
+        bill = (unit_consumed*unit_price) + (50*0.50);
+
+    }else if(unit_consumed>150 && unit_consumed<=250){
+        unit_price = 1.20;
+        bill = (unit_consumed*unit_price) + (50*0.50) + (100*0.75);
+
+    }
 
     bill = bill*0.20;
 
