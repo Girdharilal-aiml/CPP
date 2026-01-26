@@ -1,4 +1,7 @@
-// WAP to take 2 numbers and see which is Even and Odd
+/*
+Write a C++ program to check whether a given number is prime or not. Allow the user to input a
+number and display whether it's prime or not?
+*/
 
 #include"iostream"
 using namespace std;
