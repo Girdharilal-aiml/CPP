@@ -1,23 +1,21 @@
-// 5. Write a function that will take a number "n" input by user and will return its factorial.
+// Write a function that will take a number "n" input by user and will return its factorial.
 
 #include"iostream"
 using namespace std;
 
+int fact(int n){
+    
+}
+
 int main(){
-    int n, fact=1;
+    int n;
     cout<<"Enter n: ";
     cin>>n;
-
-    if(n>1){
-        for(int i=n;i>=1; i--){
-            fact = fact * i;
-        }
-    }else if( n == 1 || n==0){
-        fact = 1;
+    int factorial = fact(n);
+    if(n<0){
+        cout<<"Invalid!"<<endl;
     }else{
-        cout<<"Invalid number:"<<endl;
+        cout<<"Factorial is: "<<factorial<<""<< endl;
     }
-
-    cout<<"Factorial is: "<<fact<<""<< endl;
 
 }
