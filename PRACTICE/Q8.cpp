@@ -13,6 +13,11 @@ An additional surcharge of 20% is added to the bill.
 using namespace std;
 
 int main(){
+    float bill=0;
+    float unit_price, unitF, unitL;
+    int unit_consumed;
+
     
+    cout<<"Total Electricity Bill (Including Surcharge): Rs"<<bill<<" "<<endl;
 
 }
