@@ -27,6 +27,13 @@ ouput:
 using namespace std;
 
 int main(){
+    int SR,ER, count=0, odd=0;          // SR == Starting range    && ER == Ending range
+
+    cout<<"Enter Starting Range: ";
+    cin>>SR;
+    cout<<"Enter Ending Range: ";
+    cin>>ER;
+    
     
     
 
