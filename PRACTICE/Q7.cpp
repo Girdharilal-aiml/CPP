@@ -34,7 +34,11 @@ int main(){
     cout<<"Enter Ending Range: ";
     cin>>ER;
     
-    
+    odd+=SR;
+
+    for(int i = SR ; i<ER ; i++){
+       
+    }
     
 
 }
