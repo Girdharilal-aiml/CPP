@@ -36,17 +36,20 @@ int main(){
     
     odd+=SR;
 
-    for(int i = SR ; i<ER ; i++){
+    for(int i = SR ; i<=ER ; i++){
         if(i%2==0){
             cout<<i<<endl;
             count++;
+
+            if(count%5==0){
+            cout<<odd+1<<endl;
+            count = 0;
+            }
+
         }
         odd++;
-        if(count%5==0){
-            cout<<odd<<endl;
-        }
+        
     }
     
-
 }
 
