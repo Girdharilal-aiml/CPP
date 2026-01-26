@@ -1,5 +1,5 @@
 /*
-2. Create a C++ program to handle student marks management. The program should allow users to
+Create a C++ program to handle student marks management. The program should allow users to
 input marks for students in four courses: PF, OOP, DLD & ICT. It should then calculate the total
 marks, average marks, and determine the grade for each student based on their average.
 Use the following grading metrics:
