@@ -32,7 +32,7 @@ int main(){
         cout<<"Invalid Consumption!"<<endl;
     }
 
-    bill = bill*0.20;
+    bill = bill + bill*0.20;
 
     cout<<"Total Electricity Bill (Including Surcharge): Rs"<<bill<<" "<<endl;
 
