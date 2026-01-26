@@ -14,26 +14,19 @@ using namespace std;
 
 int main(){
     float bill=0;
-    float unit_price, unitF, unitL;
     int unit_consumed;
 
     cout<<"Enter the number of units consumed: ";
     cin>>unit_consumed;
 
     if(unit_consumed>0 && unit_consumed<=50){
-        unit_price = 0.50;
-        bill = unit_price*unit_consumed;
+        bill = 0.50*unit_consumed;
     }else if(unit_consumed>50 && unit_consumed<=150){
-        unit_price = 0.75;
-        bill = (unit_consumed*unit_price) + (50*0.50);
-
+        bill = ((unit_consumed-50)*0.75) + (50*0.50);
     }else if(unit_consumed>150 && unit_consumed<=250){
-        unit_price = 1.20;
-        bill = (unit_consumed*unit_price) + (50*0.50) + (100*0.75);
-
+        bill = ((unit_consumed-150)*1.20) + (50*0.50) + (100*0.75);
     }else if(unit_consumed>250){
-        unit_price = 1.50;
-        bill = (unit_consumed*unit_price) + (50*0.50) + (100*0.75) + (100*1.20);
+        bill = ((unit_consumed-250)*1.50) + (50*0.50) + (100*0.75) + (100*1.20);
 
     }else{
         cout<<"Invalid Consumption!"<<endl;
