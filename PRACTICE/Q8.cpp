@@ -17,7 +17,13 @@ int main(){
     float unit_price, unitF, unitL;
     int unit_consumed;
 
+    cout<<"Enter the number of units consumed: ";
+    cin>>unit_consumed;
+
     
+
+    bill = bill*0.20;
+
     cout<<"Total Electricity Bill (Including Surcharge): Rs"<<bill<<" "<<endl;
 
 }
