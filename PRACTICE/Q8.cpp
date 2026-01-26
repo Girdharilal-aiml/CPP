@@ -31,6 +31,12 @@ int main(){
         unit_price = 1.20;
         bill = (unit_consumed*unit_price) + (50*0.50) + (100*0.75);
 
+    }else if(unit_consumed>250){
+        unit_price = 1.50;
+        bill = (unit_consumed*unit_price) + (50*0.50) + (100*0.75) + (100*1.20);
+
+    }else{
+        cout<<"Invalid Consumption!"<<endl;
     }
 
     bill = bill*0.20;
