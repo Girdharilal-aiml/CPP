@@ -62,7 +62,15 @@ void updateItem(int pid) {
 }
 
 void deleteItem(int pid) {
-    
+    for(int i=0; i<cnt; i++) {
+        if(shop[i].id == pid) {
+            for(int j=i; j<cnt-1; j++) {
+                shop[j] = shop[j+1];
+            }
+            cnt--;
+            return;
+        }
+    }
     cout << "Not found\n";
 }
 
