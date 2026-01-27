@@ -89,7 +89,22 @@ int main() {
             cout << "Book number to change: ";
             cin >> num;
             
-            
+            if(num>=1 && num<=n) {
+                num--;
+                cin.ignore();
+                cout << "New name (" << lib[num].t << "): ";
+                getline(cin, lib[num].t);
+                cout << "New writer (" << lib[num].a << "): ";
+                getline(cin, lib[num].a);
+                cout << "New year (" << lib[num].y << "): ";
+                cin >> lib[num].y;
+                cin.ignore();
+                cout << "New type (" << lib[num].g << "): ";
+                getline(cin, lib[num].g);
+                cout << "Changed!\n";
+            } else {
+                cout << "Wrong number!\n";
+            }
         }
         
        
