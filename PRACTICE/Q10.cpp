@@ -61,7 +61,10 @@ void updateItem(int pid) {
     cout << "Not found\n";
 }
 
-
+void deleteItem(int pid) {
+    
+    cout << "Not found\n";
+}
 
 int main() {
     
