@@ -119,7 +119,17 @@ int main() {
             getline(cin, find);
             
             bool got = false;
-            
+            for(int i=0; i<n; i++) {
+                if(op==1 && lib[i].t.find(find) != string::npos) {
+                    show(lib[i]);
+                    got = true;
+                }
+                else if(op==2 && lib[i].a.find(find) != string::npos) {
+                    show(lib[i]);
+                    got = true;
+                }
+            }
+            if(!got) cout << "Not found\n";
         }
         
        
