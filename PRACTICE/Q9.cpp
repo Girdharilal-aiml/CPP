@@ -8,3 +8,21 @@ b) Implement a function to search for a book by title or author.
 c) Allow the user to input new books and update existing book information
 interactively.
 */
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+struct book {
+    string t;
+    string a;
+    int y;
+    string g;
+};
+
+
+
+int main() {
+    
+    return 0;
+}
