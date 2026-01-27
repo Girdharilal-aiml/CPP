@@ -75,6 +75,12 @@ void deleteItem(int pid) {
 }
 
 int main() {
+    shop[0] = {100, "Phone", 500, 10};
+    shop[1] = {101, "Book", 15, 30};
+    shop[2] = {102, "Pen", 2, 100};
+    
+    int ch, pid;
+    
     
     
     return 0;
