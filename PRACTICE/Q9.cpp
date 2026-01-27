@@ -20,7 +20,13 @@ struct book {
     string g;
 };
 
-
+void show(book x) {
+    cout << "Name: " << x.t << endl;
+    cout << "Writer: " << x.a << endl;
+    cout << "Year: " << x.y << endl;
+    cout << "Type: " << x.g << endl;
+    cout << "------------" << endl;
+}
 
 int main() {
     
