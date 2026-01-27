@@ -13,3 +13,14 @@ existing product's information accordingly.
 d) Create a function that removes a product from the system based on its product ID.
 Ensure that the inventory is updated after the removal.
 */
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+
+int main() {
+    
+    return 0;
+}
