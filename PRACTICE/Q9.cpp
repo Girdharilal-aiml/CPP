@@ -32,6 +32,21 @@ int main() {
     book lib[50];
     int n = 3;
 
+    lib[0].t = "Harry Potter";
+    lib[0].a = "JK Rowling";
+    lib[0].y = 1997;
+    lib[0].g = "Fantasy";
+    
+    lib[1].t = "Sherlock Holmes";
+    lib[1].a = "Arthur Conan Doyle";
+    lib[1].y = 1887;
+    lib[1].g = "Mystery";
+    
+    lib[2].t = "The Hobbit";
+    lib[2].a = "JRR Tolkien";
+    lib[2].y = 1937;
+    lib[2].g = "Fantasy";
+    
     
     return 0;
 }
