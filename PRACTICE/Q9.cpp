@@ -58,6 +58,14 @@ int main() {
         cout << "What to do? ";
         cin >> choice;
         
+        if(choice == 1) {
+            for(int i=0; i<n; i++) {
+                cout << "Book " << i+1 << ":\n";
+                show(lib[i]);
+            }
+        }
+        
+        
         
     } while(choice != 5);
     
