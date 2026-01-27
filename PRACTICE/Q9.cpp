@@ -107,6 +107,21 @@ int main() {
             }
         }
         
+        else if(choice == 4) {
+            int op;
+            string find;
+            cin.ignore();
+            cout << "Find by:\n1. Book name\n2. Writer name\nChoice: ";
+            cin >> op;
+            cin.ignore();
+            
+            cout << "What to find: ";
+            getline(cin, find);
+            
+            bool got = false;
+            
+        }
+        
        
         
     } while(choice != 5);
