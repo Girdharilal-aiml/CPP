@@ -49,6 +49,18 @@ void showItem(int pid) {
     cout << "Not found\n";
 }
 
+void updateItem(int pid) {
+    for(int i=0; i<cnt; i++) {
+        if(shop[i].id == pid) {
+            cout << "New name: "; cin >> shop[i].name;
+            cout << "New price: "; cin >> shop[i].price;
+            cout << "New qty: "; cin >> shop[i].qty;
+            return;
+        }
+    }
+    cout << "Not found\n";
+}
+
 
 
 int main() {
