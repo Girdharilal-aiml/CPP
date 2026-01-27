@@ -36,6 +36,19 @@ void addItem() {
     cnt++;
 }
 
+void showItem(int pid) {
+    for(int i=0; i<cnt; i++) {
+        if(shop[i].id == pid) {
+            cout << "ID: " << shop[i].id << endl;
+            cout << "Name: " << shop[i].name << endl;
+            cout << "Price: " << shop[i].price << endl;
+            cout << "Qty: " << shop[i].qty << endl;
+            return;
+        }
+    }
+    cout << "Not found\n";
+}
+
 
 
 int main() {
