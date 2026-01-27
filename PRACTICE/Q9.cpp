@@ -47,6 +47,19 @@ int main() {
     lib[2].y = 1937;
     lib[2].g = "Fantasy";
     
+    int choice;
+    
+    do {
+        cout << "\n1. See all books\n";
+        cout << "2. Add book\n";
+        cout << "3. Change book\n";
+        cout << "4. Find book\n";
+        cout << "5. Exit\n";
+        cout << "What to do? ";
+        cin >> choice;
+        
+        
+    } while(choice != 5);
     
     return 0;
 }
