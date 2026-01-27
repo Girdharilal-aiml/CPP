@@ -132,7 +132,13 @@ int main() {
             if(!got) cout << "Not found\n";
         }
         
-       
+        else if(choice == 5) {
+            cout << "Bye!\n";
+        }
+        
+        else {
+            cout << "Wrong choice!\n";
+        }
         
     } while(choice != 5);
     
