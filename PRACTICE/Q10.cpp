@@ -81,7 +81,16 @@ int main() {
     
     int ch, pid;
     
-    
+    while(true) {
+        cout << "\n1.Add 2.View 3.Update 4.Delete 5.Exit\nChoice: ";
+        cin >> ch;
+        
+        if(ch == 1) addItem();
+        else if(ch == 2) { cin >> pid; showItem(pid); }
+        else if(ch == 3) { cin >> pid; updateItem(pid); }
+        else if(ch == 4) { cin >> pid; deleteItem(pid); }
+        else if(ch == 5) break;
+    }
     
     return 0;
 }
