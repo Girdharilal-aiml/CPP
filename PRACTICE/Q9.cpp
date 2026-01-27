@@ -29,6 +29,9 @@ void show(book x) {
 }
 
 int main() {
+    book lib[50];
+    int n = 3;
+
     
     return 0;
 }
