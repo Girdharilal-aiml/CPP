@@ -84,7 +84,15 @@ int main() {
             }
         }
         
+        else if(choice == 3) {
+            int num;
+            cout << "Book number to change: ";
+            cin >> num;
+            
+            
+        }
         
+       
         
     } while(choice != 5);
     
