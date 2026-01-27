@@ -65,6 +65,25 @@ int main() {
             }
         }
         
+        else if(choice == 2) {
+            if(n < 50) {
+                cin.ignore();
+                cout << "Book name: ";
+                getline(cin, lib[n].t);
+                cout << "Writer name: ";
+                getline(cin, lib[n].a);
+                cout << "Year: ";
+                cin >> lib[n].y;
+                cin.ignore();
+                cout << "Type: ";
+                getline(cin, lib[n].g);
+                n++;
+                cout << "Book added!\n";
+            } else {
+                cout << "No space!\n";
+            }
+        }
+        
         
         
     } while(choice != 5);
