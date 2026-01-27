@@ -18,9 +18,28 @@ Ensure that the inventory is updated after the removal.
 #include <string>
 using namespace std;
 
+struct Item {
+    int id;
+    string name;
+    float price;
+    int qty;
+};
+
+Item shop[100];
+int cnt = 3;
+
+void addItem() {
+    shop[cnt].id = cnt + 100;
+    cout << "Name: "; cin >> shop[cnt].name;
+    cout << "Price: "; cin >> shop[cnt].price;
+    cout << "Qty: "; cin >> shop[cnt].qty;
+    cnt++;
+}
+
 
 
 int main() {
+    
     
     return 0;
 }
