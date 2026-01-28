@@ -17,7 +17,18 @@ int calculate(int* n1, int* n2){
     if(n2 == 0 && op == '/' ){
         return -1;
     }
-    
+    if(op=='+'){
+        result = n1+n2;
+    }else if(op == '-'){
+        result = n1-n2;
+    }else if(op == '*'){
+        result = n1*n2;
+    }else if(op == '/'){
+        result = n1/n2;
+    }else{
+        return -2;
+    }
+    return result;
 }
 
 int main(){
@@ -29,6 +40,6 @@ int main(){
     cin>>num2;
 
     int result = calculate(&num1,&num2);
+    
 
-    cout<<"Result is : "<<result<<"";
 }
