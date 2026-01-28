@@ -21,6 +21,11 @@ int main(){
         arr2D[i] = new int[c];
     }
 
+    int** arr22D = new int*[r];
+    for( int i = 0; i<r;i++){
+        arr22D[i] = new int[c];
+    }
+
     
 
 }
