@@ -40,6 +40,12 @@ int main(){
     cin>>num2;
 
     int result = calculate(&num1,&num2);
-    
+    if(result==-1){
+        cout<<"Infinity";
+    }else if(result==-2){
+        cout<<"Invalid operation";
+    }else{
+        cout<<"Result is : "<<result<<"";
+    }
 
 }
