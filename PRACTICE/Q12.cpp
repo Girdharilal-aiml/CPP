@@ -9,18 +9,24 @@ make the magic happen.
 #include"iostream";
 using namespace std;
 
-int calculate(int* n1, int* n2);
+int calculate(int* n1, int* n2){
+    char op;
+    float result;
+    cout<<"Enter operation(+,-,*,/): ";
+    cin>>op;
+    if(n2 == 0 && op == '/' ){
+        return -1;
+    }
+    
+}
 
 int main(){
     int num1,num2;
-    char op;
 
     cout<<"Enter first number: ";
     cin>>num1;
     cout<<"Enter second number: ";
     cin>>num2;
-    cout<<"Enter operation(+,-,*,/): ";
-    cin>>num1;
 
     int result = calculate(&num1,&num2);
 
