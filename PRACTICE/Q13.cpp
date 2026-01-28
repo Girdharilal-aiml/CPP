@@ -26,6 +26,15 @@ int main(){
         arr22D[i] = new int[c];
     }
 
+    for(int i= 0; i<r;i++){
+        for(int j=0;j<c;j++){
+            cout<<"Enter ("<<i<<","<<j<<") element"<<endl;
+            cin>>arr2D[i][j];
+        }
+    }
+
     
+
+
 
 }
