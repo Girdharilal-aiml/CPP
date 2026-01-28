@@ -50,6 +50,15 @@ int main(){
         cout<<"\n";
     }
 
+    for(int i=0;i<r;i++){
+            free(arr2D[i]);
+    }
+    free(arr2D);
+    
+    for(int i=0;i<r;i++){
+            free(arr22D[i]);
+    }
+    free(arr22D);
     
 
 
