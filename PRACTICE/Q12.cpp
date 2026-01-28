@@ -9,10 +9,10 @@ make the magic happen.
 #include"iostream";
 using namespace std;
 
-int (int* n1, int* n2);
+int calculate(int* n1, int* n2);
 
 int main(){
     int num1,num2;
     char op;
-    
+
 }
