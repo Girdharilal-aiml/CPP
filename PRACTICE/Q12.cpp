@@ -6,10 +6,10 @@ and then proudly display the result. Use pointers to juggle values between funct
 make the magic happen.
 */
 
-#include"iostream";
+#include"iostream"
 using namespace std;
 
-int calculate(int* n1, int* n2){
+float calculate(int* n1, int* n2){
     char op;
     float result;
     cout<<"Enter operation(+,-,*,/): ";
@@ -24,7 +24,7 @@ int calculate(int* n1, int* n2){
     }else if(op == '*'){
         result = (*n1)*(*n2);
     }else if(op == '/'){
-        result = (*n1)/(*n2);
+        result = (float)(*n1)/(*n2);
     }else{
         return -2;
     }
@@ -39,7 +39,7 @@ int main(){
     cout<<"Enter second number: ";
     cin>>num2;
 
-    int result = calculate(&num1,&num2);
+    float result = calculate(&num1,&num2);
     if(result==-1){
         cout<<"Infinity";
     }else if(result==-2){
