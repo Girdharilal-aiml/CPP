@@ -16,9 +16,9 @@ int main(){
     cout<<"Enter row size: ";
     cin>>r;
     
-    int** arr2D = new int*[r];
+    int** arr12D = new int*[r];
     for(int i=0; i<r;i++){
-        arr2D[i] = new int[c];
+        arr12D[i] = new int[c];
     }
 
     int** arr22D = new int*[r];
@@ -29,13 +29,13 @@ int main(){
     for(int i= 0; i<r;i++){
         for(int j=0;j<c;j++){
             cout<<"Enter ("<<i<<","<<j<<") element"<<endl;
-            cin>>arr2D[i][j];
+            cin>>arr12D[i][j];
         }
     }
 
     for(int i= 0; i<r;i++){
         for(int j=0;j<c;j++){
-            arr22D[i][j] = arr2D[i][j];
+            arr22D[i][j] = arr12D[i][j];
         }
     }
 
@@ -45,29 +45,56 @@ int main(){
     cout<<"First Matrix: "<<endl;
     for(int i= 0; i<r;i++){
         for(int j=0;j<c;j++){
-            cout<<""<<arr2D[i][j]<<"\t"<<endl;
+            cout<<""<<arr12D[i][j]<<"\t";
         }
         cout<<"\n";
     }
     cout<<"Second Matrix: "<<endl;
     for(int i= 0; i<r;i++){
         for(int j=0;j<c;j++){
-            cout<<""<<arr22D[i][j]<<"\t"<<endl;
+            cout<<""<<arr22D[i][j]<<"\t";
         }
         cout<<"\n";
     }
 
+    int** arr32D = new int*[r];
+    for(int i=0; i<r;i++){
+        arr32D[i] = new int[c];
+    }
+    int** arr42D = new int*[r];
+    for(int i=0; i<r;i++){
+        arr42D[i] = new int[c];
+    }
+    int** arr52D = new int*[r];
+    for(int i=0; i<r;i++){
+        arr52D[i] = new int[c];
+    }
 
 
 
     for(int i=0;i<r;i++){
-            free(arr2D[i]);
+            free(arr12D[i]);
     }
-    free(arr2D);
+    free(arr12D);
 
     for(int i=0;i<r;i++){
             free(arr22D[i]);
     }
     free(arr22D);
+
+    for(int i=0;i<r;i++){
+            free(arr32D[i]);
+    }
+    free(arr32D);
+
+    for(int i=0;i<r;i++){
+            free(arr42D[i]);
+    }
+    free(arr42D);
+
+    for(int i=0;i<r;i++){
+            free(arr52D[i]);
+    }
+    free(arr52D);
     
 }
