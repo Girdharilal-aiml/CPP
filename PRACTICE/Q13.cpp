@@ -42,6 +42,29 @@ int main(){
     cout<<"Order of First matrix is ("<<r<<","<<c<<")"<<endl;
     cout<<"Order of Second matrix is ("<<r<<","<<c<<")"<<endl;
 
+    int** arr32D = new int*[r];
+    for(int i=0; i<r;i++){
+        arr32D[i] = new int[c];
+    }
+
+    int** arr42D = new int*[r];
+    for(int i=0; i<r;i++){
+        arr42D[i] = new int[c];
+    }
+    int** arr52D = new int*[r];
+    for(int i=0; i<r;i++){
+        arr52D[i] = new int[c];
+    }
+
+
+
+
+
+
+
+    
+
+
     cout<<"First Matrix: "<<endl;
     for(int i= 0; i<r;i++){
         for(int j=0;j<c;j++){
@@ -56,18 +79,26 @@ int main(){
         }
         cout<<"\n";
     }
-
-    int** arr32D = new int*[r];
-    for(int i=0; i<r;i++){
-        arr32D[i] = new int[c];
+    cout<<"Addition Matrix: "<<endl;
+    for(int i= 0; i<r;i++){
+        for(int j=0;j<c;j++){
+            cout<<""<<arr32D[i][j]<<"\t";
+        }
+        cout<<"\n";
     }
-    int** arr42D = new int*[r];
-    for(int i=0; i<r;i++){
-        arr42D[i] = new int[c];
+    cout<<"Subtraction Matrix: "<<endl;
+    for(int i= 0; i<r;i++){
+        for(int j=0;j<c;j++){
+            cout<<""<<arr42D[i][j]<<"\t";
+        }
+        cout<<"\n";
     }
-    int** arr52D = new int*[r];
-    for(int i=0; i<r;i++){
-        arr52D[i] = new int[c];
+    cout<<"Multiplication Matrix: "<<endl;
+    for(int i= 0; i<r;i++){
+        for(int j=0;j<c;j++){
+            cout<<""<<arr52D[i][j]<<"\t";
+        }
+        cout<<"\n";
     }
 
 
