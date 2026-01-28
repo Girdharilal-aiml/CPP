@@ -74,15 +74,6 @@ int main(){
         } 
     }
 
-    
-
-
-
-
-
-
-
-
     cout<<"First Matrix: "<<endl;
     for(int i= 0; i<r;i++){
         for(int j=0;j<c;j++){
@@ -111,15 +102,18 @@ int main(){
         }
         cout<<"\n";
     }
-    cout<<"Multiplication Matrix: "<<endl;
-    for(int i= 0; i<r;i++){
-        for(int j=0;j<c;j++){
-            cout<<""<<arr52D[i][j]<<"\t";
+    if(c=r){
+        cout<<"Multiplication Matrix: "<<endl;
+        for(int i= 0; i<r;i++){
+            for(int j=0;j<c;j++){
+                cout<<""<<arr52D[i][j]<<"\t";
+            }
+            cout<<"\n";
         }
-        cout<<"\n";
+    }else{
+        cout<<"Matrix maltiplication is not possible!";
     }
-
-
+    
 
     for(int i=0;i<r;i++){
             free(arr12D[i]);
