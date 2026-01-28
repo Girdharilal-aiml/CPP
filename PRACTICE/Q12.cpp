@@ -5,3 +5,14 @@ perform addition, subtraction, multiplication, or division (depending on the use
 and then proudly display the result. Use pointers to juggle values between functions and
 make the magic happen.
 */
+
+#include"iostream";
+using namespace std;
+
+int (int* n1, int* n2);
+
+int main(){
+    int num1,num2;
+    char op;
+    
+}
