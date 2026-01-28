@@ -56,13 +56,31 @@ int main(){
         arr52D[i] = new int[c];
     }
 
-
-
-
-
-
+    for(int i=0; i<r ; i++){
+        for(int j=0; j<c ; j++){
+            arr32D[i][j] = arr12D[i][j] + arr22D[i][j];
+        }
+    }
+    for(int i=0; i<r ; i++){
+        for(int j=0; j<c ; j++){
+            arr42D[i][j] = arr12D[i][j] - arr22D[i][j];
+        }
+    }
+    if(r=c){
+       for(int i=0; i<r ; i++){
+        for(int j=0; j<c ; j++){
+            arr52D[i][j] = arr12D[i][j] * arr22D[i][j];
+            }
+        } 
+    }
 
     
+
+
+
+
+
+
 
 
     cout<<"First Matrix: "<<endl;
