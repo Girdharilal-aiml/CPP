@@ -33,7 +33,14 @@ int main(){
         }
     }
 
-    
+    for(int i= 0; i<r;i++){
+        for(int j=0;j<c;j++){
+            arr22D[i][j] = arr2D[i][j];
+        }
+    }
+
+    cout<<"Order of First matrix is ("<<r<<","<<c<<")"<<endl;
+    cout<<"Order of Second matrix is ("<<r<<","<<c<<")"<<endl;
 
 
 
