@@ -18,13 +18,13 @@ int calculate(int* n1, int* n2){
         return -1;
     }
     if(op=='+'){
-        result = n1+n2;
+        result = (*n1)+(*n2);
     }else if(op == '-'){
-        result = n1-n2;
+        result = (*n1)-(*n2);
     }else if(op == '*'){
-        result = n1*n2;
+        result = (*n1)*(*n2);
     }else if(op == '/'){
-        result = n1/n2;
+        result = (*n1)/(*n2);
     }else{
         return -2;
     }
