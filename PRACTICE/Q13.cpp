@@ -45,21 +45,29 @@ int main(){
     cout<<"First Matrix: "<<endl;
     for(int i= 0; i<r;i++){
         for(int j=0;j<c;j++){
-            cout<<""<<i<<","<<j<<"\t"<<endl;
+            cout<<""<<arr2D[i][j]<<"\t"<<endl;
         }
         cout<<"\n";
     }
+    cout<<"Second Matrix: "<<endl;
+    for(int i= 0; i<r;i++){
+        for(int j=0;j<c;j++){
+            cout<<""<<arr22D[i][j]<<"\t"<<endl;
+        }
+        cout<<"\n";
+    }
+
+
+
 
     for(int i=0;i<r;i++){
             free(arr2D[i]);
     }
     free(arr2D);
-    
+
     for(int i=0;i<r;i++){
             free(arr22D[i]);
     }
     free(arr22D);
     
-
-
 }
