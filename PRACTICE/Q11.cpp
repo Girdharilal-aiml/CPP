@@ -7,6 +7,12 @@ to the allocated array.
 #include"iostream"
 using namespace std;
 
+int* DA_ARR(int size){
+    int* arr_int = new int[size];
+    return arr_int;
+}
+
 int main(){
+    
     
 }
