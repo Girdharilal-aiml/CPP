@@ -13,6 +13,14 @@ int main(){
     int c,r;
     cout<<"Enter Column size: ";
     cin>>c;
+    cout<<"Enter row size: ";
+    cin>>r;
+    
+    int** arr2D = new int*[r];
+    for(int i=0; i<r;i++){
+        arr2D[i] = new int[c];
+    }
+
     
 
 }
