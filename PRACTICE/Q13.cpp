@@ -11,10 +11,10 @@ using namespace std;
 
 int main(){
     int c,r;
-    cout<<"Enter Column size: ";
-    cin>>c;
     cout<<"Enter row size: ";
     cin>>r;
+    cout<<"Enter Column size: ";
+    cin>>c;
     
     int** arr12D = new int*[r];
     for(int i=0; i<r;i++){
@@ -66,7 +66,7 @@ int main(){
             arr42D[i][j] = arr12D[i][j] - arr22D[i][j];
         }
     }
-    if(r=c){
+    if(r==c){
        for(int i=0; i<r ; i++){
         for(int j=0; j<c ; j++){
             arr52D[i][j] = arr12D[i][j] * arr22D[i][j];
@@ -75,8 +75,8 @@ int main(){
     }
 
     cout<<"First Matrix: "<<endl;
-    for(int i= 0; i<r;i++){
-        for(int j=0;j<c;j++){
+    for(int i = 0; i<r; i++){
+        for(int j=0; j<c; j++){
             cout<<""<<arr12D[i][j]<<"\t";
         }
         cout<<"\n";
@@ -102,7 +102,7 @@ int main(){
         }
         cout<<"\n";
     }
-    if(c=r){
+    if(c==r){
         cout<<"Multiplication Matrix: "<<endl;
         for(int i= 0; i<r;i++){
             for(int j=0;j<c;j++){
@@ -113,31 +113,31 @@ int main(){
     }else{
         cout<<"Matrix maltiplication is not possible!";
     }
-    
+
 
     for(int i=0;i<r;i++){
-            free(arr12D[i]);
+            delete[] arr12D[i];
     }
-    free(arr12D);
+    delete[] arr12D;
 
     for(int i=0;i<r;i++){
-            free(arr22D[i]);
+            delete[] arr22D[i];
     }
-    free(arr22D);
+    delete[] arr22D;
 
     for(int i=0;i<r;i++){
-            free(arr32D[i]);
+            delete[] arr32D[i];
     }
-    free(arr32D);
+    delete[] arr32D;
 
     for(int i=0;i<r;i++){
-            free(arr42D[i]);
+            delete[] arr42D[i];
     }
-    free(arr42D);
+    delete[] arr42D;
 
     for(int i=0;i<r;i++){
-            free(arr52D[i]);
+            delete[] arr52D[i];
     }
-    free(arr52D);
+    delete[] arr52D;
     
 }
