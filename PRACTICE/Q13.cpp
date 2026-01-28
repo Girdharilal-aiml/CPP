@@ -42,6 +42,15 @@ int main(){
     cout<<"Order of First matrix is ("<<r<<","<<c<<")"<<endl;
     cout<<"Order of Second matrix is ("<<r<<","<<c<<")"<<endl;
 
+    cout<<"First Matrix: "<<endl;
+    for(int i= 0; i<r;i++){
+        for(int j=0;j<c;j++){
+            cout<<""<<i<<","<<j<<"\t"<<endl;
+        }
+        cout<<"\n";
+    }
+
+    
 
 
 }
