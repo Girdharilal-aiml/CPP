@@ -14,7 +14,7 @@ int calculate(int* n1, int* n2){
     float result;
     cout<<"Enter operation(+,-,*,/): ";
     cin>>op;
-    if(n2 == 0 && op == '/' ){
+    if(*n2 == 0 && op == '/' ){
         return -1;
     }
     if(op=='+'){
