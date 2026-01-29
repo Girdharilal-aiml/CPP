@@ -7,28 +7,20 @@ No wasted space, no extra fluff—just a happy, well-fed array.
 */
 
 #include"iostream"
+#include"vector"
 using namespace std;
 
 int main(){
-    int n=5, i=0, count=0;
-    int* arr = new int[n];
+    int n=5, i=0;
+    vector<int> arr(n);
 
     do{
-    
-        cout<<"Enter '0' to exit!"<<endl;
-        cout<<"Enter numbers at "<<i<<":";
-        cin>>arr[i];
-        i++;
-        count++;
-        if(count%5==0){
-            n=n*2;
-        }
-
-
-    }while(arr[i] = 0 );
 
     
 
+    }while(arr(i)!=0);
 
-    delete[] arr;
+
+    
+
 }
