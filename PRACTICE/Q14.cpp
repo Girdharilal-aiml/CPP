@@ -44,6 +44,10 @@ int main() {
     } while (choice == 'y');
 
     int* finalArr = new int[count];
+    for (int i = 0; i < count; i++) {
+        finalArr[i] = arr[i];
+    }
+
     
 
     delete[] arr;
