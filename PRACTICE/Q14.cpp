@@ -22,6 +22,14 @@ int main() {
         cout << "Enter number: ";
         cin >> value;
 
+        if (count == capacity) {
+            capacity *= 2;
+
+            int* newArr = new int[capacity];
+
+            ;
+        }
+
         
 
     } while (choice == 'y');
