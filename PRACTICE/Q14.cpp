@@ -43,6 +43,7 @@ int main() {
 
     } while (choice == 'y');
 
+    int* finalArr = new int[count];
     
 
     delete[] arr;
