@@ -6,21 +6,9 @@ the array will go on a diet and shrink down to perfectly fit the number of eleme
 No wasted space, no extra fluff—just a happy, well-fed array.
 */
 
-#include"iostream"
-#include"vector"
+#include <iostream>
 using namespace std;
 
-int main(){
-    int n=5, i=0;
-    vector<int> arr(n);
-
-    do{
-
+int main() {
     
-
-    }while(arr(i)!=0);
-
-
-    
-
 }
