@@ -15,5 +15,8 @@ int main() {
 
     int* arr = new int[capacity];
 
-    
+    int value;
+    char choice;
+
+
 }
