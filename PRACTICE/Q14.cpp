@@ -18,5 +18,9 @@ int main() {
     int value;
     char choice;
 
+    
+
+    delete[] arr;
+    return 0;
 
 }
