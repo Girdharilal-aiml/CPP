@@ -10,5 +10,10 @@ No wasted space, no extra fluff—just a happy, well-fed array.
 using namespace std;
 
 int main() {
+    int capacity = 5;
+    int count = 0;
+
+    int* arr = new int[capacity];
+
     
 }
