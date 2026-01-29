@@ -51,7 +51,10 @@ int main() {
      delete[] arr;
     arr = finalArr;
 
-    
+    cout << "\nFinal Array:\n";
+    for (int i = 0; i < count; i++) {
+        cout << arr[i] << " ";
+    }
 
     delete[] arr;
     return 0;
