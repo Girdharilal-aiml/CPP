@@ -48,7 +48,7 @@ int main() {
         finalArr[i] = arr[i];
     }
 
-     delete[] arr;
+    delete[] arr;
     arr = finalArr;
 
     cout << "\nFinal Array:\n";
@@ -58,5 +58,4 @@ int main() {
 
     delete[] arr;
     return 0;
-
 }
