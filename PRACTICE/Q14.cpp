@@ -48,6 +48,9 @@ int main() {
         finalArr[i] = arr[i];
     }
 
+     delete[] arr;
+    arr = finalArr;
+
     
 
     delete[] arr;
