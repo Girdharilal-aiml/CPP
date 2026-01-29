@@ -31,7 +31,8 @@ int main() {
                 newArr[i] = arr[i];
             }
 
-           
+            delete[] arr;
+            arr = newArr;
         }
 
         
