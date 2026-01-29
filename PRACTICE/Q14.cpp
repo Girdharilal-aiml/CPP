@@ -19,6 +19,9 @@ int main() {
     char choice;
 
     do {
+        cout << "Enter number: ";
+        cin >> value;
+
         
 
     } while (choice == 'y');
