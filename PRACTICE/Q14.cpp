@@ -35,7 +35,11 @@ int main() {
             arr = newArr;
         }
 
-        
+        arr[count] = value;
+        count++;
+
+        cout << "Add more? (y/n): ";
+        cin >> choice;
 
     } while (choice == 'y');
 
