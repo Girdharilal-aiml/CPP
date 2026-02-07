@@ -32,20 +32,25 @@ public:
         this->Price = Price;
     }
     Book(const Book &b) {
-        title = b.title;
-        author = b.author;
-        price = b.price;
+        Title = b->Title;
+        Author = b->Author;
+        Price = b->Price;
     }
     void display() {
-        cout << "Title: " << title << endl;
-        cout << "Author: " << author << endl;
-        cout << "Price: " << price << endl;
+        cout << "Title: " << Title << endl;
+        cout << "Author: " << Author << endl;
+        cout << "Price: " << Price << endl;
     }
     
 };
 
 int main(){
     Book B1("Rich Dad Poor Dad", "Robin J.Kyosaki", 300);
+    Book B2 = B1;
 
+    cout<<"Original Book"<<endl;
+    B1.display();
 
+    cout<<"Original Book"<<endl;
+    B2.display();
 }
