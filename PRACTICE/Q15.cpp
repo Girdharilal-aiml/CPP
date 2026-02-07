@@ -24,17 +24,19 @@ private:
 
 public:
     Book(){
-
+        Title = "Untitled";
+        Author = "Anonymous";
+        Price = 0.0;
     }
-    Book(string Title, string Author, double Price){
-        this->Author = Author;
-        this->Title = Title;
-        this->Price = Price;
+    Book(string Title, string Author = "Unknown", double Price = 0.0){
+    this->Title = Title;
+    this->Author = Author;
+    this->Price = Price;
     }
     Book(const Book &b) {
-        Title = b->Title;
-        Author = b->Author;
-        Price = b->Price;
+        Title = b.Title;
+        Author = b.Author;
+        Price = b.Price;
     }
     void display() {
         cout << "Title: " << Title << endl;
