@@ -12,3 +12,10 @@
      author = "Unknown", price = 0.0
    - Create objects using all constructors and display details
 */
+
+#include"iostream"
+using namespace std;
+
+int main(){
+    
+}
