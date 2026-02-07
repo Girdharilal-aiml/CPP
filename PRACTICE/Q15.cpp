@@ -31,9 +31,16 @@ public:
         this->Title = Title;
         this->Price = Price;
     }
+    Book(const Book &b) {
+        title = b.title;
+        author = b.author;
+        price = b.price;
+    }
     
 };
 
 int main(){
+    Book B1("Rich Dad Poor Dad", "Robin J.Kyosaki", 300);
+    
 
 }
