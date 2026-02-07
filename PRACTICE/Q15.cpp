@@ -16,6 +16,16 @@
 #include"iostream"
 using namespace std;
 
-int main(){
+class Book{
+private:
+    string Title;
+    string Author;
+    double Price;
+
+public:
     
+};
+
+int main(){
+
 }
