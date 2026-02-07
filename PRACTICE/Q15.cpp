@@ -36,11 +36,16 @@ public:
         author = b.author;
         price = b.price;
     }
+    void display() {
+        cout << "Title: " << title << endl;
+        cout << "Author: " << author << endl;
+        cout << "Price: " << price << endl;
+    }
     
 };
 
 int main(){
     Book B1("Rich Dad Poor Dad", "Robin J.Kyosaki", 300);
-    
+
 
 }
