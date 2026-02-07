@@ -23,6 +23,14 @@ private:
     double Price;
 
 public:
+    Book(){
+
+    }
+    Book(string Title, string Author, double Price){
+        this->Author = Author;
+        this->Title = Title;
+        this->Price = Price;
+    }
     
 };
 
