@@ -12,6 +12,7 @@ public:
     static int totalPlans;
 
     DataPlan(string n, double limit, double used) {
+        name      = n;
     }
 
 
