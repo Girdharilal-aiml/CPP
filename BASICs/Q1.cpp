@@ -19,6 +19,7 @@ public:
     }
 
     DataPlan(const DataPlan& other) {
+        name      = other.name;
     }
 
 };
