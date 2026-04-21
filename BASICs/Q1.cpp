@@ -8,6 +8,7 @@ private:
     double dataLimit;
     double dataUsed;
 
+public:
 
 
 };
