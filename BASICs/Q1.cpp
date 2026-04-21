@@ -15,6 +15,7 @@ public:
         name      = n;
         dataLimit = limit;
         dataUsed  = used;
+        totalPlans++; 
     }
 
 
