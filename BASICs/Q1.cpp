@@ -20,6 +20,7 @@ public:
 
     DataPlan(const DataPlan& other) {
         name      = other.name;
+        dataLimit = other.dataLimit;
     }
 
 };
