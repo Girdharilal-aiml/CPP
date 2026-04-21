@@ -13,6 +13,7 @@ public:
 
     DataPlan(string n, double limit, double used) {
         name      = n;
+        dataLimit = limit;
     }
 
 
