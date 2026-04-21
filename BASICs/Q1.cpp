@@ -18,6 +18,8 @@ public:
         totalPlans++; 
     }
 
+    DataPlan(const DataPlan& other) {
+    }
 
 };
 
