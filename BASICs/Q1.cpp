@@ -27,6 +27,7 @@ public:
 
     void display() {
         cout << "------------------------" << endl;
+        cout << "Name       : " << name      << endl;
     }
 };
 
