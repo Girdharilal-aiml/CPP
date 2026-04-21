@@ -9,6 +9,8 @@ private:
     double dataUsed;
 
 public:
+    static int totalPlans;
+
 
 
 };
