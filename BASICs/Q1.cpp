@@ -26,6 +26,7 @@ public:
     }
 
     void display() {
+        cout << "------------------------" << endl;
     }
 };
 
