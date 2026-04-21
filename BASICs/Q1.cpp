@@ -28,6 +28,7 @@ public:
     void display() {
         cout << "------------------------" << endl;
         cout << "Name       : " << name      << endl;
+        cout << "Data Limit : " << dataLimit << " GB" << endl;
     }
 };
 
