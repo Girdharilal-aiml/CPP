@@ -15,6 +15,8 @@ public:
 
     virtual void calculateEarnings() = 0;
 
+    virtual void display() {
+    }
 
 };
 
