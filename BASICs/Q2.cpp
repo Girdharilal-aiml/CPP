@@ -30,5 +30,6 @@ public:
 
 
 class AIEngineer : public Freelancer {
+public:
 
 };
