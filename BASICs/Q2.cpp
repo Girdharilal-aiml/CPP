@@ -18,6 +18,7 @@ public:
     virtual void display() {
         cout << "------------------------"   << endl;
         cout << "Name     : " << name        << endl;
+        cout << "Rating   : " << baseRating  << endl;
     }
 
 };
