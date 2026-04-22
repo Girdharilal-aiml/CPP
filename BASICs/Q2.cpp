@@ -46,5 +46,6 @@ public:
 
     void display() override {
         cout << "\n[AI Engineer]" << endl;
+        Freelancer::display(); 
     }
 };
