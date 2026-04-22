@@ -10,6 +10,7 @@ protected:
     double earnings;
 
 public:
+    Freelancer(string n, double r, int p)
 
 
 };
