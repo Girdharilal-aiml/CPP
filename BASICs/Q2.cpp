@@ -34,5 +34,8 @@ public:
     AIEngineer(string n, double r, int p)
         : Freelancer(n, r, p) {}
 
+    void calculateEarnings() override {
+        double bonus = 0;
+    }
 
 };
