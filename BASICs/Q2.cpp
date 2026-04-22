@@ -6,6 +6,8 @@ class Freelancer {
 protected:
     string name;
     double baseRating;
+    int completedProjects;
+    double earnings;
 
 public:
 
