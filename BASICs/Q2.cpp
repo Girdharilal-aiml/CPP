@@ -11,6 +11,8 @@ protected:
 
 public:
     Freelancer(string n, double r, int p)
+        : name(n), baseRating(r), completedProjects(p), earnings(0) {}
+
 
 
 };
