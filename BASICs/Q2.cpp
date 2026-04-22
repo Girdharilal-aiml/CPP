@@ -31,5 +31,6 @@ public:
 
 class AIEngineer : public Freelancer {
 public:
+    AIEngineer(string n, double r, int p)
 
 };
