@@ -99,6 +99,9 @@ int main() {
     Freelancer* freelancers[3];
 
     freelancers[0] = new AIEngineer   ("Ali",   3.5, 6);
+    freelancers[1] = new DataScientist("Sara",  2.8, 3); 
+    freelancers[2] = new FullStackDev ("Hamza", 4.0, 7);
+
 
 
 }
