@@ -68,6 +68,7 @@ public:
 
     void display() override {
         cout << "\n[Data Scientist]" << endl;
+        Freelancer::display();
     }
 };
 
