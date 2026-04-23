@@ -88,6 +88,8 @@ public:
             baseRating += 0.4;
     }
 
+    void display() override {
+    }
 };
 
 
