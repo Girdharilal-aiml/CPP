@@ -53,6 +53,7 @@ public:
 
 class DataScientist : public Freelancer {
 public:
+    DataScientist(string n, double r, int p)
 
 };
 
