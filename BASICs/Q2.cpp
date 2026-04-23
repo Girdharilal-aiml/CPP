@@ -66,6 +66,8 @@ public:
             baseRating += 0.3;
     }
 
+    void display() override {
+    }
 };
 
 
