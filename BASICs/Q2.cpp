@@ -89,6 +89,7 @@ public:
     }
 
     void display() override {
+        cout << "\n[FullStack Dev]" << endl;
     }
 };
 
