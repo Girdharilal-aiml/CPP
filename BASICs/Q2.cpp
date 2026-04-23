@@ -84,6 +84,7 @@ public:
             bonus = 10000;         // FullStack bonus
         earnings = (baseRating * 9000) + bonus;
 
+        if (completedProjects >= 5)
     }
 
 };
