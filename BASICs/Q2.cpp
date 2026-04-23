@@ -102,6 +102,10 @@ int main() {
     freelancers[1] = new DataScientist("Sara",  2.8, 3); 
     freelancers[2] = new FullStackDev ("Hamza", 4.0, 7);
 
+    for (int i = 0; i < 3; i++) {
+        freelancers[i]->calculateEarnings();
+        freelancers[i]->display();
+    }
 
 
 }
