@@ -49,3 +49,13 @@ public:
         Freelancer::display(); 
     }
 };
+
+
+class DataScientist : public Freelancer {
+public:
+
+};
+
+
+
+
