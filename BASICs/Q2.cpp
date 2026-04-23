@@ -58,6 +58,7 @@ public:
 
     void calculateEarnings() override {
         double bonus = 0;
+        if (completedProjects >= 5)
     }
 
 };
