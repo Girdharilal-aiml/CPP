@@ -75,6 +75,7 @@ public:
 
 class FullStackDev : public Freelancer {
 public:
+    FullStackDev(string n, double r, int p)
 
 };
 
