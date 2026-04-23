@@ -63,6 +63,7 @@ public:
         earnings = (baseRating * 8000) + bonus;
 
         if (completedProjects >= 5)
+            baseRating += 0.3;
     }
 
 };
