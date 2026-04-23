@@ -57,6 +57,7 @@ public:
         : Freelancer(n, r, p) {}
 
     void calculateEarnings() override {
+        double bonus = 0;
     }
 
 };
