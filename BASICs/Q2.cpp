@@ -74,6 +74,7 @@ public:
 
 
 class FullStackDev : public Freelancer {
+public:
 
 };
 
