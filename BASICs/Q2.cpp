@@ -90,7 +90,12 @@ public:
 
     void display() override {
         cout << "\n[FullStack Dev]" << endl;
+        Freelancer::display();
     }
 };
 
 
+int main() {
+
+
+}
