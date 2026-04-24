@@ -27,6 +27,8 @@ public:
     string getTitle()  const { return title; }
     string getStatus() const { return status; }
 
+    void postJob() {
+    }
 
 
 };
