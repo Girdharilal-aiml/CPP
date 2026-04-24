@@ -12,6 +12,8 @@ private:
     string status;
 
 public:
+    static int totalJobs;  
+
 
 
 
