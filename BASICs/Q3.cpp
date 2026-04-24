@@ -23,6 +23,7 @@ public:
         totalJobs++;
     }
 
+    string getJobID()  const { return jobID; }
 
 
 };
