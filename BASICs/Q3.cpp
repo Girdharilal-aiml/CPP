@@ -33,6 +33,7 @@ public:
 
     void closeJob() {
         status = "Closed";
+        cout << "Job " << jobID << " closed." << endl;
     }
 
 };
