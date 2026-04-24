@@ -36,4 +36,9 @@ public:
         cout << "Job " << jobID << " closed." << endl;
     }
 
+    void displayJobDetails() {
+        cout << "Job " << jobID
+             << " | " << title
+             << " | Status: " << status << endl;
+    }
 };
