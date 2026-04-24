@@ -28,6 +28,7 @@ public:
     string getStatus() const { return status; }
 
     void postJob() {
+        cout << "Job " << jobID << " posted by " << company << endl;
     }
 
 
