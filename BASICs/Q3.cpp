@@ -31,5 +31,7 @@ public:
         cout << "Job " << jobID << " posted by " << company << endl;
     }
 
+    void closeJob() {
+    }
 
 };
