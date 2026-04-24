@@ -18,6 +18,7 @@ public:
         jobID   = id;
         title   = t;
         company = c;
+        status  = "Active";
     }
 
 
