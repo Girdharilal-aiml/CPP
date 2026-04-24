@@ -7,6 +7,7 @@ private:
     string jobID;
     string title;
     string company;
+    string requiredSkills[10];
 
 public:
 
