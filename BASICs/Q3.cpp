@@ -20,6 +20,7 @@ public:
         company = c;
         status  = "Active";
         skillCount = 0;
+        totalJobs++;
     }
 
 
