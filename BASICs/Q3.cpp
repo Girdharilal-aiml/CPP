@@ -6,6 +6,7 @@ class Job {
 private:
     string jobID;
     string title;
+    string company;
 
 public:
 
