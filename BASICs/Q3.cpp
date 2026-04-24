@@ -15,6 +15,7 @@ public:
     static int totalJobs;  
 
     Job(string id, string t, string c) {
+        jobID   = id;
     }
 
 
