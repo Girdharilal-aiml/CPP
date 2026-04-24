@@ -16,6 +16,7 @@ public:
 
     Job(string id, string t, string c) {
         jobID   = id;
+        title   = t;
     }
 
 
