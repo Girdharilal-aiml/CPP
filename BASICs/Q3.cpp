@@ -8,6 +8,7 @@ private:
     string title;
     string company;
     string requiredSkills[10];
+    int skillCount;
 
 public:
 
