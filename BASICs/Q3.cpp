@@ -79,4 +79,6 @@ public:
             skills[skillCount++] = newSkills[i];
     }
 
+    void displayCandidateInfo() {
+    }
 };
