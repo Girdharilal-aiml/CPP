@@ -59,6 +59,7 @@ public:
 
     Candidate(string id, string n) {
         candidateID  = id;
+        name         = n;
     }
 
 
