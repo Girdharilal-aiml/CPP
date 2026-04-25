@@ -55,6 +55,8 @@ protected:
     int appliedCount;
 
 public:
+    static int totalCandidates;
+
 
 
 
