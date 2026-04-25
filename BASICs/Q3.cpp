@@ -70,6 +70,7 @@ public:
 
     void applyJob(Job* j) {
         appliedJobs[appliedCount++] = j;
+        cout << "Candidate " << candidateID
     }
 
 
