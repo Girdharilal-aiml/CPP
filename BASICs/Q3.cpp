@@ -52,6 +52,7 @@ protected:
     string skills[10];
     int skillCount;
     Job* appliedJobs[20];
+    int appliedCount;
 
 public:
 
