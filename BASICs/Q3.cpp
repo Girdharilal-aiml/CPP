@@ -66,6 +66,7 @@ public:
     }
 
     string getName() const { return name; }
+    string getID()   const { return candidateID; }
 
 
 
