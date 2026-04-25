@@ -47,6 +47,7 @@ int Job::totalJobs = 0;
 
 class Candidate {
 protected:
+    string candidateID;
 
 public:
 
