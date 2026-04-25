@@ -69,6 +69,7 @@ public:
     string getID()   const { return candidateID; }
 
     void applyJob(Job* j) {
+        appliedJobs[appliedCount++] = j;
     }
 
 
