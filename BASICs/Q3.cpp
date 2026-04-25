@@ -62,6 +62,7 @@ public:
         name         = n;
         skillCount   = 0;
         appliedCount = 0;
+        totalCandidates++;
     }
 
 
