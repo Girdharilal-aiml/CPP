@@ -49,6 +49,7 @@ class Candidate {
 protected:
     string candidateID;
     string name;
+    string skills[10];
 
 public:
 
