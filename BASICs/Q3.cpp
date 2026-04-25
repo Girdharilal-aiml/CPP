@@ -80,5 +80,6 @@ public:
     }
 
     void displayCandidateInfo() {
+        cout << "Candidate " << candidateID
     }
 };
