@@ -76,6 +76,7 @@ public:
 
     void updateSkills(string newSkills[], int count) {
         for (int i = 0; i < count; i++)
+            skills[skillCount++] = newSkills[i];
     }
 
 };
