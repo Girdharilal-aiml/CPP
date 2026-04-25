@@ -51,6 +51,7 @@ protected:
     string name;
     string skills[10];
     int skillCount;
+    Job* appliedJobs[20];
 
 public:
 
