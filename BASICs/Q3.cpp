@@ -65,6 +65,7 @@ public:
         totalCandidates++;
     }
 
+    string getName() const { return name; }
 
 
 
