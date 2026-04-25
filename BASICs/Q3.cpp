@@ -57,6 +57,8 @@ protected:
 public:
     static int totalCandidates;
 
+    Candidate(string id, string n) {
+    }
 
 
 
