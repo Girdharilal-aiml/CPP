@@ -61,6 +61,7 @@ public:
         candidateID  = id;
         name         = n;
         skillCount   = 0;
+        appliedCount = 0;
     }
 
 
