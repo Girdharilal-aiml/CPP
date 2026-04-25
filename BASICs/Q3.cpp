@@ -74,5 +74,7 @@ public:
              << " applied to " << j->getJobID() << endl;
     }
 
+    void updateSkills(string newSkills[], int count) {
+    }
 
 };
