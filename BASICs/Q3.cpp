@@ -138,6 +138,11 @@ public:
     JobRoutine(string id, string n) {
         routineID = id;
         name      = n;
+        jCount = cCount = tCount = 0;
     }
+
+    void addJob(Job* j)                    { jobs[jCount++] = j; }
+    void addCandidate(Candidate* c)        { candidates[cCount++] = c; }
+    void addTrainingProgram(TrainingProgram* t) { trainingPrograms[tCount++] = t; }
 
 };
