@@ -106,6 +106,8 @@ public:
     string getID()   const { return programID; }
     string getName() const { return courseName; }
 
+    void assignCandidate(Candidate* c) {
+    }
 
 
 };
