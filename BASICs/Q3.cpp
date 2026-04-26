@@ -89,3 +89,7 @@ public:
 };
 int Candidate::totalCandidates = 0;
 
+class TrainingProgram {
+
+
+};
