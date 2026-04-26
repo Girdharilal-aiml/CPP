@@ -136,6 +136,8 @@ private:
 
 public:
     JobRoutine(string id, string n) {
+        routineID = id;
+        name      = n;
     }
 
 };
