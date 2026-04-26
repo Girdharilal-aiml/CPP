@@ -91,6 +91,7 @@ int Candidate::totalCandidates = 0;
 
 class TrainingProgram {
 private:
+    string programID;
 
 public:
 
