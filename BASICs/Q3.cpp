@@ -121,5 +121,6 @@ public:
     }
 
     void generateReport() {
+        cout << "Training Report for: " << courseName << endl;
     }
 };
