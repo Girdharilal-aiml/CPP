@@ -120,4 +120,6 @@ public:
                  << assignedCandidates[i]->getID() << endl;
     }
 
+    void generateReport() {
+    }
 };
