@@ -110,6 +110,7 @@ public:
         assignedCandidates[candidateCount++] = c;
         cout << "TrainingProgram " << programID
              << " assigned to Candidate "
+             << c->getID() << endl;
     }
 
 
