@@ -124,3 +124,7 @@ public:
         cout << "Training Report for: " << courseName << endl;
     }
 };
+
+class JobRoutine {
+
+};
