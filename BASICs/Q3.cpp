@@ -103,6 +103,7 @@ public:
         candidateCount = 0;
     }
 
+    string getID()   const { return programID; }
 
 
 };
