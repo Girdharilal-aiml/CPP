@@ -93,6 +93,7 @@ class TrainingProgram {
 private:
     string programID;
     string courseName;
+    Candidate* assignedCandidates[20];
 
 public:
 
