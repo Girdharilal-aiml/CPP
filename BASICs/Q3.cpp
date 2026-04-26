@@ -107,6 +107,7 @@ public:
     string getName() const { return courseName; }
 
     void assignCandidate(Candidate* c) {
+        assignedCandidates[candidateCount++] = c;
     }
 
 
