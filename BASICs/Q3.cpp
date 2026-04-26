@@ -108,6 +108,7 @@ public:
 
     void assignCandidate(Candidate* c) {
         assignedCandidates[candidateCount++] = c;
+        cout << "TrainingProgram " << programID
     }
 
 
