@@ -152,6 +152,7 @@ public:
             cout << "Job " << jobs[i]->getJobID()
                  << " status: " << jobs[i]->getStatus() << endl;
 
+        for (int i = 0; i < cCount; i++)
     }
 };
 
