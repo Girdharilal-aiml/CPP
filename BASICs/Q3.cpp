@@ -150,6 +150,8 @@ public:
 
         for (int i = 0; i < jCount; i++)
             cout << "Job " << jobs[i]->getJobID()
+                 << " status: " << jobs[i]->getStatus() << endl;
+
     }
 };
 
