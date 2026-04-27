@@ -161,6 +161,10 @@ public:
 };
 
 class CandidateUser : public Candidate {
+private:
+    string userID;
+
+public:
 
 };
 
