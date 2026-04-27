@@ -165,6 +165,8 @@ private:
     string userID;
 
 public:
+    CandidateUser(string uid, string cid, string n)
+    }
 
 };
 
