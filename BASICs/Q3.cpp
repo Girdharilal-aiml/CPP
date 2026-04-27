@@ -186,4 +186,6 @@ int main() {
     j2.postJob();
 
     Candidate c1("C1", "Ali");
+    Candidate c2("C2", "Sara");
+
 }
