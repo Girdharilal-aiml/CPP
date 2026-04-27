@@ -193,4 +193,7 @@ int main() {
 
     TrainingProgram t1("T1", "Deep Learning Basics");
     t1.assignCandidate(&c2);
+
+    JobRoutine routine("R1", "Daily AI Monitor");
+
 }
