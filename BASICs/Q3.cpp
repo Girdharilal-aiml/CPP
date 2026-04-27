@@ -185,4 +185,5 @@ int main() {
     j1.postJob();
     j2.postJob();
 
+    Candidate c1("C1", "Ali");
 }
