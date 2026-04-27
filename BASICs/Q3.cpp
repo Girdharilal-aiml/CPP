@@ -192,4 +192,5 @@ int main() {
     c2.applyJob(&j2);
 
     TrainingProgram t1("T1", "Deep Learning Basics");
+    t1.assignCandidate(&c2);
 }
