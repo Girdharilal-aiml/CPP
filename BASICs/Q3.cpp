@@ -174,6 +174,7 @@ public:
 
     void viewTrainingProgram(TrainingProgram* t) {
         cout << name << " viewing: "
+             << t->getName() << endl;
     }
 };
 
