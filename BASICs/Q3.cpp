@@ -182,4 +182,5 @@ int main() {
 
     Job j1("J1", "AI Researcher",    "TechCorp");
     Job j2("J2", "Data Analyst AI",  "DataSolutions");
+    j1.postJob();
 }
