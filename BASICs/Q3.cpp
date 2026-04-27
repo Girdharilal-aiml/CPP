@@ -189,4 +189,6 @@ int main() {
     Candidate c2("C2", "Sara");
 
     c1.applyJob(&j1);
+    c2.applyJob(&j2);
+
 }
