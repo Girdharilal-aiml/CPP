@@ -146,6 +146,8 @@ public:
     void addTrainingProgram(TrainingProgram* t) { trainingPrograms[tCount++] = t; }
 
     void execute() {
+        cout << "JobRoutine \"" << name << "\" executed:" << endl;
+
     }
 };
 
