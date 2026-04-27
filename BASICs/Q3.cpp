@@ -166,6 +166,7 @@ private:
 
 public:
     CandidateUser(string uid, string cid, string n)
+        : Candidate(cid, n) {
     }
 
 };
