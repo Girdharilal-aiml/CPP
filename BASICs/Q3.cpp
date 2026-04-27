@@ -178,3 +178,6 @@ public:
     }
 };
 
+int main() {
+
+}
