@@ -160,4 +160,7 @@ public:
     }
 };
 
+class CandidateUser : public Candidate {
+
+};
 
