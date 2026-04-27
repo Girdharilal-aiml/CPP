@@ -156,6 +156,7 @@ public:
             candidates[i]->displayCandidateInfo();
 
         for (int i = 0; i < tCount; i++)
+            trainingPrograms[i]->executeProgram();
     }
 };
 
