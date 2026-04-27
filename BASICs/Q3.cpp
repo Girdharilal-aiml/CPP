@@ -170,5 +170,7 @@ public:
         userID = uid;
     }
 
+    void applyForJob(Job* j)  { applyJob(j); }
+
 };
 
