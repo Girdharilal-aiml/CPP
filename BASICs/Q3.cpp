@@ -197,4 +197,5 @@ int main() {
     JobRoutine routine("R1", "Daily AI Monitor");
     routine.addJob(&j1);
     routine.addJob(&j2);
+    routine.addCandidate(&c1);
 }
