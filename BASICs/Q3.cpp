@@ -1,4 +1,4 @@
-#include <iostream>
+#include "iostream"
 #include <string>
 using namespace std;
 
@@ -195,5 +195,5 @@ int main() {
     t1.assignCandidate(&c2);
 
     JobRoutine routine("R1", "Daily AI Monitor");
-
+    routine.addJob(&j1);
 }
