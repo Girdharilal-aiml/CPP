@@ -5,6 +5,7 @@ using namespace std;
 class Laptop {
 private:
     string brand;
+    string model;
 
 public:
 
