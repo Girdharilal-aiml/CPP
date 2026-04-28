@@ -203,4 +203,6 @@ int main() {
     routine.execute();
 
     cout << "\nTotal Jobs      : " << Job::totalJobs << endl;
+    cout << "Total Candidates: " << Candidate::totalCandidates << endl;
+
 }
