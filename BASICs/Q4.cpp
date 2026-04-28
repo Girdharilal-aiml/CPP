@@ -18,6 +18,7 @@ public:
         model  = m;
         price  = p;
         RAM    = r;
+        totalLaptops++;
     }
 
     
