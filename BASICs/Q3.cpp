@@ -202,4 +202,5 @@ int main() {
     routine.addTrainingProgram(&t1);
     routine.execute();
 
+    cout << "\nTotal Jobs      : " << Job::totalJobs << endl;
 }
