@@ -6,6 +6,7 @@ class Laptop {
 private:
     string brand;
     string model;
+    int price;
 
 public:
 
