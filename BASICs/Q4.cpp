@@ -10,6 +10,7 @@ private:
     string RAM;
 
 public:
+    static int totalLaptops;
 
     
 };
