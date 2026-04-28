@@ -198,4 +198,5 @@ int main() {
     routine.addJob(&j1);
     routine.addJob(&j2);
     routine.addCandidate(&c1);
+    routine.addCandidate(&c2);
 }
