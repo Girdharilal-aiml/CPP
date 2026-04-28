@@ -200,4 +200,6 @@ int main() {
     routine.addCandidate(&c1);
     routine.addCandidate(&c2);
     routine.addTrainingProgram(&t1);
+    routine.execute();
+
 }
