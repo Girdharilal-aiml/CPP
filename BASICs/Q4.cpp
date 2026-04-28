@@ -15,6 +15,7 @@ public:
 
     Laptop(string b, string m, int p, string r) {
         brand  = b;
+        model  = m;
     }
 
     
