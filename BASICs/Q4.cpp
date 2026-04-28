@@ -19,6 +19,7 @@ public:
         price  = p;
         RAM    = r;
         totalLaptops++;
+        totalPrice += price;
     }
 
     
