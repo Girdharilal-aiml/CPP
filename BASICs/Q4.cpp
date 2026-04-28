@@ -23,6 +23,8 @@ public:
     }
 
     Laptop(const Laptop& other) {
+        brand  = other.brand;
 
+    }
 
 };
