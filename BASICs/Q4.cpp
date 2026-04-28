@@ -14,6 +14,7 @@ public:
     static int totalPrice;
 
     Laptop(string b, string m, int p, string r) {
+        brand  = b;
     }
 
     
