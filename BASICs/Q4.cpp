@@ -22,5 +22,7 @@ public:
         totalPrice += price;
     }
 
-    
+    Laptop(const Laptop& other) {
+
+
 };
