@@ -11,6 +11,8 @@ private:
 
 public:
     static int totalLaptops;
+    static int totalPrice;
+
 
     
 };
