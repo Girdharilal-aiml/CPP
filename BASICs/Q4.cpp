@@ -17,6 +17,7 @@ public:
         brand  = b;
         model  = m;
         price  = p;
+        RAM    = r;
     }
 
     
