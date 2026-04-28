@@ -13,6 +13,8 @@ public:
     static int totalLaptops;
     static int totalPrice;
 
+    Laptop(string b, string m, int p, string r) {
+    }
 
     
 };
