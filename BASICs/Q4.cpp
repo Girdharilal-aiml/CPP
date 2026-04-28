@@ -3,6 +3,9 @@
 using namespace std;
 
 class Laptop {
+private:
+
+public:
 
     
 };
