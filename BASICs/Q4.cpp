@@ -44,3 +44,4 @@ public:
 };
 
 int Laptop::totalLaptops = 0;
+int Laptop::totalPrice   = 0;
