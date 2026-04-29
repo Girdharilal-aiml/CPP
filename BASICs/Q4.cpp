@@ -57,4 +57,5 @@ int main() {
 
     Laptop::showTotals();
 
+    return 0;
 }
