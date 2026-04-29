@@ -27,6 +27,7 @@ public:
         model  = other.model;
         price  = other.price;
         RAM    = other.RAM;
+        totalLaptops++;
     }
 
 
