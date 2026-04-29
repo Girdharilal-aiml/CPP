@@ -28,6 +28,7 @@ public:
         price  = other.price;
         RAM    = other.RAM;
         totalLaptops++;
+        totalPrice += price; 
     }
 
 
