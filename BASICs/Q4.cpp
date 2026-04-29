@@ -34,6 +34,7 @@ public:
     void display() {
         cout << model << ": " << brand
              << ", Price: " << price
+             << ", RAM: " << RAM << endl;
     }
 
 };
