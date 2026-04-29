@@ -43,3 +43,4 @@ public:
     }
 };
 
+int Laptop::totalLaptops = 0;
