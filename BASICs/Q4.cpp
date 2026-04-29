@@ -32,6 +32,7 @@ public:
     }
 
     void display() {
+        cout << model << ": " << brand
     }
 
 };
