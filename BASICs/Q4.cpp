@@ -47,4 +47,5 @@ int Laptop::totalLaptops = 0;
 int Laptop::totalPrice   = 0;
 
 int main() {
+    Laptop l1("Dell",   "Inspiron",  60000, "8GB");
 }
