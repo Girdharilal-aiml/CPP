@@ -4,5 +4,6 @@ using namespace std;
 
 class Light {
 public:
+    int brightness; 
    
 };
