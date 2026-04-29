@@ -48,4 +48,5 @@ int Laptop::totalPrice   = 0;
 
 int main() {
     Laptop l1("Dell",   "Inspiron",  60000, "8GB");
+    Laptop l2("HP",     "Pavilion",  70000, "16GB");
 }
