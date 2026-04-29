@@ -55,4 +55,6 @@ int main() {
     cout << "Laptop 2: ";  l2.display();
     cout << "Laptop 3 (Copy of Laptop 1): "; l3.display();
 
+    Laptop::showTotals();
+
 }
