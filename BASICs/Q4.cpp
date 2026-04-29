@@ -37,5 +37,7 @@ public:
              << ", RAM: " << RAM << endl;
     }
 
+    static void showTotals() {
+    }
 };
 
