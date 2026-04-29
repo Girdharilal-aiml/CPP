@@ -39,6 +39,7 @@ public:
 
     static void showTotals() {
         cout << "\nTotal number of laptops: " << totalLaptops << endl;
+        cout << "Total price of all laptops: " << totalPrice  << endl;
     }
 };
 
