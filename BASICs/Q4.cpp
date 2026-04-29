@@ -38,6 +38,7 @@ public:
     }
 
     static void showTotals() {
+        cout << "\nTotal number of laptops: " << totalLaptops << endl;
     }
 };
 
