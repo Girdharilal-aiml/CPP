@@ -31,6 +31,8 @@ public:
         totalPrice += price; 
     }
 
+    void display() {
+    }
 
 };
 
