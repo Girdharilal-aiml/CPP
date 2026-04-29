@@ -26,6 +26,7 @@ public:
         brand  = other.brand;
         model  = other.model;
         price  = other.price;
+        RAM    = other.RAM;
     }
 
 
