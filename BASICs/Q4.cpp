@@ -52,4 +52,5 @@ int main() {
     Laptop l3 = l1;   // copy constructor called
 
     cout << "Laptop 1: ";  l1.display();
+    cout << "Laptop 2: ";  l2.display();
 }
