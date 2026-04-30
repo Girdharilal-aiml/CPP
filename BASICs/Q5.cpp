@@ -9,6 +9,7 @@ public:
 
     Light(int b, int p) {
         brightness = b;
+        power      = p;
     }
 
 };
