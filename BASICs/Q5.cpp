@@ -30,6 +30,7 @@ public:
     }
 
     void display() {
+        cout << "Tonnage: " << tonnage
     }
 };
 
