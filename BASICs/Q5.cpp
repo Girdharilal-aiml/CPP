@@ -46,5 +46,7 @@ public:
         power      = p;
     }
 
+    void display() {
+    }
 };
 
