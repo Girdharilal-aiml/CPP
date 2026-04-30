@@ -26,6 +26,7 @@ public:
 
     AirConditioner(float t, int p) {
         tonnage = t;
+        power   = p;
     }
 
 };
