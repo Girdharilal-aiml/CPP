@@ -53,6 +53,9 @@ public:
 };
 
 class House {
+private:
+
+public:
 
 
 };
