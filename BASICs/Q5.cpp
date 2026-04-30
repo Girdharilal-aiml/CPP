@@ -42,6 +42,7 @@ public:
     int    power;
 
     SecurityCamera(string r, int p) {
+        resolution = r;
     }
 
 };
