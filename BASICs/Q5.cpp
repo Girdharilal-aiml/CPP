@@ -48,6 +48,7 @@ public:
 
     void display() {
         cout << "Resolution: " << resolution
+             << ", Power: " << power << "W" << endl;
     }
 };
 
