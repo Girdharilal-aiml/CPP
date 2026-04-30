@@ -13,6 +13,7 @@ public:
     }
 
     void display() {
+        cout << "Brightness: " << brightness
     }
 };
 
