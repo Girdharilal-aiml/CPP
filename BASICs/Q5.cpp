@@ -47,6 +47,7 @@ public:
     }
 
     void display() {
+        cout << "Resolution: " << resolution
     }
 };
 
