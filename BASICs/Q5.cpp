@@ -21,6 +21,7 @@ public:
 
 class AirConditioner {
 public:
+    float tonnage;
 
 
 };
