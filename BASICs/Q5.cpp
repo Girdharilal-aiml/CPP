@@ -14,6 +14,7 @@ public:
 
     void display() {
         cout << "Brightness: " << brightness
+             << " lumens, Power: " << power << "W" << endl;
     }
 };
 
