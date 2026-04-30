@@ -38,6 +38,7 @@ public:
 
 class SecurityCamera {
 public:
+    string resolution;
 
 };
 
