@@ -22,6 +22,7 @@ public:
 class AirConditioner {
 public:
     float tonnage;
+    int   power;
 
 
 };
