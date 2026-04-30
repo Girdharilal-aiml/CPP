@@ -7,6 +7,8 @@ public:
     int brightness; 
     int power;   
 
+    Light(int b, int p) {
+    }
 
 };
 
