@@ -24,6 +24,8 @@ public:
     float tonnage;
     int   power;
 
+    AirConditioner(float t, int p) {
+    }
 
 };
 
