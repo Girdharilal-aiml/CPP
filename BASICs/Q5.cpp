@@ -31,6 +31,7 @@ public:
 
     void display() {
         cout << "Tonnage: " << tonnage
+             << " Ton, Power: " << power << "W" << endl;
     }
 };
 
