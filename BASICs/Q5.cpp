@@ -65,6 +65,7 @@ private:
 
 public:
     House(string n, string id) {
+        name         = n;
     }
 
 
