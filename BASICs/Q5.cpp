@@ -57,6 +57,7 @@ private:
     string name;
     string controllerID;
 
+    Light*          lights[5];
 
 
 public:
