@@ -77,6 +77,8 @@ public:
             cout << "Max lights reached!" << endl;
     }
 
+    void addAC(AirConditioner* ac) {
+    }
 
 
 
