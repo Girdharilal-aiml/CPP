@@ -80,6 +80,7 @@ public:
     void addAC(AirConditioner* ac) {
         if (acCount < 3)
             acs[acCount++] = ac;
+        else
     }
 
 
