@@ -93,6 +93,7 @@ public:
 
     int calculateTotalPower() {
         int total = 0;
+        for (int i = 0; i < lightCount;  i++) total += lights[i]->power;
     }
 
 };
