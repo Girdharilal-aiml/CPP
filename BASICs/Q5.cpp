@@ -58,6 +58,7 @@ private:
     string controllerID;
 
     Light*          lights[5];
+    AirConditioner* acs[3];
 
 
 public:
