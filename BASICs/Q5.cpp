@@ -70,6 +70,8 @@ public:
         lightCount = acCount = cameraCount = 0;
     }
 
+    void addLight(Light* l) {
+    }
 
 
 
