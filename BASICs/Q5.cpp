@@ -88,6 +88,7 @@ public:
         if (cameraCount < 4)
             cameras[cameraCount++] = c;
         else
+            cout << "Max cameras reached!" << endl;
     }
 
 
