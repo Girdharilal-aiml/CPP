@@ -64,6 +64,8 @@ private:
     int lightCount, acCount, cameraCount;
 
 public:
+    House(string n, string id) {
+    }
 
 
 
