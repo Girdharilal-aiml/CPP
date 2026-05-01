@@ -73,6 +73,7 @@ public:
     void addLight(Light* l) {
         if (lightCount < 5)
             lights[lightCount++] = l;
+        else
     }
 
 
