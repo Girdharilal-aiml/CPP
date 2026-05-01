@@ -59,6 +59,7 @@ private:
 
     Light*          lights[5];
     AirConditioner* acs[3];
+    SecurityCamera* cameras[4];
 
 
 public:
