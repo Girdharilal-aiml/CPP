@@ -74,6 +74,7 @@ public:
         if (lightCount < 5)
             lights[lightCount++] = l;
         else
+            cout << "Max lights reached!" << endl;
     }
 
 
