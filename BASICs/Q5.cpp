@@ -71,6 +71,7 @@ public:
     }
 
     void addLight(Light* l) {
+        if (lightCount < 5)
     }
 
 
