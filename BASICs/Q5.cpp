@@ -55,6 +55,7 @@ public:
 class House {
 private:
     string name;
+    string controllerID;
 
 
 
