@@ -91,6 +91,8 @@ public:
             cout << "Max cameras reached!" << endl;
     }
 
+    int calculateTotalPower() {
+    }
 
 };
 
