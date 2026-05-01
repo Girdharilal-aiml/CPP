@@ -92,6 +92,7 @@ public:
     }
 
     int calculateTotalPower() {
+        int total = 0;
     }
 
 };
