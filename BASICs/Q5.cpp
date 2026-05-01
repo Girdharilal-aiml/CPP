@@ -84,6 +84,8 @@ public:
             cout << "Max ACs reached!" << endl;
     }
 
+    void addCamera(SecurityCamera* c) {
+    }
 
 
 };
