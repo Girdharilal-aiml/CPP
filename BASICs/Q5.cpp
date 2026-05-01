@@ -54,8 +54,15 @@ public:
 
 class House {
 private:
+    string name;
+
+
 
 public:
 
 
+
+
+
 };
+
