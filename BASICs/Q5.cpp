@@ -85,6 +85,7 @@ public:
     }
 
     void addCamera(SecurityCamera* c) {
+        if (cameraCount < 4)
     }
 
 
