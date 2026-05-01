@@ -81,6 +81,7 @@ public:
         if (acCount < 3)
             acs[acCount++] = ac;
         else
+            cout << "Max ACs reached!" << endl;
     }
 
 
