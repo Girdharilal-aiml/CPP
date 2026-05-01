@@ -67,6 +67,7 @@ public:
     House(string n, string id) {
         name         = n;
         controllerID = id;
+        lightCount = acCount = cameraCount = 0;
     }
 
 
