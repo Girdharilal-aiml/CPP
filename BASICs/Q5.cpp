@@ -61,6 +61,7 @@ private:
     AirConditioner* acs[3];
     SecurityCamera* cameras[4];
 
+    int lightCount, acCount, cameraCount;
 
 public:
 
