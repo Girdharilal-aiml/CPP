@@ -121,6 +121,7 @@ public:
             cameras[i]->display();
         }
 
+        cout << "\nTotal Lights  : " << lightCount  << endl;
     }
 };
 
