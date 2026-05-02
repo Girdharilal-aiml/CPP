@@ -101,6 +101,8 @@ public:
 
     void display() {
         cout << "House: "      << name         << endl;
+        cout << "Controller: " << controllerID << endl;
+
     
         }
 
