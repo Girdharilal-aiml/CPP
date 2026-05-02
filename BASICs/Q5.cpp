@@ -110,6 +110,7 @@ public:
         }
 
         cout << "\nAir Conditioners:" << endl;
+        for (int i = 0; i < acCount; i++) {
         }
 
         }
