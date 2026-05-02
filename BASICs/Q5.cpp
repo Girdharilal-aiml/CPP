@@ -140,4 +140,5 @@ int main() {
     h.addLight(&l2);
     h.addAC(&ac1);
     h.addAC(&ac2);
+    h.addCamera(&c1);
 }
