@@ -99,6 +99,9 @@ public:
         return total;
     }
 
+    void display() {
     
+        }
+
         };
 
