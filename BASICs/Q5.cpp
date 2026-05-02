@@ -139,4 +139,5 @@ int main() {
     h.addLight(&l1);
     h.addLight(&l2);
     h.addAC(&ac1);
+    h.addAC(&ac2);
 }
