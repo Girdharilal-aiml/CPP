@@ -115,6 +115,7 @@ public:
             acs[i]->display();
         }
 
+        cout << "\nSecurity Cameras:" << endl;
         }
 
     }
