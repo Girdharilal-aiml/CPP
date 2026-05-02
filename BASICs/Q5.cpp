@@ -105,6 +105,7 @@ public:
 
         cout << "\nLights:" << endl;
         for (int i = 0; i < lightCount; i++) {
+            cout << "  Light " << i+1 << " -> ";
         }
 
         }
