@@ -136,4 +136,5 @@ int main() {
 
     House h("Smart Villa", "CTRL-1001");
 
+    h.addLight(&l1);
 }
