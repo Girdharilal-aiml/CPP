@@ -100,6 +100,7 @@ public:
     }
 
     void display() {
+        cout << "House: "      << name         << endl;
     
         }
 
