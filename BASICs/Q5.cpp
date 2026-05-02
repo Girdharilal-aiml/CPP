@@ -104,7 +104,9 @@ public:
         cout << "Controller: " << controllerID << endl;
 
         cout << "\nLights:" << endl;
-    
+        for (int i = 0; i < lightCount; i++) {
+        }
+
         }
 
         };
