@@ -122,6 +122,7 @@ public:
         }
 
         cout << "\nTotal Lights  : " << lightCount  << endl;
+        cout << "Total ACs     : " << acCount      << endl;
     }
 };
 
