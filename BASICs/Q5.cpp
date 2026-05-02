@@ -103,6 +103,7 @@ public:
         cout << "House: "      << name         << endl;
         cout << "Controller: " << controllerID << endl;
 
+        cout << "\nLights:" << endl;
     
         }
 
