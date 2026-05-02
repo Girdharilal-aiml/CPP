@@ -130,4 +130,5 @@ public:
 
 
 int main() {
+    Light l1(800, 10), l2(600, 8);
 }
