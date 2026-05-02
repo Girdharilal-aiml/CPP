@@ -124,6 +124,7 @@ public:
         cout << "\nTotal Lights  : " << lightCount  << endl;
         cout << "Total ACs     : " << acCount      << endl;
         cout << "Total Cameras : " << cameraCount  << endl;
+        cout << "Total Power   : " << calculateTotalPower() << "W" << endl;
     }
 };
 
