@@ -117,6 +117,7 @@ public:
 
         cout << "\nSecurity Cameras:" << endl;
         for (int i = 0; i < cameraCount; i++) {
+            cout << "  Camera " << i+1 << " -> ";
         }
 
     }
