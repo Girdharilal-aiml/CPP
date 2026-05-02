@@ -128,3 +128,6 @@ public:
     }
 };
 
+
+int main() {
+}
