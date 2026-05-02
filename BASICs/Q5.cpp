@@ -96,7 +96,9 @@ public:
         for (int i = 0; i < lightCount;  i++) total += lights[i]->power;
         for (int i = 0; i < acCount;     i++) total += acs[i]->power;
         for (int i = 0; i < cameraCount; i++) total += cameras[i]->power;
+        return total;
     }
 
-};
+    
+        };
 
