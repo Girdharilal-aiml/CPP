@@ -131,4 +131,5 @@ public:
 
 int main() {
     Light l1(800, 10), l2(600, 8);
+    AirConditioner ac1(1.5, 1500), ac2(2.0, 2000);
 }
