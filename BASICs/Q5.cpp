@@ -109,7 +109,11 @@ public:
             lights[i]->display();
         }
 
+        cout << "\nAir Conditioners:" << endl;
         }
 
-        };
+        }
+
+    }
+};
 
