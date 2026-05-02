@@ -134,4 +134,6 @@ int main() {
     AirConditioner ac1(1.5, 1500), ac2(2.0, 2000);
     SecurityCamera c1("1080p", 5), c2("4K", 10);
 
+    House h("Smart Villa", "CTRL-1001");
+
 }
