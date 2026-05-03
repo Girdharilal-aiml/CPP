@@ -12,6 +12,8 @@ public:
     Vehicle(string id, string b, int c)
         : vehicleID(id), brand(b), capacity(c) {}
 
+    virtual void display() {
+    }
 
 };
 
