@@ -143,4 +143,6 @@ int main() {
     h.addCamera(&c1);
     h.addCamera(&c2);
 
+    h.display();
+
 }
