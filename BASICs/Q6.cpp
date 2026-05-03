@@ -13,6 +13,7 @@ public:
         : vehicleID(id), brand(b), capacity(c) {}
 
     virtual void display() {
+        cout << "Vehicle ID : " << vehicleID << endl;
     }
 
 };
