@@ -29,6 +29,7 @@ protected:
 public:
     Truck(string id, string b, int c, float lc)
         : Vehicle(id, b, c) {
+        loadCapacity = lc;
     }
 
 };
