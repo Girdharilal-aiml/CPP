@@ -21,3 +21,7 @@ public:
     virtual ~Vehicle() {}
 };
 
+
+class Truck : public Vehicle {
+
+};
