@@ -141,4 +141,6 @@ int main() {
     h.addAC(&ac1);
     h.addAC(&ac2);
     h.addCamera(&c1);
+    h.addCamera(&c2);
+
 }
