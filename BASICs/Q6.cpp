@@ -23,5 +23,8 @@ public:
 
 
 class Truck : public Vehicle {
+protected:
+
+public:
 
 };
