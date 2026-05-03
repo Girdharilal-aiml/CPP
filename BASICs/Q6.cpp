@@ -6,6 +6,7 @@ class Vehicle {
 protected:
     string vehicleID;
     string brand;
+    int    capacity;
 
 public:
 
