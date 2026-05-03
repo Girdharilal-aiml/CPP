@@ -24,6 +24,7 @@ public:
 
 class Truck : public Vehicle {
 protected:
+    float loadCapacity;  
 
 public:
 
