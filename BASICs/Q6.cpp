@@ -9,6 +9,7 @@ protected:
     int    capacity;
 
 public:
+    Vehicle(string id, string b, int c)
 
 
 };
