@@ -32,4 +32,6 @@ public:
         loadCapacity = lc;
     }
 
+    void display() override {
+    }
 };
