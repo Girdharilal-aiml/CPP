@@ -14,6 +14,7 @@ public:
 
     virtual void display() {
         cout << "Vehicle ID : " << vehicleID << endl;
+        cout << "Brand      : " << brand     << endl;
     }
 
 };
