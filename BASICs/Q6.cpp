@@ -34,5 +34,6 @@ public:
 
     void display() override {
         cout << "\n[Truck]" << endl;
+        Vehicle::display();
     }
 };
