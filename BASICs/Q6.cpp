@@ -18,5 +18,6 @@ public:
         cout << "Capacity   : " << capacity  << endl;
     }
 
+    virtual ~Vehicle() {}
 };
 
