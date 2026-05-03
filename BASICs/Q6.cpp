@@ -3,6 +3,9 @@
 using namespace std;
 
 class Vehicle {
+protected:
+
+public:
 
 
 };
