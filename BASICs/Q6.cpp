@@ -27,5 +27,7 @@ protected:
     float loadCapacity;  
 
 public:
+    Truck(string id, string b, int c, float lc)
+    }
 
 };
