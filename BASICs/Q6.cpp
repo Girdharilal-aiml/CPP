@@ -69,6 +69,7 @@ public:
     void display() override {
         cout << "\n[Bike]" << endl;
         Vehicle::display();
+        cout << "Fuel Eff   : " << fuelEfficiency << " km/L" << endl;
     }
 };
 
