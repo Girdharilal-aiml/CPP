@@ -61,6 +61,7 @@ private:
     float fuelEfficiency; 
 
 public:
+    Bike(string id, string b, int c, float fe)
 
 };
 
