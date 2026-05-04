@@ -58,6 +58,7 @@ public:
 
 class Bike : public Vehicle {
 private:
+    float fuelEfficiency; 
 
 public:
 
