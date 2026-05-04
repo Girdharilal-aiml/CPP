@@ -57,6 +57,9 @@ public:
 };
 
 class Bike : public Vehicle {
+private:
+
+public:
 
 };
 
