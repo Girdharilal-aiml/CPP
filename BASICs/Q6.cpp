@@ -82,6 +82,7 @@ public:
     RefrigeratedTruck(string id, string b, int c,
                       float lc, float temp)
         : Truck(id, b, c, lc) {
+        temperature = temp;
     }
 
 };
