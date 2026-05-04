@@ -41,6 +41,7 @@ public:
 
 class Van : public Vehicle {
 private:
+    int passengerCapacity;
 
 public:
 
