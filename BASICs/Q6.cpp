@@ -44,6 +44,7 @@ private:
     int passengerCapacity;
 
 public:
+    Van(string id, string b, int c, int pc)
 
 };
 
