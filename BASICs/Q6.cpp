@@ -77,6 +77,7 @@ public:
 class RefrigeratedTruck : public Truck {
 private:
 
+public:
 
 };
 
