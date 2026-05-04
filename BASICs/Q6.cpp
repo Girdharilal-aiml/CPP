@@ -35,6 +35,7 @@ public:
     void display() override {
         cout << "\n[Truck]" << endl;
         Vehicle::display();
+        cout << "Load Cap   : " << loadCapacity << " tons" << endl;
     }
 };
 
