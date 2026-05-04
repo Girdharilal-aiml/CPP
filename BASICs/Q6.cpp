@@ -40,6 +40,9 @@ public:
 };
 
 class Van : public Vehicle {
+private:
+
+public:
 
 };
 
