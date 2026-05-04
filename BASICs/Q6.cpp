@@ -79,6 +79,7 @@ private:
     float temperature; 
 
 public:
+    RefrigeratedTruck(string id, string b, int c,
 
 };
 
