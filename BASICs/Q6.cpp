@@ -67,6 +67,7 @@ public:
     }
 
     void display() override {
+        cout << "\n[Bike]" << endl;
     }
 };
 
