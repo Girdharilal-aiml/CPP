@@ -49,6 +49,8 @@ public:
         passengerCapacity = pc;
     }
 
+    void display() override {
+    }
 };
 
 
