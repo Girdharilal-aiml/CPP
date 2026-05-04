@@ -66,5 +66,7 @@ public:
         fuelEfficiency = fe;
     }
 
+    void display() override {
+    }
 };
 
