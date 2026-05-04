@@ -80,6 +80,7 @@ private:
 
 public:
     RefrigeratedTruck(string id, string b, int c,
+                      float lc, float temp)
 
 };
 
