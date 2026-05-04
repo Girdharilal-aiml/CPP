@@ -46,6 +46,7 @@ private:
 public:
     Van(string id, string b, int c, int pc)
         : Vehicle(id, b, c) {
+        passengerCapacity = pc;
     }
 
 };
