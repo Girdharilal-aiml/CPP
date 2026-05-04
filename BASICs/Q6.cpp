@@ -50,6 +50,7 @@ public:
     }
 
     void display() override {
+        cout << "\n[Van]" << endl;
     }
 };
 
