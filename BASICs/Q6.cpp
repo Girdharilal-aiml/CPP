@@ -104,6 +104,7 @@ public:
         : name(n), licenseType(lt) {}
 
     virtual void display() {
+        cout << "Driver     : " << name        << endl;
     }
 
 };
