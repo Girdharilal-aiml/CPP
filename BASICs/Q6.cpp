@@ -117,6 +117,8 @@ private:
     string assignedRoute;
 
 public:
+    DeliveryAgent(string vid, string brand, int cap,
+    }
 
 };
 
