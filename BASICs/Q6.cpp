@@ -105,6 +105,7 @@ public:
 
     virtual void display() {
         cout << "Driver     : " << name        << endl;
+        cout << "License    : " << licenseType << endl;
     }
 
 };
