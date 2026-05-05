@@ -113,6 +113,9 @@ public:
 
 
 class DeliveryAgent : public Vehicle, public Driver {
+private:
+
+public:
 
 };
 
