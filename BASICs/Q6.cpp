@@ -121,6 +121,7 @@ public:
                   string dname, string license,
                   string route)
         : Vehicle(vid, brand, cap),
+          Driver(dname, license) {
     }
 
 };
