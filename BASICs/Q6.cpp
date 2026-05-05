@@ -100,6 +100,7 @@ protected:
     string licenseType;
 
 public:
+    Driver(string n, string lt)
 
 
 };
