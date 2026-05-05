@@ -120,6 +120,7 @@ public:
     DeliveryAgent(string vid, string brand, int cap,
                   string dname, string license,
                   string route)
+        : Vehicle(vid, brand, cap),
     }
 
 };
