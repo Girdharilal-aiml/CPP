@@ -108,6 +108,7 @@ public:
         cout << "License    : " << licenseType << endl;
     }
 
+    virtual ~Driver() {}
 };
 
 
