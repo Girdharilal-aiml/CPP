@@ -87,6 +87,7 @@ public:
 
     void display() override {
         cout << "\n[Refrigerated Truck]" << endl;
+        Vehicle::display();
     }
 };
 
