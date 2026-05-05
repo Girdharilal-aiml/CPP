@@ -129,6 +129,7 @@ public:
         cout << "\n[Delivery Agent]" << endl;
         Vehicle::display();
         Driver::display();
+        cout << "Route      : " << assignedRoute << endl;
     }
 };
 
