@@ -89,6 +89,7 @@ public:
         cout << "\n[Refrigerated Truck]" << endl;
         Vehicle::display();
         cout << "Load Cap   : " << loadCapacity  << " tons" << endl;
+        cout << "Temp       : " << temperature   << " C"    << endl;
     }
 };
 
