@@ -101,6 +101,7 @@ protected:
 
 public:
     Driver(string n, string lt)
+        : name(n), licenseType(lt) {}
 
 
 };
