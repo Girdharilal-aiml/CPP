@@ -127,6 +127,7 @@ public:
 
     void display() override {
         cout << "\n[Delivery Agent]" << endl;
+        Vehicle::display();
     }
 };
 
