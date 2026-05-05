@@ -125,6 +125,8 @@ public:
         assignedRoute = route;
     }
 
+    void display() override {
+    }
 };
 
 
