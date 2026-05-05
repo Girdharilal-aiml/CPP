@@ -112,4 +112,8 @@ public:
 };
 
 
+class DeliveryAgent : public Vehicle, public Driver {
+
+};
+
 
