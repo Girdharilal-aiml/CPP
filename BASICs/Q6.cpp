@@ -97,6 +97,7 @@ public:
 class Driver {
 protected:
     string name;
+    string licenseType;
 
 public:
 
