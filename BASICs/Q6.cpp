@@ -96,6 +96,7 @@ public:
 
 class Driver {
 protected:
+    string name;
 
 public:
 
