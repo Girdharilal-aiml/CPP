@@ -85,5 +85,11 @@ public:
         temperature = temp;
     }
 
+    void display() override {
+    }
 };
+
+
+
+
 
