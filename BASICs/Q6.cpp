@@ -122,6 +122,7 @@ public:
                   string route)
         : Vehicle(vid, brand, cap),
           Driver(dname, license) {
+        assignedRoute = route;
     }
 
 };
