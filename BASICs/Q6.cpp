@@ -158,5 +158,6 @@ int main() {
     fleet[2] = &b1;
     fleet[3] = &rt1;
     
+    for (int i = 0; i < 4; i++)
     
 }   
