@@ -146,6 +146,7 @@ int main() {
                       "Karachi - Lahore");
     
     t1.display();
+    v1.display();
     
     
 }   
