@@ -7,5 +7,7 @@ Create a class Student with:
 data members: name, age
 a function display() to print details
 
+In main():
+
 */
 
