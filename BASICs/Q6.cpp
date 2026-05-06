@@ -159,5 +159,6 @@ int main() {
     fleet[3] = &rt1;
     
     for (int i = 0; i < 4; i++)
+        fleet[i]->display();
     
 }   
