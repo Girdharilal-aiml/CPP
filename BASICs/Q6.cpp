@@ -137,6 +137,8 @@ public:
 int main() {
     Truck            t1("V001", "Volvo",   5, 10.0);
     Van              v1("V002", "Toyota",  8, 12);
+    Bike             b1("V003", "Honda",   1, 45.5);
+
     
     
 }   
