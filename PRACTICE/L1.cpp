@@ -9,5 +9,8 @@ a function display() to print details
 
 In main():
 
+create one object
+assign values
+call display()
 */
 
