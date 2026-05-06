@@ -135,5 +135,7 @@ public:
 
 
 int main() {
-
+    Truck            t1("V001", "Volvo",   5, 10.0);
+    
+    
 }   
