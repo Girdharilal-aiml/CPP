@@ -142,6 +142,7 @@ int main() {
     RefrigeratedTruck rt1("V004", "Mercedes", 5, 8.0, -18.0);
     
     DeliveryAgent da1("V005", "Ford", 3,
+                      "Ali", "Heavy",
     
     
 }   
