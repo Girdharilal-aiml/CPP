@@ -155,6 +155,7 @@ int main() {
     Vehicle* fleet[4];
     fleet[0] = &t1;
     fleet[1] = &v1;
+    fleet[2] = &b1;
     
     
 }   
