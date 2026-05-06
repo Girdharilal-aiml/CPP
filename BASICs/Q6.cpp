@@ -149,6 +149,8 @@ int main() {
     v1.display();
     b1.display();
     rt1.display();
+    da1.display();
+    
     
     
 }   
