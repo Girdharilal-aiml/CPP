@@ -139,6 +139,8 @@ int main() {
     Van              v1("V002", "Toyota",  8, 12);
     Bike             b1("V003", "Honda",   1, 45.5);
 
+    RefrigeratedTruck rt1("V004", "Mercedes", 5, 8.0, -18.0);
+    
     
     
 }   
