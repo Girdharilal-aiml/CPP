@@ -145,6 +145,7 @@ int main() {
                       "Ali", "Heavy",
                       "Karachi - Lahore");
     
+    t1.display();
     
     
 }   
