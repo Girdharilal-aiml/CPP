@@ -143,6 +143,8 @@ int main() {
     
     DeliveryAgent da1("V005", "Ford", 3,
                       "Ali", "Heavy",
+                      "Karachi - Lahore");
+    
     
     
 }   
