@@ -1,5 +1,7 @@
 /*
 Level 1 (Very Basic – Class & Object)
 
+Q1:
+Create a class Student with:
 */
 
