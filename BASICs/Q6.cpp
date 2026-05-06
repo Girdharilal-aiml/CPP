@@ -152,6 +152,7 @@ int main() {
     da1.display();
     
     cout << "\n--- POLYMORPHISM DEMO ---" << endl;
+    Vehicle* fleet[4];
     
     
 }   
