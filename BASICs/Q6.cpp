@@ -151,6 +151,7 @@ int main() {
     rt1.display();
     da1.display();
     
+    cout << "\n--- POLYMORPHISM DEMO ---" << endl;
     
     
 }   
