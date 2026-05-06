@@ -153,6 +153,7 @@ int main() {
     
     cout << "\n--- POLYMORPHISM DEMO ---" << endl;
     Vehicle* fleet[4];
+    fleet[0] = &t1;
     
     
 }   
