@@ -148,6 +148,7 @@ int main() {
     t1.display();
     v1.display();
     b1.display();
+    rt1.display();
     
     
 }   
