@@ -30,3 +30,6 @@ public:
         cout << "Age : " << age << endl;
     }
 };
+
+int main(){
+}
