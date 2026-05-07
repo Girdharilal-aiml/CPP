@@ -18,4 +18,6 @@ call display()
 using namespace std;
 
 class Student{
+private:
+
 };
