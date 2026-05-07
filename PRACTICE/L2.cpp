@@ -19,5 +19,6 @@ print area and perimeter
 using namespace std;
 
 class Rectangle{
+private:
    
 };
