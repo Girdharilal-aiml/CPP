@@ -20,4 +20,5 @@ using namespace std;
 class Student{
 private:
 
+public:
 };
