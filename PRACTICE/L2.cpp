@@ -21,5 +21,7 @@ using namespace std;
 class Rectangle{
 private:
     double length;
+    double width;
+
    
 };
