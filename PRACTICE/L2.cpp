@@ -8,6 +8,7 @@ setValues(l, w)
 area() → returns area
 perimeter() → returns perimeter
 
+In main():
 
 */
 
