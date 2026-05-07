@@ -33,4 +33,5 @@ public:
 
 int main(){
     Student S1("Girdhari Lal", 20);
+    S1.display();
 }
