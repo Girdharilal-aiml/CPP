@@ -25,4 +25,6 @@ private:
 public:
     Student(string n, int a) : name(n), age(a) {}
 
+    void display(){
+    }
 };
