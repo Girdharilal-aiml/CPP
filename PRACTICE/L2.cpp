@@ -10,5 +10,8 @@ perimeter() → returns perimeter
 
 In main():
 
+create object
+set values
+print area and perimeter
 */
 
