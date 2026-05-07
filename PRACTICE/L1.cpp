@@ -32,4 +32,5 @@ public:
 };
 
 int main(){
+    Student S1("Girdhari Lal", 20);
 }
