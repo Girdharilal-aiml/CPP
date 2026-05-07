@@ -15,3 +15,5 @@ call display()
 */
 
 #include "iostream"
+using namespace std;
+
