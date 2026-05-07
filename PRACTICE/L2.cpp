@@ -23,5 +23,6 @@ private:
     double length;
     double width;
 
+public:
    
 };
