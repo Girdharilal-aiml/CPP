@@ -26,5 +26,6 @@ public:
     Student(string n, int a) : name(n), age(a) {}
 
     void display(){
+        cout << "Name: " << name << endl;
     }
 };
