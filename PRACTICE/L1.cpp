@@ -23,4 +23,6 @@ private:
     int age;
 
 public:
+    Student(string n, int a) : name(n), age(a) {}
+
 };
