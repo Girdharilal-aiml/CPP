@@ -37,3 +37,6 @@ public:
         return 2 * (length + width);
     }
 };
+
+int main(){
+}
