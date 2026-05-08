@@ -30,6 +30,7 @@ public:
     }
 
     double area(){
+        return width * length;
     }
 
 };
