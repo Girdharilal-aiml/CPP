@@ -10,4 +10,6 @@ a function display()
 
 In main():
 
+create 2 objects with different values
+display both
 */
