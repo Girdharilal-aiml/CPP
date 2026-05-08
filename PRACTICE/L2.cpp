@@ -39,4 +39,5 @@ public:
 };
 
 int main(){
+    Rectangle R1;
 }
