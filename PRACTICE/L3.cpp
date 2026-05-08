@@ -8,4 +8,6 @@ data members: brand, price
 a constructor to initialize values
 a function display()
 
+In main():
+
 */
