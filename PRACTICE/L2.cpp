@@ -29,5 +29,7 @@ public:
         width = w;
     }
 
+    double area(){
+    }
 
 };
