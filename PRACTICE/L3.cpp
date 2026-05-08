@@ -4,5 +4,8 @@ Level 3 (Now real OOP starts – Constructors + Multiple Objects)
 Q3:
 Create a class Car with:
 
+data members: brand, price
+a constructor to initialize values
+a function display()
 
 */
