@@ -34,5 +34,6 @@ public:
     }
 
     double perimeter(){
+        return 2 * (length + width);
     }
 };
