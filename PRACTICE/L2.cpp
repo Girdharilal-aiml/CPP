@@ -26,6 +26,7 @@ private:
 public:
     void setvalues(double l, double w){
         length = l;
+        width = w;
     }
 
 
