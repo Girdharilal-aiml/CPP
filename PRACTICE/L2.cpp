@@ -42,4 +42,5 @@ int main(){
     Rectangle R1;
     R1.setvalues(12, 12);
 
+    cout << R1.area() << endl;
 }
