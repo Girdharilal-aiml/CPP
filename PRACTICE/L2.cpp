@@ -24,5 +24,8 @@ private:
     double width;
 
 public:
-   
+    void setvalues(double l, double w){
+    }
+
+
 };
