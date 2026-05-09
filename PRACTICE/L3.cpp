@@ -23,5 +23,7 @@ private:
     double price;
 
 public:
-   
+    Car(string b, double p) : brand(b), price(p){}
+    
+
 };
