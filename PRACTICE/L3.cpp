@@ -25,5 +25,7 @@ private:
 public:
     Car(string b, double p) : brand(b), price(p){}
     
+    void Display(){
+    }
 
 };
