@@ -39,4 +39,5 @@ int main(){
 
     c1.Display();
     
+    c2.Display();
 }
