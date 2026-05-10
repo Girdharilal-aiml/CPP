@@ -34,6 +34,7 @@ public:
 };
 
 int main(){
+    Car c1("Toyota", 21.22);
 
     
 }
