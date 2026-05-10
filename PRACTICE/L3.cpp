@@ -37,5 +37,6 @@ int main(){
     Car c1("Toyota", 21.22);
     Car c2("Suzuki", 3231);
 
+    c1.Display();
     
 }
