@@ -28,6 +28,7 @@ public:
     void Display(){
         cout << "Brand : " << brand << endl;
         cout << "Price : " << price << endl;
+        cout << "========================" << endl;
     }
 
 };
