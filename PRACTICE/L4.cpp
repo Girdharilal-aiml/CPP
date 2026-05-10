@@ -37,4 +37,6 @@ public:
         this->price = price;
     }
     
+    void display(){
+    }
 };
