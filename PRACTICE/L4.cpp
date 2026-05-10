@@ -10,6 +10,7 @@ price = 0
 Parameterized constructor (like you already did)
 display() function
 
+In main():
 
 */
 
