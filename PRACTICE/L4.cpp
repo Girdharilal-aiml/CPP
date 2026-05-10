@@ -22,5 +22,8 @@ Display both
 using namespace std;
 
 class Car{
+private:
+
+public:
 
 };
