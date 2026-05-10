@@ -33,6 +33,7 @@ public:
     }
 
     Car(string brand, double price){
+        this->brand = brand;
     }
     
 };
