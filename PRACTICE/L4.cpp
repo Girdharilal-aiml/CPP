@@ -12,5 +12,9 @@ display() function
 
 In main():
 
+Create:
+one object using default constructor
+one object using parameterized constructor
+Display both
 */
 
