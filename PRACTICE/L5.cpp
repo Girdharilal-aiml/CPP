@@ -12,6 +12,7 @@
 // public:
 //     Car(){
 //         brand = "Unknown";
+//         price = 0;
 //     }
 
 
