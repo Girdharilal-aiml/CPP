@@ -10,6 +10,9 @@
 //     double price;
 
 // public:
+//     Car(){
+//         brand = "Unknown";
+//     }
 
 
     
