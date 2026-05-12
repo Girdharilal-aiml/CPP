@@ -21,6 +21,7 @@
 //     }
 
 //     Car(const Car &obj){
+//         brand = obj.brand;
 //     }
     
 // };
