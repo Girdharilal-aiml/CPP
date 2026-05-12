@@ -45,5 +45,6 @@ public:
 };
 
 int main(){
+    Car c1;
 
 }
