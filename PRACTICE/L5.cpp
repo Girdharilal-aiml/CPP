@@ -6,6 +6,7 @@
 
 // class Car{
 // private:
+//     string brand;
 
 // public:
 
