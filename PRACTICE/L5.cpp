@@ -33,5 +33,7 @@
 // };
 
 // int main(){
+//     Car c1("Suzuki", 3231);
+//     Car c2 = c1;
 
 // }
