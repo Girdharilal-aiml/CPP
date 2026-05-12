@@ -48,4 +48,5 @@ int main(){
     Car c1;
     Car c2("Suzuki", 3231);
 
+    c1.display();
 }
