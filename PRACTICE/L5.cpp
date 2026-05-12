@@ -15,6 +15,8 @@
 //         price = 0;
 //     }
 
+//     Car(string brand, double price){
+//     }
 
     
 // };
