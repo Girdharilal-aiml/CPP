@@ -25,5 +25,7 @@
 //         price = obj.price;
 //     }
     
+//     void display(){
+//     }
 // };
 
