@@ -22,6 +22,7 @@
 
 //     Car(const Car &obj){
 //         brand = obj.brand;
+//         price = obj.price;
 //     }
     
 // };
