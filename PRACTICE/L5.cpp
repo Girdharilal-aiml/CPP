@@ -5,6 +5,9 @@
 // using namespace std;
 
 // class Car{
+// private:
+
+// public:
 
 
     
