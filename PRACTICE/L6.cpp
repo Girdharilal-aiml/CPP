@@ -35,5 +35,6 @@ public:
         cout << "Car Object Destroyed" << endl;
     }
     void Display(){
+        cout << "Brand : " << brand << endl;
     }
 };
