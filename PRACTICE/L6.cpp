@@ -15,4 +15,5 @@ Observe destructor calls
 */
 
 #include"iostream"
+using namespace std;
 
