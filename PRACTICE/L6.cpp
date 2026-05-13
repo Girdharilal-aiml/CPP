@@ -29,5 +29,6 @@ public:
     Car(string b, double p) : brand(b), price(p){}
     Car(const Car &obj){
         brand = obj.brand;
+        price = obj.price;
     }
 };
