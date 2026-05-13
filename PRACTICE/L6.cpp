@@ -8,6 +8,7 @@ Add a destructor
 Print message:
 "Car object destroyed"
 
+In main():
 
 */
 
