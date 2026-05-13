@@ -32,5 +32,6 @@ public:
         price = obj.price;
     }
     ~Car(){
+        cout << "Car Object Destroyed" << endl;
     }
 };
