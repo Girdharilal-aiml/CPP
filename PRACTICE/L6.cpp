@@ -26,4 +26,5 @@ public:
     Car(){
 
     }
+    Car(string b, double p) : brand(b), price(p){}
 };
