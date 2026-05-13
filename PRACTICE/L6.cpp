@@ -6,6 +6,7 @@ Modify Car class:
 
 Add a destructor
 Print message:
+"Car object destroyed"
 
 
 */
