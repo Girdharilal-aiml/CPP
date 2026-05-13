@@ -43,5 +43,6 @@ public:
 int main(){
     {
     Car c1("Mclaren", 221221);
+    Car c2(c1);
     }
 }
