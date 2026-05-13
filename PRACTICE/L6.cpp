@@ -34,4 +34,6 @@ public:
     ~Car(){
         cout << "Car Object Destroyed" << endl;
     }
+    void Display(){
+    }
 };
