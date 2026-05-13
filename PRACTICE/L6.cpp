@@ -39,3 +39,8 @@ public:
         cout << "Price : " << price << endl;
     }
 };
+
+int main(){
+    {
+    }
+}
