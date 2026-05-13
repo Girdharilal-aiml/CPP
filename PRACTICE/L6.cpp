@@ -10,6 +10,8 @@ Print message:
 
 In main():
 
+Create 2 objects inside a block { }
+Observe destructor calls
 */
 
 
