@@ -19,5 +19,6 @@ using namespace std;
 
 class Car{
 private:
+    string brand;
 public:
 };
