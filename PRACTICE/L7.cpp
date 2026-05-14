@@ -51,6 +51,8 @@ public:
         delete Brand;
     }
 
+    void Display(){
+    }
 
 };
 
