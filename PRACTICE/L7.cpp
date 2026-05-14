@@ -53,6 +53,7 @@ public:
 
     void Display(){
         cout << "Brand: " << *Brand << endl;
+        cout << "Price: " << price << endl;
     }
 
 };
