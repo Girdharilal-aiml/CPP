@@ -35,6 +35,8 @@ private:
     double price;
 
 public:
+    Car(){
+    }
 
 
 };
