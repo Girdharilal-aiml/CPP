@@ -36,6 +36,7 @@ private:
 
 public:
     Car(){
+        Brand = new string("Unknown");
     }
 
 
