@@ -30,6 +30,9 @@ Modify Car class:
 using namespace std;
 
 class Car{
+private:
+
+public:
 
 
 };
