@@ -48,6 +48,7 @@ public:
         price = obj.price;
     }
     ~Car(){
+        delete Brand;
     }
 
 
