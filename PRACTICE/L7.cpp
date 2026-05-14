@@ -39,6 +39,8 @@ public:
         Brand = new string("Unknown");
         price = 0;
     }
+    Car(string B, double p){
+    }
 
 
 };
