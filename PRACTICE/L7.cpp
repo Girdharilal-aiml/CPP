@@ -44,6 +44,7 @@ public:
         price = p;
     }
     Car(const Car &obj){
+        Brand = obj.Brand;
     }
 
 
