@@ -41,6 +41,7 @@ public:
     }
     Car(string B, double p){
         Brand = new string(B);
+        price = p;
     }
 
 
