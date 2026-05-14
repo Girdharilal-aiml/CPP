@@ -60,5 +60,6 @@ public:
 
 int main(){
     Car c1("Bugatti", 321231);
+    Car c2(c1);
 
 }
