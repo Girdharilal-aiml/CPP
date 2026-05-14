@@ -8,6 +8,9 @@ Modify Car class:
    string brand;
    → string* brand;
 
+2. Implement:
+   - Default constructor
+   - Parameterized constructor (use new)
 
 
 */
