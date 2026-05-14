@@ -32,6 +32,7 @@ using namespace std;
 class Car{
 private:
     string* Brand;
+    double price;
 
 public:
 
