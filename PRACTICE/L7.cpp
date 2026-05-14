@@ -62,4 +62,6 @@ int main(){
     Car c1("Bugatti", 321231);
     Car c2(c1);
 
+    c1.Display();
+    c2.Display();
 }
