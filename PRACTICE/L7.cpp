@@ -17,6 +17,8 @@ Modify Car class:
 
 3. In main():
    - Create object c1 using parameterized constructor
+   - Create c2 as copy of c1
+   - Display both
 
 */
 
