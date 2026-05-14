@@ -43,6 +43,8 @@ public:
         Brand = new string(B);
         price = p;
     }
+    Car(const Car &obj){
+    }
 
 
 };
