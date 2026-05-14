@@ -20,6 +20,10 @@ Modify Car class:
    - Create c2 as copy of c1
    - Display both
 
+⚠️ Important:
+- Use new to allocate memory
+- Use delete in destructor
+- Copy constructor must perform deep copy
 */
 
 
