@@ -59,5 +59,6 @@ public:
 };
 
 int main(){
+    Car c1("Bugatti", 321231);
 
 }
