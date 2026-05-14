@@ -47,6 +47,8 @@ public:
         Brand = obj.Brand;
         price = obj.price;
     }
+    ~Car(){
+    }
 
 
 };
