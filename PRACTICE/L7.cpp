@@ -15,6 +15,8 @@ Modify Car class:
    - Destructor (delete memory)
    - display() function
 
+3. In main():
+   - Create object c1 using parameterized constructor
 
 */
 
