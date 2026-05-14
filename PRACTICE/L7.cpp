@@ -11,6 +11,9 @@ Modify Car class:
 2. Implement:
    - Default constructor
    - Parameterized constructor (use new)
+   - Copy constructor (deep copy)
+   - Destructor (delete memory)
+   - display() function
 
 
 */
