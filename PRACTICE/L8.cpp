@@ -11,6 +11,10 @@ Create a class Complex with:
 
 2. Overload + operator to add two complex numbers
 
+3. In main():
+   - Create two objects
+   - Add them using + operator
+   - Display result
 
 */
 
