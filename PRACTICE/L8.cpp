@@ -9,6 +9,8 @@ Create a class Complex with:
    - Constructor
    - display()
 
+2. Overload + operator to add two complex numbers
+
 
 */
 
