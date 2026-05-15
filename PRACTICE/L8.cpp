@@ -16,6 +16,8 @@ Create a class Complex with:
    - Add them using + operator
    - Display result
 
+Example:
+(2 + 3i) + (1 + 4i) = (3 + 7i)
 */
 
 
