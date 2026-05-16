@@ -50,5 +50,6 @@ int main(){
 
    c1.Display();
    c2.Display();
+   c3.Display();
 }
 
