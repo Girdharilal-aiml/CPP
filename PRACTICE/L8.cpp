@@ -29,6 +29,7 @@ private:
    int imag;
 
 public:
+   Complex(){}
 
 
 };
