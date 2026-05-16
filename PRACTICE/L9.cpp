@@ -16,6 +16,10 @@ Create two derived classes:
    - data: radius
    - override area() → print circle area
 
+In main():
+- Create:
+    Rectangle r(10,5);
+    Circle c(7);
 
 
 
