@@ -48,5 +48,6 @@ int main(){
    Complex c1(2,4), c2(4,5), c3;
    c3 = c1 + c2;
 
+   c1.Display();
 }
 
