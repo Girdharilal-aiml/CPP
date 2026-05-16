@@ -8,6 +8,9 @@ Create a base class Shape:
 
 Create two derived classes:
 
+1. Rectangle
+   - data: length, width
+   - override area() → print rectangle area
 
 
 
