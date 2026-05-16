@@ -24,6 +24,9 @@ Example:
 using namespace std;
 
 class Complex{
+private:
+
+public:
 
 
 };
