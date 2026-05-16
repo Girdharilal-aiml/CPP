@@ -45,6 +45,7 @@ public:
 };
 
 int main(){
+   Complex c1(2,4), c2(4,5), c3;
 
 }
 
