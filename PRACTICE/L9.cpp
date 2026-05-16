@@ -24,6 +24,9 @@ In main():
 - Use base class pointer:
     Shape* ptr;
 
+- Assign and call:
+    ptr = &r;
+    ptr->area();
 
 
 */
