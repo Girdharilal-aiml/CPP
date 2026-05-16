@@ -6,6 +6,8 @@ Create a base class Shape:
 - virtual function: area()
   → print "Calculating area"
 
+Create two derived classes:
+
 
 
 
