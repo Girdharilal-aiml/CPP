@@ -21,6 +21,8 @@ In main():
     Rectangle r(10,5);
     Circle c(7);
 
+- Use base class pointer:
+    Shape* ptr;
 
 
 
