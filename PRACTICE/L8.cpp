@@ -36,6 +36,7 @@ public:
       Complex temp;
       temp.imag = imag + obj.imag;
       temp.real = real + obj.real;
+      return temp;
    }
 
 };
