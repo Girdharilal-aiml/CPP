@@ -25,6 +25,7 @@ using namespace std;
 
 class Complex{
 private:
+   int real;
 
 public:
 
