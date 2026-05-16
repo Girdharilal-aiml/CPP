@@ -40,6 +40,7 @@ public:
    }
 
    void Display(){
+      cout << "(" << real << " + " << imag << "i)" << endl; 
    }
 };
 
