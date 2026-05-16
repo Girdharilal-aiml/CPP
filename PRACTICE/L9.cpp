@@ -12,6 +12,9 @@ Create two derived classes:
    - data: length, width
    - override area() → print rectangle area
 
+2. Circle
+   - data: radius
+   - override area() → print circle area
 
 
 
