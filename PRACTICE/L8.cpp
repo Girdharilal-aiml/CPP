@@ -30,6 +30,7 @@ private:
 
 public:
    Complex(){}
+   Complex(int r, int i) : real(r), imag(i){}
 
 
 };
