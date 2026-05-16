@@ -49,5 +49,6 @@ int main(){
    c3 = c1 + c2;
 
    c1.Display();
+   c2.Display();
 }
 
