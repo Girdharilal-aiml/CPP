@@ -34,6 +34,7 @@ public:
 
    Complex operator+(const Complex &obj){
       Complex temp;
+      temp.imag = imag + obj.imag;
    }
 
 };
