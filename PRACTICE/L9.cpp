@@ -76,5 +76,6 @@ int main(){
 
     Shape *ptr;
     ptr = &c1;
+    ptr->AREA();
 
 }
