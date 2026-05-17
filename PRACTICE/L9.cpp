@@ -78,4 +78,5 @@ int main(){
     ptr = &c1;
     ptr->AREA();
 
+    ptr = &r1;
 }
