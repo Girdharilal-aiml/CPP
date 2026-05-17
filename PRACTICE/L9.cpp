@@ -54,6 +54,7 @@ public:
     Rectangle(float l, float w) : lenght(l), width(w){}
 
     void AREA() override{
+        cout << "Area of Rectangle : " << lenght * width << endl;
     }
 };
 
