@@ -63,5 +63,6 @@ private:
     float radius;
 
 public:
+    Circle(float r) : radius(r){}
 
 };
