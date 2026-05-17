@@ -51,6 +51,7 @@ private:
     float width;
 
 public:
+    Rectangle(float l, float w) : lenght(l), width(w){}
 
 };
 
