@@ -66,5 +66,6 @@ public:
     Circle(float r) : radius(r){}
 
     void AREA() override{
+        cout << "Area of Circle : " << 3.14 * radius * radius << endl;
     }
 };
