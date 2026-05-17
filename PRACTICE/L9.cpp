@@ -65,4 +65,6 @@ private:
 public:
     Circle(float r) : radius(r){}
 
+    void AREA() override{
+    }
 };
