@@ -58,3 +58,6 @@ public:
     }
 };
 
+class Circle : public Shape{
+
+};
