@@ -53,5 +53,7 @@ private:
 public:
     Rectangle(float l, float w) : lenght(l), width(w){}
 
+    void AREA() override{
+    }
 };
 
