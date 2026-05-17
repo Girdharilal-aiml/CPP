@@ -75,5 +75,6 @@ int main(){
     Rectangle r1(3,3);
 
     Shape *ptr;
+    ptr = &c1;
 
 }
