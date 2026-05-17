@@ -42,6 +42,7 @@ using namespace std;
 
 class Shape{
 public:
+    virtual void AREA() = 0;
 };
 
 
