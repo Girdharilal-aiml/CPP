@@ -71,6 +71,7 @@ public:
 };
 
 int main(){
+    Circle c1(3);
 
 
 }
