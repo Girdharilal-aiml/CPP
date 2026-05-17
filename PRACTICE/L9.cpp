@@ -30,6 +30,11 @@ In main():
 
     ptr = &c;
     ptr->area();
+
+⚠️ Must use:
+- inheritance
+- virtual function
+- runtime polymorphism
 */
 
 
