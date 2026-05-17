@@ -72,6 +72,7 @@ public:
 
 int main(){
     Circle c1(3);
+    Rectangle r1(3,3);
 
 
 }
