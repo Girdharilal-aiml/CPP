@@ -45,4 +45,7 @@ public:
     virtual void AREA() = 0;
 };
 
+class Rectangle : public Shape{
+
+};
 
