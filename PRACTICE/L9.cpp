@@ -47,6 +47,7 @@ public:
 
 class Rectangle : public Shape{
 private:
+    float lenght;
 
 public:
 
