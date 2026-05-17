@@ -28,5 +28,10 @@ In main():
     ptr = &r;
     ptr->area();
 
-
+    ptr = &c;
+    ptr->area();
 */
+
+
+
+
