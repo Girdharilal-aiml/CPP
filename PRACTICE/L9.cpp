@@ -60,6 +60,7 @@ public:
 
 class Circle : public Shape{
 private:
+    float radius;
 
 public:
 
