@@ -23,4 +23,5 @@ In main():
 using namespace std;
 
 class Shape{
+public:
 };
