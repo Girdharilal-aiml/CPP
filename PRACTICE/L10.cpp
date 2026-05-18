@@ -26,3 +26,6 @@ class Shape{
 public:
     virtual void Area() = 0;
 };
+
+class Rectangle : public Shape{
+};
