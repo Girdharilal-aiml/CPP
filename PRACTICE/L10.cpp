@@ -40,4 +40,7 @@ public:
 };
 
 class Circle : public Shape{
+private:
+
+public:
 };
