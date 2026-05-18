@@ -38,3 +38,6 @@ public:
         cout << "Rectangle Area: " << length * width << endl;
     }
 };
+
+class Circle : public Shape{
+};
