@@ -58,4 +58,5 @@ int main(){
     p->Area();
 
     Shape *p2 = &c1;
+    p2->Area();
 }
