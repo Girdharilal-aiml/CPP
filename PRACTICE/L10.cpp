@@ -6,9 +6,12 @@ Create an abstract class Shape:
 - pure virtual function:
     virtual void area() = 0;
 
+Create derived classes:
+1. Rectangle
+2. Circle
+
+Implement area() in both
 
 
 */
-
-
 
