@@ -46,5 +46,6 @@ private:
 public:
     Circle(int r) : radius(r){}
     void Area()override{
+        cout << "Circle Area: " << 3.14 * radius * radius << endl;
     }
 };
