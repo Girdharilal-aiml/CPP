@@ -49,3 +49,7 @@ public:
         cout << "Circle Area: " << 3.14 * radius * radius << endl;
     }
 };
+
+int main(){
+
+}
