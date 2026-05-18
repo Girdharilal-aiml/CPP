@@ -45,4 +45,6 @@ private:
 
 public:
     Circle(int r) : radius(r){}
+    void Area()override{
+    }
 };
