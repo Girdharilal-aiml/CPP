@@ -29,6 +29,7 @@ public:
 
 class Rectangle : public Shape{
 private:
+    int length;
 
 public:
 };
