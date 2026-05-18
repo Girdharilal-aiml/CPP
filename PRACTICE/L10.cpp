@@ -52,5 +52,7 @@ public:
 
 int main(){
     Rectangle r1(1,2);
+    Circle c1(2);
+
 
 }
