@@ -34,4 +34,6 @@ private:
 
 public:
     Rectangle(int l, int w) : length(l), width(w){}
+    void Area()override{
+    }
 };
