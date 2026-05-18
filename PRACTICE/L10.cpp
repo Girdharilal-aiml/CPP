@@ -28,4 +28,7 @@ public:
 };
 
 class Rectangle : public Shape{
+private:
+
+public:
 };
