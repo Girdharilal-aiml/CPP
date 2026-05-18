@@ -44,4 +44,5 @@ private:
     int radius;
 
 public:
+    Circle(int r) : radius(r){}
 };
