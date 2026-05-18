@@ -54,5 +54,6 @@ int main(){
     Rectangle r1(1,2);
     Circle c1(2);
 
+    Shape *p = &r1;
 
 }
