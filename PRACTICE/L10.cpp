@@ -55,5 +55,6 @@ int main(){
     Circle c1(2);
 
     Shape *p = &r1;
+    p->Area();
 
 }
