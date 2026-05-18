@@ -51,5 +51,6 @@ public:
 };
 
 int main(){
+    Rectangle r1(1,2);
 
 }
