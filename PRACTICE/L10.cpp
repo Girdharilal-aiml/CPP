@@ -21,3 +21,6 @@ In main():
 
 #include"iostream"
 using namespace std;
+
+class Shape{
+};
