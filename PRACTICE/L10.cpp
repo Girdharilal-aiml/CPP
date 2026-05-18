@@ -41,6 +41,7 @@ public:
 
 class Circle : public Shape{
 private:
+    int radius;
 
 public:
 };
