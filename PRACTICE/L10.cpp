@@ -30,6 +30,7 @@ public:
 class Rectangle : public Shape{
 private:
     int length;
+    int width;
 
 public:
 };
