@@ -16,5 +16,6 @@ In main():
 - Use Shape* pointer
 - Call area()
 
+⚠️ You cannot create object of abstract class
 */
 
