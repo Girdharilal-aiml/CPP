@@ -12,6 +12,9 @@ Create derived classes:
 
 Implement area() in both
 
+In main():
+- Use Shape* pointer
+- Call area()
 
 */
 
