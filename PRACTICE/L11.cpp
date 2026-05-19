@@ -61,6 +61,9 @@ public:
    static void ReadFromFile(){
       ifstream file("Student.txt");
 
+      if(!file){
+      }
+
 
    }
 
