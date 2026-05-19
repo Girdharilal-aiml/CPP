@@ -17,6 +17,10 @@ Create a class Student with:
    readFromFile()
    → read and display all student records
 
+In main():
+- Create 2 students
+- Save them to file
+- Read and display from file
 
 */
 
