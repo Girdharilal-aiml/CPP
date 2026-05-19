@@ -58,5 +58,10 @@ public:
       file.close();
    }
 
+   static void ReadFromFile(){
+
+
+   }
+
 };
 
