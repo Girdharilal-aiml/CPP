@@ -33,6 +33,7 @@ using namespace std;
 
 class Student{
 private:
+   string ID;
 
 public:
 
