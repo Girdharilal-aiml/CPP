@@ -54,6 +54,7 @@ public:
          cout << "Error File Openning!" << endl;
          return;
       }
+      file << ID << " " << Name << " " << Marks << endl;
    }
 
 };
