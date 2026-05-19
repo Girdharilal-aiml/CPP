@@ -38,6 +38,7 @@ private:
    double Marks;
 
 public:
+   Student(){}
 
 
 };
