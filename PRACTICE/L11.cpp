@@ -51,6 +51,7 @@ public:
       ofstream file("Student.txt", ios::app);
 
       if(!file){
+         cout << "Error File Openning!" << endl;
       }
    }
 
