@@ -13,6 +13,10 @@ Create a class Student with:
    saveToFile()
    → store student data in a file "students.txt"
 
+3. Add function:
+   readFromFile()
+   → read and display all student records
+
 
 */
 
