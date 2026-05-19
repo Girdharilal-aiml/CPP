@@ -32,6 +32,9 @@ In main():
 using namespace std;
 
 class Student{
+private:
+
+public:
 
 
 };
