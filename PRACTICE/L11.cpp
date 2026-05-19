@@ -42,6 +42,7 @@ public:
    Student(string I, string N, double M) : ID(I), Name(N), Marks(M){}
 
    void DISPLAY(){
+      cout << "ID    : " << ID << endl;
    }
 
 
