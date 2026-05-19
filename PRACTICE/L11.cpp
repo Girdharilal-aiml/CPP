@@ -48,6 +48,7 @@ public:
    }
 
    void SaveToFile(){
+      ofstream file("Student.txt", ios::app);
 
    }
 
