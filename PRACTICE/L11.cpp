@@ -31,3 +31,8 @@ In main():
 #include"fstream"
 using namespace std;
 
+class Student{
+
+
+};
+
