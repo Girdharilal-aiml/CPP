@@ -52,6 +52,7 @@ public:
 
       if(!file){
          cout << "Error File Openning!" << endl;
+         return;
       }
    }
 
