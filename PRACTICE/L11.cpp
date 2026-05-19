@@ -50,6 +50,8 @@ public:
    void SaveToFile(){
       ofstream file("Student.txt", ios::app);
 
+      if(!file){
+      }
    }
 
 };
