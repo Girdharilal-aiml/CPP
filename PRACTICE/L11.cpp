@@ -27,4 +27,5 @@ In main():
 - ofstream / ifstream
 */
 
+#include"iostream"
 
