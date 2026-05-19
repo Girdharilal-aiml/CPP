@@ -43,6 +43,7 @@ public:
 
    void DISPLAY(){
       cout << "ID    : " << ID << endl;
+      cout << "Name  : " << Name << endl;
    }
 
 
