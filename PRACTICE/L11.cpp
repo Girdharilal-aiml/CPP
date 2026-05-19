@@ -47,6 +47,9 @@ public:
       cout << "Marks : " << Marks << endl;
    }
 
+   void SaveToFile(){
+
+   }
 
 };
 
