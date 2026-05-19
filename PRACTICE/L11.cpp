@@ -9,6 +9,9 @@ Create a class Student with:
    - Constructor
    - display()
 
+2. Add function:
+   saveToFile()
+   → store student data in a file "students.txt"
 
 
 */
