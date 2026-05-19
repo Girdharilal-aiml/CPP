@@ -34,6 +34,8 @@ using namespace std;
 class Student{
 private:
    string ID;
+   string Name;
+   double Marks;
 
 public:
 
