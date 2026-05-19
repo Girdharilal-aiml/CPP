@@ -55,6 +55,7 @@ public:
          return;
       }
       file << ID << " " << Name << " " << Marks << endl;
+      file.close();
    }
 
 };
