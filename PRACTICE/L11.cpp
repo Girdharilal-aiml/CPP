@@ -82,5 +82,6 @@ int main(){
    Student s1("3242k", "Girdhari_lal", 99.9);
    Student s2("P323", "GLAL",88);
 
+   s1.SaveToFile();
 
 }
