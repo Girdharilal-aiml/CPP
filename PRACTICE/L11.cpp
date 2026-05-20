@@ -68,6 +68,7 @@ public:
 
       string id;
       string name;
+      double marks;
 
    }
 
