@@ -62,10 +62,10 @@ public:
       ifstream file("Student.txt");
 
       if(!file){
+         cout << "Error Opening File" << endl;
       }
 
 
    }
 
 };
-
