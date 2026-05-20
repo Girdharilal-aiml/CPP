@@ -9,6 +9,10 @@ Create a template class Calculator:
    - subtract(a, b)
    - multiply(a, b)
 
+2. Should work for:
+   - int
+   - float
+   - double
 
 */
 
