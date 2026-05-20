@@ -86,4 +86,5 @@ int main(){
    s2.SaveToFile();
 
    cout << "\nReading from file:\n";
+   Student::ReadFromFile();
 }
