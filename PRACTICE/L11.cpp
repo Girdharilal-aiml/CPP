@@ -85,4 +85,5 @@ int main(){
    s1.SaveToFile();
    s2.SaveToFile();
 
+   cout << "\nReading from file:\n";
 }
