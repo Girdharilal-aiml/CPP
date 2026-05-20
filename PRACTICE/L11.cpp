@@ -67,6 +67,7 @@ public:
       }
 
       string id;
+      string name;
 
    }
 
