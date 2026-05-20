@@ -63,6 +63,7 @@ public:
 
       if(!file){
          cout << "Error Opening File" << endl;
+         return;
       }
 
 
