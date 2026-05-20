@@ -14,6 +14,9 @@ Create a template class Calculator:
    - float
    - double
 
+In main():
+- Create Calculator objects for different types
+- Test all functions
 */
 
 
