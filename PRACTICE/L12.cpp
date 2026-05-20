@@ -23,3 +23,6 @@ In main():
 using namespace std;
 
 template <class T>
+class Calculator{
+
+};
