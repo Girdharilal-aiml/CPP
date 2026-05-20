@@ -25,5 +25,7 @@ using namespace std;
 template <class T>
 class Calculator{
 public:
+    T add(T a, T b){
+    }
 
 };
