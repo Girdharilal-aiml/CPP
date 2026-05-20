@@ -83,5 +83,6 @@ int main(){
    Student s2("P323", "GLAL",88);
 
    s1.SaveToFile();
+   s2.SaveToFile();
 
 }
