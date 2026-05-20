@@ -70,6 +70,8 @@ public:
       string name;
       double marks;
 
+      while(file >> id >> name >> marks){
+      }
    }
 
 };
