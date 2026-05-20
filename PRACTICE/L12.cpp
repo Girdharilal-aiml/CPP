@@ -30,5 +30,6 @@ public:
     }
 
     T subtract(T a, T b){
+        return a - b;
     }
 };
