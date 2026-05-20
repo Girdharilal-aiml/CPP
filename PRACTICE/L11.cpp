@@ -71,6 +71,7 @@ public:
       double marks;
 
       while(file >> id >> name >> marks){
+         cout << "ID: " << id << ", Name: " << name << ", Marks: " << marks << endl;
       }
    }
 
