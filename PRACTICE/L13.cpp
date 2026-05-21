@@ -29,6 +29,7 @@ using namespace std;
 int main(){
     vector<int> marks;
 
+    marks.push_back(10);
 
 
 }
