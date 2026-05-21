@@ -27,6 +27,7 @@ Use vector to store student marks.
 using namespace std;
 
 int main(){
+    vector<int> marks;
 
 
 
