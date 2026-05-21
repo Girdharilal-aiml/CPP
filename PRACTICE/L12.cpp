@@ -52,4 +52,5 @@ int main(){
     cout << c2.add(2.5, 3.5) << endl;
 
     cout << "\nDOUBLE:\n";
+    cout << c3.multiply(2.2, 3.3) << endl;
 }
