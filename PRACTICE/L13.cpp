@@ -16,6 +16,10 @@ Use vector to store student marks.
    - Find maximum value
    - Find minimum value
 
+⚠️ Use:
+- vector
+- size()
+- loops
 */
 
 
