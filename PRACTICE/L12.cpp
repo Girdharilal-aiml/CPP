@@ -43,6 +43,7 @@ int main(){
     Calculator<float> c2;
     Calculator<double> c3;
 
+    cout << "INT:\n";
 
 
 }
