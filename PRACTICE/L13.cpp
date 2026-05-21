@@ -6,6 +6,11 @@ Use vector to store student marks.
 
 1. Create a vector<int> marks
 
+2. Do following operations:
+   - Add 5 values using push_back()
+   - Print all values using loop
+   - Find total sum
+   - Find average
 
 */
 
