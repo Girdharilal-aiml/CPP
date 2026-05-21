@@ -12,6 +12,10 @@ Use vector to store student marks.
    - Find total sum
    - Find average
 
+3. Extra:
+   - Find maximum value
+   - Find minimum value
+
 */
 
 
