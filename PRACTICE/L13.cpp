@@ -24,4 +24,5 @@ Use vector to store student marks.
 
 #include "iostream"
 #include <vector>
+using namespace std;
 
