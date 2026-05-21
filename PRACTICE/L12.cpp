@@ -39,6 +39,7 @@ public:
 };
 
 int main(){
+    Calculator<int> c1;
 
 
 
