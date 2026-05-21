@@ -37,3 +37,9 @@ public:
         return a * b;
     }
 };
+
+int main(){
+
+
+
+}
