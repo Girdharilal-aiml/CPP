@@ -46,6 +46,7 @@ int main(){
     cout << "INT:\n";
     cout << c1.add(2, 3) << endl;
     cout << c1.subtract(5, 2) << endl;
+    cout << c1.multiply(3, 4) << endl;
 
 
 }
