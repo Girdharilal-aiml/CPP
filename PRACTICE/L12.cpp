@@ -44,6 +44,7 @@ int main(){
     Calculator<double> c3;
 
     cout << "INT:\n";
+    cout << c1.add(2, 3) << endl;
 
 
 }
