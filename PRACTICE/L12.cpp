@@ -49,5 +49,6 @@ int main(){
     cout << c1.multiply(3, 4) << endl;
 
     cout << "\nFLOAT:\n";
+    cout << c2.add(2.5, 3.5) << endl;
 
 }
