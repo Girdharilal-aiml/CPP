@@ -51,4 +51,5 @@ int main(){
     cout << "\nFLOAT:\n";
     cout << c2.add(2.5, 3.5) << endl;
 
+    cout << "\nDOUBLE:\n";
 }
