@@ -41,6 +41,7 @@ public:
 int main(){
     Calculator<int> c1;
     Calculator<float> c2;
+    Calculator<double> c3;
 
 
 
