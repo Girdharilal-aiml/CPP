@@ -30,6 +30,7 @@ int main(){
     vector<int> marks;
 
     marks.push_back(10);
+    marks.push_back(20);
 
 
 }
