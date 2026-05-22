@@ -56,4 +56,5 @@ int main(){
     }
 
     cout << "\n\nSum = " << sum << endl;
+    cout << "Average = " << avg << endl;
 }
