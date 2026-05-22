@@ -40,6 +40,7 @@ int main(){
         cout << marks[i] << " ";
     }
 
+    int sum = 0;
 
 
 
