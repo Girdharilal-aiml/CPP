@@ -8,3 +8,10 @@ public:
     virtual void display()=0;
     virtual ~Role() {}
 };
+
+class Person : public Role{
+    
+
+   
+
+};
