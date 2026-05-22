@@ -47,6 +47,7 @@ int main(){
 
     double avg = (double)sum / marks.size();
 
+    int max = marks[0];
 
 
 }
