@@ -12,6 +12,7 @@ public:
 class Person : public Role{
 private:
     string name;
+    int age;
 
 public:
    
