@@ -36,6 +36,8 @@ int main(){
     marks.push_back(50);
 
     cout << "Marks:\n";
+    for(int i = 0; i < marks.size(); i++){
+    }
 
 
 
