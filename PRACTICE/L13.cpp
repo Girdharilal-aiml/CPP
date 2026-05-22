@@ -45,6 +45,7 @@ int main(){
         sum += marks[i];
     }
 
+    double avg = (double)sum / marks.size();
 
 
 
