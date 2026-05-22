@@ -11,7 +11,7 @@ public:
 
 class Person : public Role{
 private:
-    
+    string name;
 
 public:
    
