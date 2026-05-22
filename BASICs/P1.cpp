@@ -5,4 +5,5 @@ using namespace std;
 class Role{
 public:
     virtual void showRole()=0;
+    virtual void display()=0;
 };
