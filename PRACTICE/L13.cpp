@@ -37,6 +37,7 @@ int main(){
 
     cout << "Marks:\n";
     for(int i = 0; i < marks.size(); i++){
+        cout << marks[i] << " ";
     }
 
 
