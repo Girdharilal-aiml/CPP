@@ -52,6 +52,7 @@ int main(){
 
     for(int i = 0; i < marks.size(); i++){
         if(marks[i] > max) max = marks[i];
+        if(marks[i] < min) min = marks[i];
     }
 
 }
