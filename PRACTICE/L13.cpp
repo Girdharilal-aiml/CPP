@@ -35,5 +35,10 @@ int main(){
     marks.push_back(40);
     marks.push_back(50);
 
+    cout << "Marks:\n";
+
+
+
+
 
 }
