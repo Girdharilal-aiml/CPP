@@ -13,6 +13,7 @@ class Person : public Role{
 private:
     
 
+public:
    
 
 };
