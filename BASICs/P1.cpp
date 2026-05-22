@@ -10,6 +10,7 @@ public:
 };
 
 class Person : public Role{
+private:
     
 
    
