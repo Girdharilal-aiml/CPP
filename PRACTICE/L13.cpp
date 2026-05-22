@@ -55,4 +55,5 @@ int main(){
         if(marks[i] < min) min = marks[i];
     }
 
+    cout << "\n\nSum = " << sum << endl;
 }
