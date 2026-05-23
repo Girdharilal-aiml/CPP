@@ -39,6 +39,7 @@ private:
     float cgpa;
     string enrolledCourse;
 
+public:
 
 
 
