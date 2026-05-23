@@ -13,8 +13,13 @@ class Person : public Role{
 private:
     string name;
     int age;
+    string id;
 
 public:
-   
+    Person(string n, int a, string i){
+    }
+
+
 
 };
+
