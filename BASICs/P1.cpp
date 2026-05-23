@@ -22,6 +22,7 @@ public:
         id = i;
     }
 
+    string getName() { return name; }
 
 
 };
