@@ -53,5 +53,6 @@ public:
     }
 
     void display() override {
+        cout << "----------------------------------------" << endl;
     }
 };
