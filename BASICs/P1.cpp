@@ -36,6 +36,7 @@ public:
 
 class Student : public Person{
 private:
+    float cgpa;
 
 
 
