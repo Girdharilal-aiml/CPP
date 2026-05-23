@@ -42,6 +42,7 @@ private:
 public:
     Student(string n, int a, string i, float c, string course) : Person(n,a,i), cgpa(c), enrolledCourse(course){}
 
+    float getCGPA() { return cgpa; }
 
 
 };
