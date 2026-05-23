@@ -34,3 +34,9 @@ public:
 
 };
 
+class Student : public Person{
+
+
+
+
+};
