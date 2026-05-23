@@ -52,4 +52,6 @@ public:
         cout << "I am a Student. " << endl;
     }
 
+    void display() override {
+    }
 };
