@@ -24,6 +24,7 @@ public:
 
     string getName() { return name; }
     int getAge() { return age; } 
+    string getID() { return id; }
 
 
 };
