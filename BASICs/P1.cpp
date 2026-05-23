@@ -26,6 +26,7 @@ public:
     int getAge() { return age; } 
     string getID() { return id; }
 
+    void setName(string n) { name = n;}
 
 };
 
