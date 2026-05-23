@@ -54,5 +54,6 @@ public:
 
     void display() override {
         cout << "----------------------------------------" << endl;
+        cout << "STUDENT RECORD" << endl;
     }
 };
