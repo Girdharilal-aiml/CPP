@@ -91,5 +91,8 @@ public:
 };
 
 class Course{
+private:
+
+public:
 
 };
