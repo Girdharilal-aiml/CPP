@@ -95,6 +95,7 @@ private:
     string courseName;
     Teacher* teacher;
     Student* students[50];
+    int studentCount;
 
 public:
 
