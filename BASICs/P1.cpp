@@ -93,6 +93,7 @@ public:
 class Course{
 private:
     string courseName;
+    Teacher* teacher;
 
 public:
 
