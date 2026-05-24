@@ -79,5 +79,7 @@ public:
         cout << "I am a Teacher. " << endl;
     }
 
+    void display() override {
+    }
 };
 
