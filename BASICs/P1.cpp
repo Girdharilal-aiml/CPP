@@ -66,6 +66,9 @@ public:
 
 
 class Teacher : public Person{
+private:
+
+public:
 
 
 
