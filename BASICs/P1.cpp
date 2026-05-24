@@ -105,7 +105,8 @@ public:
     }
 
     void enrollStudent(Student* s){
-       
+        if(studentCount < 50){
+         }
         
     }
 
