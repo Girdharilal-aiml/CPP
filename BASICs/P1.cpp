@@ -84,6 +84,7 @@ public:
         cout << "TEACHER RECORD" << endl;
         cout << "Name    : " << getName() << endl;
         cout << "ID      : " << getID() << endl;
+        cout << "Age     : " << getAge() << endl;
     }
 };
 
