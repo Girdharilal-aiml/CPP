@@ -94,6 +94,7 @@ class Course{
 private:
     string courseName;
     Teacher* teacher;
+    Student* students[50];
 
 public:
 
