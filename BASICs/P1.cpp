@@ -75,6 +75,8 @@ public:
 
     string getsubject() { return subject; }
 
+    void showRole() override {
+    }
 
 };
 
