@@ -76,6 +76,7 @@ public:
     string getsubject() { return subject; }
 
     void showRole() override {
+        cout << "I am a Teacher. " << endl;
     }
 
 };
