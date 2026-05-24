@@ -71,6 +71,7 @@ private:
     double salary;
 
 public:
+    Teacher(string n, int a, string i,string sub, double sal) : Person(n,a,i), subject(sub), salary(sal){}
 
 
 
