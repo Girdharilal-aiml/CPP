@@ -82,6 +82,7 @@ public:
     void display() override {
         cout << "----------------------------------------" << endl;
         cout << "TEACHER RECORD" << endl;
+        cout << "Name    : " << getName() << endl;
     }
 };
 
