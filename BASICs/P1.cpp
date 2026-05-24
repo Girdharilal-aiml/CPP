@@ -59,5 +59,15 @@ public:
         cout << "ID      : " << getID() << endl;
         cout << "Age     : " << getAge() << endl;
         cout << "CGPA    : " << cgpa << endl;
+        cout << "Course  : " << enrolledCourse << endl;
+        cout << "----------------------------------------" << endl;
     }
 };
+
+
+class Teacher : public Person{
+
+
+
+};
+
