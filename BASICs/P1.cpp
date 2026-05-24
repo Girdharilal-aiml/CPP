@@ -86,6 +86,7 @@ public:
         cout << "ID      : " << getID() << endl;
         cout << "Age     : " << getAge() << endl;
         cout << "Subject : " << subject << endl;
+        cout << "Salary  : " << salary << endl;
     }
 };
 
