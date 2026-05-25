@@ -110,7 +110,8 @@ public:
             studentCount++;
             cout << s->getName() << " enrolled in " << courseName << endl;
         }
-        
+        else{
+        }
     }
 
 };
