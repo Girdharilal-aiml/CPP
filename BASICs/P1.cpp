@@ -129,6 +129,7 @@ public:
 
 class University{
 private:
+    string uniName;
 
 public:
 };
