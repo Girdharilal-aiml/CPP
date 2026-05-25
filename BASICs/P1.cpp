@@ -131,6 +131,7 @@ class University{
 private:
     string uniName;
     Student* students[100];
+    Teacher* teachers[50];
 
 public:
 };
