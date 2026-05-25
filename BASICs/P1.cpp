@@ -133,6 +133,7 @@ private:
     Student* students[100];
     Teacher* teachers[50];
     Course* courses[20];
+    int sCount, tCount, cCount;
 
 public:
 };
