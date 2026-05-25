@@ -119,6 +119,7 @@ public:
         cout << "========================================" << endl;
         cout << "COURSE            : " << courseName << endl;
         cout << "TEACHER           : " << teacher->getName() << endl;
+        cout << "STUDENTS ENROLLED : " << studentCount << endl;
         
     }
 };
