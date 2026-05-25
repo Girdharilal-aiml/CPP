@@ -152,6 +152,7 @@ public:
 
         cout << "\n--- TEACHERS ---" << endl;
         for (int i = 0; i < tCount; i++){
+            teachers[i]->display();
         }
 
     }
