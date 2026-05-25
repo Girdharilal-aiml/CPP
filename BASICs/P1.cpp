@@ -146,6 +146,7 @@ public:
     void addCourses(Course* c){ courses[cCount++] = c; }
 
     void generateReport() {
+        cout << "\n=========================================" << endl;
 
     }
 };
