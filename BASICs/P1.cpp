@@ -162,6 +162,7 @@ public:
             students[i]->showRole();
         }
 
+        cout << "\n--- COURSES ---" << endl;
     }
 };
 
