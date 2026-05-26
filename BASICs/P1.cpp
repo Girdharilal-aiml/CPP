@@ -181,6 +181,7 @@ int main(){
     Course c2("Calculus", &t2);
 
     c1.enrollStudent(&s1);
+    c2.enrollStudent(&s2);
 
 
 
