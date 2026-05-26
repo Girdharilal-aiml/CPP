@@ -196,6 +196,7 @@ int main(){
     uni.addCourses(&c1);
     uni.addCourses(&c2);
 
+    uni.generateReport();
 
 
 
