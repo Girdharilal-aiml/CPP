@@ -184,6 +184,7 @@ int main(){
     c2.enrollStudent(&s2);
     c1.enrollStudent(&s3);
 
+    University uni("Tech University");
 
 
 
