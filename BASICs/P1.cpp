@@ -190,6 +190,7 @@ int main(){
     uni.addTeachers(&t2);
 
     uni.addStudent(&s1);
+    uni.addStudent(&s2);
 
 
 
