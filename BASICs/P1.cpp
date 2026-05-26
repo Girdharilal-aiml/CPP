@@ -178,6 +178,7 @@ int main(){
     Student s3("Charlie", 21, "S003", 3.9, "Computer Science");
 
     Course c1("Data Structures", &t1);
+    Course c2("Calculus", &t2);
 
 
 
