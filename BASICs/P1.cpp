@@ -174,6 +174,7 @@ int main(){
     Teacher t2("Dr Johnson", 50 , "T002", "Mathematics", 80000);
 
     Student s1("Alice", 20, "S001", 3.8, "Computer Science");
+    Student s2("Bob", 22, "S002", 3.5, "Mathematics");
 
 
 
