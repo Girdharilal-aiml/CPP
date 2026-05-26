@@ -200,6 +200,7 @@ int main(){
     uni.generateReport();
 
     cout << "\nEnd of University Report." << endl;
+    Role* people[4];
 
 
 }   
