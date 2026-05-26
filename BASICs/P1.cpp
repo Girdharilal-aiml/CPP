@@ -173,6 +173,7 @@ int main(){
     Teacher t1("Dr smith", 45 , "T001", "Computer Science", 75000);
     Teacher t2("Dr Johnson", 50 , "T002", "Mathematics", 80000);
 
+    Student s1("Alice", 20, "S001", 3.8, "Computer Science");
 
 
 
