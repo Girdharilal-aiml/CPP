@@ -180,6 +180,7 @@ int main(){
     Course c1("Data Structures", &t1);
     Course c2("Calculus", &t2);
 
+    c1.enrollStudent(&s1);
 
 
 
