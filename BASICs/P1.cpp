@@ -156,5 +156,8 @@ public:
             teachers[i]->showRole();
         }
 
+        cout << "\n--- STUDENTS ---" << endl;
+
     }
 };
+
