@@ -171,6 +171,7 @@ public:
 
 int main(){
     Teacher t1("Dr smith", 45 , "T001", "Computer Science", 75000);
+    Teacher t2("Dr Johnson", 50 , "T002", "Mathematics", 80000);
 
 
 
