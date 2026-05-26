@@ -187,6 +187,7 @@ int main(){
     University uni("Tech University");
 
     uni.addTeachers(&t1);
+    uni.addTeachers(&t2);
 
 
 
