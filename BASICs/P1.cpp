@@ -194,6 +194,7 @@ int main(){
     uni.addStudent(&s3);
 
     uni.addCourses(&c1);
+    uni.addCourses(&c2);
 
 
 
