@@ -10,6 +10,7 @@ using namespace std;
 class RoomHeater{
 private:
     double targetTemperature;
+    double maxLimit;
 
 public:
 
