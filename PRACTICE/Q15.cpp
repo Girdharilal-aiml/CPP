@@ -16,6 +16,8 @@ public:
     RoomHeater(double t, double ml) : targetTemperature(t), maxLimit(ml) {}
 
     bool increasetemp(double degrees){
+        if(degrees > 0 && targetTemperature + degrees <= maxLimit){
+        }
     }
 
 };
