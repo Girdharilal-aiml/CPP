@@ -9,6 +9,7 @@ using namespace std;
 
 class RoomHeater{
 private:
+    double targetTemperature;
 
 public:
 
