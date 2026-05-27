@@ -13,6 +13,7 @@ private:
     double maxLimit;
 
 public:
+    RoomHeater(double t, double ml) : targetTemperature(t), maxLimit(ml) {}
 
 
 };
