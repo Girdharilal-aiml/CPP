@@ -8,6 +8,9 @@
 using namespace std;
 
 class RoomHeater{
+private:
+
+public:
 
 
 };
