@@ -5,4 +5,5 @@
 // If it succeeds, return true; otherwise, do not change the temperature and return false.
 
 #include "iostream"
+using namespace std;
 
