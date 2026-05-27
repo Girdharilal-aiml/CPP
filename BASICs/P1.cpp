@@ -202,6 +202,7 @@ int main(){
     cout << "\nEnd of University Report." << endl;
     Role* people[4];
     people[0] = &t1;
+    people[1] = &t2;
 
 
 }   
