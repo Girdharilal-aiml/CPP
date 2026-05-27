@@ -206,5 +206,7 @@ int main(){
     people[2] = &s1;
     people[3] = &s2;
 
+    for(int i = 0; i < 4; i++){
+    }
 
 }   
