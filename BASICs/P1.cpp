@@ -210,4 +210,5 @@ int main(){
         people[i]->showRole();
     }
 
+    return 0;
 }   
