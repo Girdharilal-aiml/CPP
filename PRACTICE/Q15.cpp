@@ -43,4 +43,5 @@ int main(){
         cout << "Failed to increase temperature." << endl;
     }
 
+    return 0;
 }
