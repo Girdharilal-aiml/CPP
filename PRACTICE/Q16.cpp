@@ -12,6 +12,7 @@ private:
 
 public:
     Transaction(int id): transactionID(id){}
+    virtual double CalculateFee() = 0;
 };
 
 
