@@ -37,6 +37,7 @@ int main(){
     heater.displayStatus();
 
     if(heater.increasetemp(30)){
+        cout << "Temperature increased successfully." << endl;
     }
 
 }
