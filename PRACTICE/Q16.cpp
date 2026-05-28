@@ -19,6 +19,7 @@ class Deposit : public Transaction{
 public:
     Deposit(int id) : Transaction(id){}
     double CalculateFee(){
+        return 1.5;
     }
 };
 
