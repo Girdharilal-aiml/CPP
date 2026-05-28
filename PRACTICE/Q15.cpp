@@ -34,6 +34,7 @@ public:
 int main(){
     RoomHeater heater(20, 200);
 
+    heater.displayStatus();
 
 
 }
