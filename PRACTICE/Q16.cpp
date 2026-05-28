@@ -23,3 +23,5 @@ public:
     }
 };
 
+class Withdraw : public Transaction{
+};
