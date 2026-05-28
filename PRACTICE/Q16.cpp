@@ -16,5 +16,6 @@ public:
 };
 
 class Deposit : public Transaction{
+public:
 };
 
