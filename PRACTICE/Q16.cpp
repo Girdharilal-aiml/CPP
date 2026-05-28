@@ -10,6 +10,8 @@ class Transaction{
 private:
     int transactionID;
 
+public:
+    Transaction(int id): transactionID(id){}
 };
 
 
