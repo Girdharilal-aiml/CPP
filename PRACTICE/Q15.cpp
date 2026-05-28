@@ -40,6 +40,7 @@ int main(){
         cout << "Temperature increased successfully." << endl;
     }
     else{
+        cout << "Failed to increase temperature." << endl;
     }
 
 }
