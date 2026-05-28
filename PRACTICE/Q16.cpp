@@ -15,4 +15,6 @@ public:
     virtual double CalculateFee() = 0;
 };
 
+class Deposit : public Transaction{
+};
 
