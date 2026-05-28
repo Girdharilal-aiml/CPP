@@ -27,6 +27,7 @@ public:
 
     void displayStatus(){
         cout << "Current Temperature: " << targetTemperature << "°C" << endl;
+        cout << "Maximum Limit: " << maxLimit << "°C" << endl;
     }
 };
 
