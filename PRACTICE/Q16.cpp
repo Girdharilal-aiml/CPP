@@ -8,6 +8,7 @@ using namespace std;
 
 class Transaction{
 private:
+    int transactionID;
 
 };
 
