@@ -24,4 +24,5 @@ public:
 };
 
 class Withdraw : public Transaction{
+public:
 };
