@@ -4,5 +4,7 @@
 // Rule: Every transaction must be able to calculateFee(). However, the mathematical formula for this fee depends entirely on whether it is a deposit or a withdrawal. Force this rule in your architecture.
 
 #include"iostream"
+using namespace std;
+
 
 
