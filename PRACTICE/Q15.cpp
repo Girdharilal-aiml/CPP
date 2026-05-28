@@ -39,5 +39,7 @@ int main(){
     if(heater.increasetemp(30)){
         cout << "Temperature increased successfully." << endl;
     }
+    else{
+    }
 
 }
