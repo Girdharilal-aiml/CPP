@@ -20,6 +20,8 @@ public:
             targetTemperature += degrees;
             return true;
         }
+        else{
+        }
     }
 
 };
