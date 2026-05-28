@@ -36,5 +36,7 @@ int main(){
 
     heater.displayStatus();
 
+    if(heater.increasetemp(30)){
+    }
 
 }
