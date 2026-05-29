@@ -9,6 +9,7 @@ using namespace std;
 
 class EspressoMachine{
 private:
+    double waterLevel;
 
 public:
     }  
