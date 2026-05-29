@@ -26,3 +26,6 @@ public:
         }
     }  
 };
+
+int main(){
+}
