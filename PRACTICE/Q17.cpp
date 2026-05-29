@@ -20,5 +20,6 @@ public:
         if(waterLevel >= requiredWater && coffeeBeansLevel >= requiredBeans){
             waterLevel -= requiredWater;
             coffeeBeansLevel -= requiredBeans;
+            return true;
     }  
 };
