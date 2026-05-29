@@ -18,5 +18,6 @@ public:
         double requiredWater = shots * 30;
         double requiredBeans = shots * 15;
         if(waterLevel >= requiredWater && coffeeBeansLevel >= requiredBeans){
+            waterLevel -= requiredWater;
     }  
 };
