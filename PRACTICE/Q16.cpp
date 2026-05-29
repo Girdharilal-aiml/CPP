@@ -32,5 +32,6 @@ public:
 };
 
 int main(){
+    Deposit dep(1001);
 
 }
