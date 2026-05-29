@@ -16,5 +16,6 @@ public:
     EspressoMachine(double water, double beans) : waterLevel(water), coffeeBeansLevel(beans) {}
     bool brew(int shots){
         double requiredWater = shots * 30;
+        double requiredBeans = shots * 15;
     }  
 };
