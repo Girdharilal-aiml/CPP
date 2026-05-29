@@ -5,4 +5,5 @@
 // If so, deduct the resources and return true; otherwise, return false.
 
 #include "iostream"
+using namespace std;
 
