@@ -21,5 +21,7 @@ public:
             waterLevel -= requiredWater;
             coffeeBeansLevel -= requiredBeans;
             return true;
+        }else{
+        }
     }  
 };
