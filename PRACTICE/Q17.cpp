@@ -22,6 +22,7 @@ public:
             coffeeBeansLevel -= requiredBeans;
             return true;
         }else{
+            return false;
         }
     }  
 };
