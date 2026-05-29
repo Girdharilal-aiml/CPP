@@ -30,4 +30,5 @@ public:
 int main(){
     EspressoMachine machine(500, 200); 
     int shots = 3;
+    if(machine.brew(shots)){
 }
