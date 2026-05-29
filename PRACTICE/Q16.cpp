@@ -36,4 +36,5 @@ int main(){
     Withdraw with(1002);
 
     cout << "Deposit Fee: " <<  dep.CalculateFee() << endl;
+    cout << "Withdrawal Fee: " << with.CalculateFee() << endl;
 }
