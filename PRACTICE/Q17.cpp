@@ -8,4 +8,8 @@
 using namespace std;
 
 class EspressoMachine{
+private:
+
+public:
+    }  
 };
