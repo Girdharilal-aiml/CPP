@@ -28,4 +28,5 @@ public:
 };
 
 int main(){
+    EspressoMachine machine(500, 200); 
 }
