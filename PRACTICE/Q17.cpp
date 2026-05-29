@@ -13,5 +13,6 @@ private:
     double coffeeBeansLevel;
 
 public:
+    EspressoMachine(double water, double beans) : waterLevel(water), coffeeBeansLevel(beans) {}
     }  
 };
