@@ -33,5 +33,6 @@ public:
 
 int main(){
     Deposit dep(1001);
+    Withdraw with(1002);
 
 }
