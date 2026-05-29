@@ -17,5 +17,6 @@ public:
     bool brew(int shots){
         double requiredWater = shots * 30;
         double requiredBeans = shots * 15;
+        if(waterLevel >= requiredWater && coffeeBeansLevel >= requiredBeans){
     }  
 };
