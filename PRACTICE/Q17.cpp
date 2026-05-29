@@ -32,4 +32,6 @@ int main(){
     int shots = 3;
     if(machine.brew(shots)){
         cout << "Brewed " << shots << " shots of espresso." << endl;    
+    }else{
+    }
 }
