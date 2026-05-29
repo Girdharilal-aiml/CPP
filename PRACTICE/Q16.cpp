@@ -27,6 +27,7 @@ class Withdraw : public Transaction{
 public:
     Withdraw(int id) : Transaction(id){}
     double CalculateFee(){
+        return 2.5;
     }
 };
 
