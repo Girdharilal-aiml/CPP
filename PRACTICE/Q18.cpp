@@ -16,6 +16,7 @@ public:
 
 class Client : public User{
 public:
+    Client(string email) : User(email){}
 };
 
 
