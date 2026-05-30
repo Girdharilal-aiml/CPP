@@ -14,5 +14,8 @@ public:
     virtual double getPlatformRating() = 0; 
 };
 
+class Client : public User{
+public:
+};
 
 
