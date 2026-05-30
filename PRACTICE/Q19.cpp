@@ -11,5 +11,6 @@ class Property{
 public:
     Property(double sqft) : squareFootage(sqft) {}
     virtual double getSquareFootage() {
+        return squareFootage;
     }
 };
