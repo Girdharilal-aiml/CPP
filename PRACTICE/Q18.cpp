@@ -22,4 +22,7 @@ public:
     }
 };
 
+class Freelancer : public User{
+public:
+};
 
