@@ -33,5 +33,6 @@ int main(){
     if(machine.brew(shots)){
         cout << "Brewed " << shots << " shots of espresso." << endl;    
     }else{
+        cout << "Not enough resources to brew " << shots << " shots of espresso." << endl;
     }
 }
