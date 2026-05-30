@@ -4,4 +4,5 @@
 // Rule: Inside this utility, call a method .getSquareFootage() on both objects and return the object that has the larger value.
 
 #include "iostream"
+using namespace std;
 
