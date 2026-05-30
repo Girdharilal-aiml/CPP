@@ -34,5 +34,6 @@ int main(){
     Client client("client@example.com");
     Freelancer freelancer("freelancer@example.com");
 
+    cout << "Client Rating: " << client.getPlatformRating() << endl;
 
 }
