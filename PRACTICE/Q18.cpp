@@ -31,6 +31,7 @@ public:
 };
 
 int main(){
+    Client client("client@example.com");
 
 
 }
