@@ -35,4 +35,5 @@ int main(){
     }else{
         cout << "Not enough resources to brew " << shots << " shots of espresso." << endl;
     }
+    return 0;   
 }
