@@ -4,6 +4,7 @@
 // Rule: Create two specific entities: Client and Freelancer. Both must implement a getPlatformRating() method, but the logic for calculating the rating is unique to each entity.
 
 #include "iostream"
+using namespace std;
 
 
 
