@@ -32,6 +32,7 @@ public:
 
 int main(){
     Client client("client@example.com");
+    Freelancer freelancer("freelancer@example.com");
 
 
 }
