@@ -11,6 +11,7 @@ private:
     string email;
 public:
     User(string email) : email(email) {}
+    virtual double getPlatformRating() = 0; 
 };
 
 
