@@ -10,4 +10,6 @@ class Property{
     double squareFootage;
 public:
     Property(double sqft) : squareFootage(sqft) {}
+    virtual double getSquareFootage() {
+    }
 };
