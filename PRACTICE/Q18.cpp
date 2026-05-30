@@ -10,6 +10,7 @@ class User{
 private:
     string email;
 public:
+    User(string email) : email(email) {}
 };
 
 
