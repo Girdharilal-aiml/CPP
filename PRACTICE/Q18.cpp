@@ -37,4 +37,5 @@ int main(){
     cout << "Client Rating: " << client.getPlatformRating() << endl;
     cout << "Freelancer Rating: " << freelancer.getPlatformRating() << endl;
 
+    return 0;
 }
