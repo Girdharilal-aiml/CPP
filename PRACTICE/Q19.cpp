@@ -6,3 +6,6 @@
 #include "iostream"
 using namespace std;
 
+class Property{
+public:
+};
