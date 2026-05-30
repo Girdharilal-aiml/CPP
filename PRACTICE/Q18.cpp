@@ -25,5 +25,7 @@ public:
 class Freelancer : public User{
 public:
     Freelancer(string email) : User(email){}
+    double getPlatformRating() override{
+    }
 };
 
