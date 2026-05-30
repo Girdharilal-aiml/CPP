@@ -18,6 +18,7 @@ class Client : public User{
 public:
     Client(string email) : User(email){}
     double getPlatformRating() override {
+        return 4.5;
     }
 };
 
