@@ -2,3 +2,6 @@
 // 5. The Real Estate App
 // Rule: Write a generic utility tool named findBetterProperty. It must accept any two objects, provided they are of the exact same data type.
 // Rule: Inside this utility, call a method .getSquareFootage() on both objects and return the object that has the larger value.
+
+#include "iostream"
+
