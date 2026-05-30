@@ -9,4 +9,5 @@ using namespace std;
 class Property{
     double squareFootage;
 public:
+    Property(double sqft) : squareFootage(sqft) {}
 };
