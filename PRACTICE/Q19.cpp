@@ -17,4 +17,5 @@ public:
 
 template<typename T>
 T findBetterProperty(T a, T b){
+    if(a.getSquareFootage() > b.getSquareFootage()){
 }
