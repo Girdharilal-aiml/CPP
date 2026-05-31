@@ -9,5 +9,6 @@ class Tracker{
 private:
     double KPI;
 public:
+    Tracker(){}
 };
 
