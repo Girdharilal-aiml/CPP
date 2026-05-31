@@ -14,3 +14,5 @@ public:
         return squareFootage;
     }
 };
+
+template<typename T>
