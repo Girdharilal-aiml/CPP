@@ -18,4 +18,5 @@ public:
 
 template<typename K>
 K getTopPerformer(K a, K b){
+    if(a.getkpi() > b.getkpi()){
 }
