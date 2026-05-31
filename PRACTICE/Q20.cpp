@@ -21,5 +21,6 @@ K getTopPerformer(K a, K b){
     if(a.getkpi() > b.getkpi()){
         return a.getkpi();
     }else{
+        return b.getkpi();
     }
 }
