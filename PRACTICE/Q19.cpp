@@ -28,5 +28,6 @@ int main(){
     Property p1(15000.00);
     Property p2(20000.00);
 
+    Property better = findBetterProperty(p1, p2);
 
 }
