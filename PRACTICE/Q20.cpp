@@ -17,3 +17,5 @@ public:
 };
 
 template<typename K>
+K getTopPerformer(K a, K b){
+}
