@@ -11,5 +11,7 @@ private:
 public:
     Tracker(){}
     Tracker(double kp) : KPI(kp){}
+    virtual double getkpi(){
+    }
 };
 
