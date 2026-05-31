@@ -25,6 +25,7 @@ T findBetterProperty(T a, T b){
 }
 
 int main(){
+    Property p1(15000.00);
 
 
 }
