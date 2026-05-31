@@ -29,5 +29,6 @@ int main(){
     Property p2(20000.00);
 
     Property better = findBetterProperty(p1, p2);
+    cout << "Better Property Square Footage: " << better.getSquareFootage() << " sqft" << endl;
 
 }
