@@ -24,3 +24,6 @@ K getTopPerformer(K a, K b){
         return b.getkpi();
     }
 }
+
+int main(){
+}
