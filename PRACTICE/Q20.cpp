@@ -26,4 +26,5 @@ K getTopPerformer(K a, K b){
 }
 
 int main(){
+    Tracker t1(4.5), t2(23.5);
 }
