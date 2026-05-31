@@ -3,5 +3,6 @@
 // Inside the function, compare them using their .getKPI() method and return the object with the higher KPI.
 
 #include "iostream"
+using namespace std;
 
 
