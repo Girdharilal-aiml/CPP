@@ -10,5 +10,6 @@ private:
     double KPI;
 public:
     Tracker(){}
+    Tracker(double kp) : KPI(kp){}
 };
 
