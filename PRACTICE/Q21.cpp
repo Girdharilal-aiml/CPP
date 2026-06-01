@@ -17,3 +17,5 @@ public:
 };
 
 template<typename CP>
+CP getFinalPrice(CP A, CP B){
+}
