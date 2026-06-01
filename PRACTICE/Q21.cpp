@@ -6,5 +6,7 @@
 using namespace std;
 
 class CheaperItems{
+private:
+public:
 };
 
