@@ -20,5 +20,7 @@ template<typename CP>
 CP getFinalPrice(CP A, CP B){
     if(A.getprice() < B.getprice()){
         return A.getprice();
+    }else{
+        return B.getprice();
     }
 }
