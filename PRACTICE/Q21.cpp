@@ -11,5 +11,7 @@ private:
 public:
     CheaperItems(){}
     CheaperItems(double IP) : itemprice(IP){}
+    double getprice(){
+    }
 };
 
