@@ -28,4 +28,5 @@ K getTopPerformer(K a, K b){
 int main(){
     Tracker t1(4.5), t2(23.5);
     Tracker t3 = getTopPerformer(t1,t2);
+    cout << "performer: " << t3.getkpi() << endl;
 }
