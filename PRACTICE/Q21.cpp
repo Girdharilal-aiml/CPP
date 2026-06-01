@@ -7,6 +7,7 @@ using namespace std;
 
 class CheaperItems{
 private:
+    double itemprice;
 public:
 };
 
