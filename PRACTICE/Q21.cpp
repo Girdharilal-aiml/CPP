@@ -9,5 +9,6 @@ class CheaperItems{
 private:
     double itemprice;
 public:
+    CheaperItems(){}
 };
 
