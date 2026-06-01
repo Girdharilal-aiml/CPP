@@ -3,5 +3,6 @@
 // It should use the .getFinalPrice() method of both objects and return the object that is numerically cheaper.
 
 #include "iostream"
+using namespace std;
 
 
