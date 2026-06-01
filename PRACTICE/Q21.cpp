@@ -10,5 +10,6 @@ private:
     double itemprice;
 public:
     CheaperItems(){}
+    CheaperItems(double IP) : itemprice(IP){}
 };
 
