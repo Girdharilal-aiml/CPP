@@ -16,3 +16,4 @@ public:
     }
 };
 
+template<typename CP>
