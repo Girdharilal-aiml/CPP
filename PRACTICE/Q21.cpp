@@ -12,6 +12,7 @@ public:
     CheaperItems(){}
     CheaperItems(double IP) : itemprice(IP){}
     double getprice(){
+        return itemprice;
     }
 };
 
