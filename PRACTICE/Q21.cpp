@@ -29,4 +29,5 @@ int main(){
     CheaperItems c1(100.00), c2(250.00);
     CheaperItems cheap = getFinalPrice(c1, c2);
     cout << "Cheaper : " << cheap.getprice() << endl;
+    return 0;
 }
