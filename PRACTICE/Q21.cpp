@@ -24,3 +24,6 @@ CP getFinalPrice(CP A, CP B){
         return B.getprice();
     }
 }
+
+int main(){
+}
