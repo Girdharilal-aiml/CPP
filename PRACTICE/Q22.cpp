@@ -11,5 +11,6 @@ private:
 public:
     Fighters(double s) : shield(s){}
     double getShieldLevel(){
+        return shield;
     }
 };
