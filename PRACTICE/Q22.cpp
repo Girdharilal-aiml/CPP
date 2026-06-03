@@ -7,5 +7,6 @@ using namespace std;
 
 class Fighters{
 private:
+    double shield;
 public:
 };
