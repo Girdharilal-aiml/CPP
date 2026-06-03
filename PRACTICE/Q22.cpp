@@ -23,6 +23,8 @@ public:
             return false;
         }
         for(int i = 0; i<s; i++){
+            if(fight[i].getShieldLevel() < 20){
+            }
         }
     }
 };
