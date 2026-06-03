@@ -17,4 +17,5 @@ public:
 
 class Mothership{
 public:
+    Mothership(){}
 };
