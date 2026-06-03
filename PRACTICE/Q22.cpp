@@ -35,5 +35,6 @@ int main(){
     Fighters Fleet[3] = {Fighters(100), Fighters(200), Fighters(21)};
     Mothership base;
     if (base.checkFleetShield(Fleet, 3)){
+        cout << "Fleet Safe? Yes" << endl;
     }
 }
