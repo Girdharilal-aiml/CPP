@@ -19,5 +19,7 @@ class Mothership{
 public:
     Mothership(){}
     bool checkFleetShield(Fighters fight[], int s){
+        if(s<=0){
+        }
     }
 };
