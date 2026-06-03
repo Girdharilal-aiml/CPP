@@ -40,4 +40,5 @@ int main(){
     else{
         cout << "Fleet Safe? No" << endl;
     }
+    return 0;
 }
