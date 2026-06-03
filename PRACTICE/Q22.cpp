@@ -6,4 +6,6 @@
 using namespace std;
 
 class Fighters{
+private:
+public:
 };
