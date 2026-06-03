@@ -38,5 +38,6 @@ int main(){
         cout << "Fleet Safe? Yes" << endl;
     }
     else{
+        cout << "Fleet Safe? No" << endl;
     }
 }
