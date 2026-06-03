@@ -37,4 +37,6 @@ int main(){
     if (base.checkFleetShield(Fleet, 3)){
         cout << "Fleet Safe? Yes" << endl;
     }
+    else{
+    }
 }
