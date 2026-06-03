@@ -3,3 +3,4 @@
 // Rule: If the size is 0 or less, return false. Loop through the array. If any ship in the array has a .getShieldLevel() less than 20.0, the fleet is vulnerable (return false). Otherwise, return true.
 
 #include "iostream"
+using namespace std;
