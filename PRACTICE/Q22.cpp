@@ -9,4 +9,5 @@ class Fighters{
 private:
     double shield;
 public:
+    Fighters(double s) : shield(s){}
 };
