@@ -24,6 +24,7 @@ public:
         }
         for(int i = 0; i<s; i++){
             if(fight[i].getShieldLevel() < 20){
+                return false;
             }
         }
     }
