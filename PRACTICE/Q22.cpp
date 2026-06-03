@@ -14,3 +14,6 @@ public:
         return shield;
     }
 };
+
+class Mothership{
+};
