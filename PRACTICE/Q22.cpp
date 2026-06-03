@@ -33,4 +33,5 @@ public:
 
 int main(){
     Fighters Fleet[3] = {Fighters(100), Fighters(200), Fighters(21)};
+    Mothership base;
 }
