@@ -22,5 +22,7 @@ public:
         if(s<=0){
             return false;
         }
+        for(int i = 0; i<s; i++){
+        }
     }
 };
