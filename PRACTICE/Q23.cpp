@@ -35,4 +35,6 @@ int main(){
     NetworkManager NM1;
     if(NM1.isNetworkStable(S, 3)){
         cout << "Stable" << endl;
+    }else{
+    }
 }
