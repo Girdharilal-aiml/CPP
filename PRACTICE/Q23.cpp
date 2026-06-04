@@ -23,6 +23,7 @@ public:
         }
         for(int i=0; i<c;i++){
             if(s[i].getPing()>500){
+                return false;
             }
         }
     }
