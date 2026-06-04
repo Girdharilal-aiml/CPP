@@ -18,5 +18,7 @@ public:
 class NetworkManager{
 public:
     bool isNetworkStable(Server s[], int c){
+        if(c<=0){
+        }
     }
 };
