@@ -10,5 +10,7 @@ private:
     int ping;
 public:
     Server(int p) : ping(p){}
+    int getPing(){
+    }
 };
 
