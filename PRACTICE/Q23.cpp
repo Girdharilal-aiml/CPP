@@ -9,5 +9,6 @@ class Server{
 private:
     int ping;
 public:
-   
+    Server(int p) : ping(p){}
 };
+
