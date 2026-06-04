@@ -11,6 +11,7 @@ private:
 public:
     Drone(double b) : battery(b){}
     double getBatteryPercentage(){
+        return battery;
     }
 };
 
