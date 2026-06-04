@@ -36,5 +36,6 @@ int main(){
     if(NM1.isNetworkStable(S, 3)){
         cout << "Stable" << endl;
     }else{
+        cout << "Unstable" << endl;
     }
 }
