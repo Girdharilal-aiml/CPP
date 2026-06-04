@@ -38,4 +38,5 @@ int main(){
     }else{
         cout << "Unstable" << endl;
     }
+    return 0;
 }
