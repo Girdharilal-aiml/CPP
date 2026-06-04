@@ -11,6 +11,7 @@ private:
 public:
     Server(int p) : ping(p){}
     int getPing(){
+        return ping;
     }
 };
 
