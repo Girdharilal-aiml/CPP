@@ -32,4 +32,5 @@ public:
 
 int main(){
     Server S[3] = {Server(200), Server(20), Server(600)};
+    NetworkManager NM1;
 }
