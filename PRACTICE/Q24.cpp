@@ -9,5 +9,6 @@ class Drone{
 private:
     double battery;
 public:
+    Drone(double b) : battery(b){}
 };
 
