@@ -8,6 +8,7 @@ using namespace std;
 template<typename T>
 class InventoryBag{
 private:
+    T items[10];
 public:
 
 };
