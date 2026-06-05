@@ -38,4 +38,5 @@ int main(){
     }else{
         cout << "Abort to takeoff" << endl;
     }
+    return 0;
 }
