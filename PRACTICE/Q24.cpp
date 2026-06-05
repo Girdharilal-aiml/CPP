@@ -23,6 +23,7 @@ public:
         }
         for(int i = 0; i < c; i++){
             if(d[i].getBatteryPercentage() < 15.0){
+                return false;
             }
         }
     }
