@@ -9,6 +9,7 @@ template<typename T>
 class InventoryBag{
 private:
     T items[10];
+    int count=0;
 public:
 
 };
