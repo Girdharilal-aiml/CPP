@@ -11,5 +11,7 @@ private:
     T items[10];
     int count=0;
 public:
+    void storeItem(T item){
+    }
 
 };
