@@ -14,6 +14,7 @@ public:
     void storeItem(T item){
         if(count<10){
             items[count] = item;
+            count++;
         }
     }
 
