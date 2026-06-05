@@ -1,3 +1,5 @@
 // 11. The Magic Inventory Bag:
 // Rule: Design a storage utility entity called InventoryBag. It must be capable of holding a fixed array of 10 items of any one specific data type.
 // Rule: Include an integer to track how many items are currently inside. Write a method storeItem(item) that takes an item of that specific type and adds it to the array only if the bag isn't full.
+
+#include "iostream"
