@@ -36,5 +36,6 @@ int main(){
     if(DH.clearForTakeOff(D, 3)){
         cout << "Ready to takeoff" << endl;
     }else{
+        cout << "Abort to takeoff" << endl;
     }
 }
