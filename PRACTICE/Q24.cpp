@@ -34,5 +34,6 @@ int main(){
     Drone D[3] = {Drone(20), Drone(80), Drone(16)};
     DeliveryHub DH;
     if(DH.clearForTakeOff(D, 3)){
+    }else{
     }
 }
