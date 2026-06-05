@@ -18,4 +18,6 @@ public:
         }
     }
 
+    int getCount(){
+    }
 };
