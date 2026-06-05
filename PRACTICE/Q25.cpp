@@ -7,5 +7,7 @@ using namespace std;
 
 template<typename T>
 class InventoryBag{
+private:
+public:
 
 };
