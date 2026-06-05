@@ -25,4 +25,5 @@ public:
 
 int main(){
     InventoryBag<double> bag;
+    bag.storeItem(3.14);
 }
