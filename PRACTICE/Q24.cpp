@@ -18,6 +18,7 @@ public:
 class DeliveryHub{
 public:
     bool clearForTakeOff(Drone d[], int c){
-      
+        if(c<=0){
+        }
     }
 };
