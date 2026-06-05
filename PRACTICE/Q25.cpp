@@ -12,6 +12,8 @@ private:
     int count=0;
 public:
     void storeItem(T item){
+        if(count<10){
+        }
     }
 
 };
