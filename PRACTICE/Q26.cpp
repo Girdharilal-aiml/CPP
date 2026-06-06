@@ -24,4 +24,5 @@ public:
 };
 
 int main(){
+    ProcessQueue<string> Queue;
 }
