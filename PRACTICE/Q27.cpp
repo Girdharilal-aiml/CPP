@@ -8,6 +8,7 @@ using namespace std;
 template <typename T>
 class Spooler{
 private:
+    T Document[5];
 public:
 
 };
