@@ -28,4 +28,5 @@ int main(){
     bag.storeItem(3.14);
     bag.storeItem(2.71);
     cout << "Items in bag: " << bag.getCount() << endl;
+    return 0;
 }
