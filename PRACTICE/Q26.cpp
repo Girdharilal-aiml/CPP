@@ -13,6 +13,7 @@ private:
 public:
     void Enqueue(T TASK){
         if(count < 5){
+            TASKS[count++] = TASK;
         }
     }
 
