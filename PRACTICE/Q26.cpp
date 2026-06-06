@@ -3,5 +3,6 @@
 // Rule: Write a function enqueue(task) that adds to the array, but silently ignores the addition if the queue has already reached its limit of 5.
 
 #include "iostream"
+using namespace std;
 
 
