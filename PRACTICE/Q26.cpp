@@ -9,6 +9,7 @@ template<typename T>
 class ProcessQueue{
 private:
     T TASKS[5];
+    int count = 0;
 public:
 
 
