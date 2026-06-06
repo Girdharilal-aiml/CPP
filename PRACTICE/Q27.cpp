@@ -3,4 +3,5 @@
 // Rule: Provide an addJob(document) function that increments a counter when a job is added, alongside a getJobCount() function to return the current number of jobs.
 
 #include "iostream"
+using namespace std;
 
