@@ -25,4 +25,5 @@ public:
 
 int main(){
     ProcessQueue<string> Queue;
+    Queue.Enqueue("TASK 1");
 }
