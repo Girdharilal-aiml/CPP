@@ -18,6 +18,7 @@ public:
     }
 
     int getcount(){
+        return count;
     }
 
 };
