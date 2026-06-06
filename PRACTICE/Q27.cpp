@@ -9,6 +9,7 @@ template <typename T>
 class Spooler{
 private:
     T Document[5];
+    int count = 0;
 public:
 
 };
