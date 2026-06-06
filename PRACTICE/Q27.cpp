@@ -11,5 +11,7 @@ private:
     T Document[5];
     int count = 0;
 public:
+    void addJob(T Documents){
+    }
 
 };
