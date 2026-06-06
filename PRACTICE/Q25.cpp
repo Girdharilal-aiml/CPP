@@ -27,4 +27,5 @@ int main(){
     InventoryBag<double> bag;
     bag.storeItem(3.14);
     bag.storeItem(2.71);
+    cout << "Items in bag: " << bag.getCount() << endl;
 }
