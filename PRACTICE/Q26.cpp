@@ -28,4 +28,5 @@ int main(){
     Queue.Enqueue("TASK 1");
     Queue.Enqueue("TASK 1");
     cout << "Task in Queue: " << Queue.getcount() << endl;
+    return 0;
 }
