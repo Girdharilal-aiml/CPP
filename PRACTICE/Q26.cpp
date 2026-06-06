@@ -7,6 +7,8 @@ using namespace std;
 
 template<typename T>
 class ProcessQueue{
+private:
+public:
 
 
 };
