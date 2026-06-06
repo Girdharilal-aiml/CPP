@@ -11,6 +11,8 @@ private:
     T TASKS[5];
     int count = 0;
 public:
+    void Enqueue(T TASK){
+    }
 
 
 };
