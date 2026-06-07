@@ -30,3 +30,6 @@ class TeachingAssistant : public Student, Employee{
 public:
     TeachingAssistant(int id) : Person(id), Student(id), Employee(id){}
 };
+
+int main(){
+}
