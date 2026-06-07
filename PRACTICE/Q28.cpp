@@ -26,3 +26,6 @@ public:
     Employee(int id) : Person(id){}
 };
 
+class TeachingAssistant : public Student, Employee{
+public:
+};
