@@ -16,5 +16,7 @@ public:
     }
 };
 
+class Student : virtual public Person{
+};
 
 
