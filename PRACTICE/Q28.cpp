@@ -23,5 +23,6 @@ public:
 
 class Employee : virtual public Person{
 public:
+    Employee(int id) : Person(id){}
 };
 
