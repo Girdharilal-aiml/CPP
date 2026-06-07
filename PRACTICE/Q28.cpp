@@ -33,4 +33,5 @@ public:
 
 int main(){
     TeachingAssistant TA(213131);
+    cout << "TA ID: " << TA.getId() << endl;
 }
