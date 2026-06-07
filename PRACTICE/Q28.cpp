@@ -12,6 +12,7 @@ protected:
 public:
     Person(int Id) : IDNUMBER(Id){}
     int getId(){
+        return IDNUMBER;
     }
 };
 
