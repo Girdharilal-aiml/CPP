@@ -23,6 +23,7 @@ public:
 };
 
 int main(){
+    Spooler<string> Files;
 
 
 }
