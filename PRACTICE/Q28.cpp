@@ -32,4 +32,5 @@ public:
 };
 
 int main(){
+    TeachingAssistant TA(213131);
 }
