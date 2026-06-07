@@ -20,4 +20,6 @@ class Student : virtual public Person{
     Student(int id) : Person(id){}
 };
 
+class Employee : virtual public Person{
+};
 
