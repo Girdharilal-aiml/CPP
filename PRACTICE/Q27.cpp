@@ -18,5 +18,6 @@ public:
     }
 
     int getJobCount(){
+        return count;
     }
 };
