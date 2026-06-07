@@ -17,9 +17,11 @@ public:
 };
 
 class Student : virtual public Person{
+public:
     Student(int id) : Person(id){}
 };
 
 class Employee : virtual public Person{
+public:
 };
 
