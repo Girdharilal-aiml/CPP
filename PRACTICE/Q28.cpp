@@ -10,6 +10,7 @@ class Person{
 protected:
     int IDNUMBER;
 public:
+    Person(int Id) : IDNUMBER(Id){}
 };
 
 
