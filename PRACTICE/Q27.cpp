@@ -25,5 +25,6 @@ public:
 int main(){
     Spooler<string> Files;
 
+    Files.addJob("F1");
 
 }
