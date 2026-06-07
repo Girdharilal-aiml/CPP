@@ -29,4 +29,5 @@ int main(){
     Files.addJob("F2");
 
     cout << "Current File: " << Files.getJobCount() << endl;
+    return 0;
 }
