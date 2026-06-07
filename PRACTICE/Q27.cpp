@@ -13,6 +13,7 @@ private:
 public:
     void addJob(T Documents){
         if(count < 5){
+            Document[count++] = Documents;
         }
     }
 
