@@ -4,6 +4,7 @@
 // Rule: Ensure the TA's constructor bypasses the intermediate roles to directly initialize the idNumber of the core Person.
 
 #include "iostream"
+using namespace std;
 
 
 
