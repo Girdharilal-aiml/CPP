@@ -3,3 +3,4 @@
 // Rule: Write the class definitions to ensure that when a Paladin takes damage, the system doesn't get confused about which healthPool to deduct from (they must share a single health pool in memory).
 
 #include "iostream"
+using namespace std;
