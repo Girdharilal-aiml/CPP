@@ -7,3 +7,5 @@ using namespace std;
 class Device{
 };
 
+class Camera : virtual public Device{
+};
