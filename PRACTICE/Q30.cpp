@@ -17,4 +17,5 @@ public:
 
 class Camera : virtual public Device{
 public:
+    Camera(int sn) : Device(sn){}
 };
