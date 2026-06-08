@@ -18,6 +18,7 @@ public:
 
 class Warrior : virtual public Entity{
 public:
+    Warrior(double dp) : Entity(dp){}
 };
 
 class Mage : virtual public Entity{
