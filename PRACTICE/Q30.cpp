@@ -5,7 +5,11 @@
 using namespace std;
 
 class Device{
+protected:
+    
+public:
 };
 
 class Camera : virtual public Device{
+public:
 };
