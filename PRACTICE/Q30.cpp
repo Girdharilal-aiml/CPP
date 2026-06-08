@@ -19,3 +19,6 @@ class Camera : virtual public Device{
 public:
     Camera(int sn) : Device(sn){}
 };
+
+class Microphone : virtual public Device{
+};
