@@ -6,6 +6,7 @@ using namespace std;
 
 class Device{
 protected:
+    int SerialNumber;
     
 public:
 };
