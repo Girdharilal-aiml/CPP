@@ -14,3 +14,5 @@ class Warrior : virtual public Entity{
 class Mage : virtual public Entity{
 }; 
 
+class Paladin : public Warrior, public Mage{
+};
