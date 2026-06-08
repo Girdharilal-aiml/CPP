@@ -9,6 +9,7 @@ protected:
     int SerialNumber;
     
 public:
+    Device(int SN) : SerialNumber(SN){}
 };
 
 class Camera : virtual public Device{
