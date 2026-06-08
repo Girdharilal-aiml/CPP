@@ -11,6 +11,8 @@ protected:
 
 public:
     Entity(double HP) : HealthPool(HP){}
+    double getHealth(){
+    }
 };
 
 class Warrior : virtual public Entity{
