@@ -11,6 +11,7 @@ protected:
 public:
     Device(int SN) : SerialNumber(SN){}
     int getSN(){
+        return SerialNumber;
     }
 };
 
