@@ -37,4 +37,5 @@ public:
 };
 
 int main(){
+    Paladin p(200);
 }
