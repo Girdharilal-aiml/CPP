@@ -22,3 +22,6 @@ public:
 
 class Microphone : virtual public Device{
 };
+
+class SmartDisplay : public Camera, public Microphone{
+};
