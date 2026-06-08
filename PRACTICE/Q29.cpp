@@ -31,6 +31,7 @@ public:
     Paladin(double dp) : Entity(dp), Warrior(dp), Mage(dp){}
     void damage(double s){
         if(s < HealthPool){
+            HealthPool = HealthPool - s;
         }
     }
 };
