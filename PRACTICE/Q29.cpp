@@ -28,4 +28,5 @@ public:
 
 class Paladin : public Warrior, public Mage{
 public:
+    Paladin(double dp) : Entity(dp), Warrior(dp), Mage(dp){}
 };
