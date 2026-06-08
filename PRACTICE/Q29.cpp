@@ -38,4 +38,5 @@ public:
 
 int main(){
     Paladin p(200);
+    cout << "Paladin Health Pool: " << p.getHealth() << endl;
 }
