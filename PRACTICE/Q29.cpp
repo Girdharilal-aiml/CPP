@@ -6,5 +6,9 @@
 using namespace std;
 
 class Entity{
-
 };
+
+class Warrior : virtual public Entity{
+};
+
+
