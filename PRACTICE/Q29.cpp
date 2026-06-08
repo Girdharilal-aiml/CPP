@@ -6,6 +6,9 @@
 using namespace std;
 
 class Entity{
+protected:
+
+public:
 };
 
 class Warrior : virtual public Entity{
