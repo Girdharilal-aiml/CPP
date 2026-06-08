@@ -11,4 +11,6 @@ class Entity{
 class Warrior : virtual public Entity{
 };
 
+class Mage : virtual public Entity{
+}; 
 
