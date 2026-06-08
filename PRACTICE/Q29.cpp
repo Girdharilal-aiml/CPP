@@ -7,6 +7,7 @@ using namespace std;
 
 class Entity{
 protected:
+    double HealthPool;
 
 public:
 };
