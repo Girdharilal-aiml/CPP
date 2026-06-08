@@ -12,10 +12,13 @@ public:
 };
 
 class Warrior : virtual public Entity{
+public:
 };
 
 class Mage : virtual public Entity{
+public:
 }; 
 
 class Paladin : public Warrior, public Mage{
+public:
 };
