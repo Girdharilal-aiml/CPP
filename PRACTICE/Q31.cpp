@@ -15,3 +15,6 @@ public:
         return FilePath;
     }
 };
+
+class AudioTrack : virtual public MediaFile{
+};
