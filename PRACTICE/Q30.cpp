@@ -29,3 +29,6 @@ class SmartDisplay : public Camera, public Microphone{
 public:
     SmartDisplay(int sn) : Device(sn), Camera(sn), Microphone(sn){}
 };
+
+int main(){
+}
