@@ -32,4 +32,5 @@ public:
 
 int main(){
     SmartDisplay SD1(1001);
+    cout << "SMARTDISPLAY SN: " << SD1.getSN() << endl;
 }
