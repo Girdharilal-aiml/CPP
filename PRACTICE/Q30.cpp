@@ -22,6 +22,7 @@ public:
 
 class Microphone : virtual public Device{
 public:
+    Microphone(int sn) : Device(sn){}
 };
 
 class SmartDisplay : public Camera, public Microphone{
