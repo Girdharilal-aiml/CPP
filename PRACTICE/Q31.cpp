@@ -3,4 +3,5 @@
 // Rule: Implement a play() method in Movie that specifically calls the individual play() methods of both the AudioTrack and VideoTrack.
 
 #include "iostream"
+using namespace std;
 
