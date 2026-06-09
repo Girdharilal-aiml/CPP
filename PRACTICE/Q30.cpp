@@ -31,4 +31,5 @@ public:
 };
 
 int main(){
+    SmartDisplay SD1(1001);
 }
