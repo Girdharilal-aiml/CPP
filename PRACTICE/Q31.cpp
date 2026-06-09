@@ -18,3 +18,7 @@ public:
 
 class AudioTrack : virtual public MediaFile{
 };
+
+class VideoTrack : virtual public MediaFile{
+};
+
