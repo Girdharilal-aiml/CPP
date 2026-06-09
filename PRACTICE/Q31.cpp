@@ -7,6 +7,7 @@ using namespace std;
 
 class MediaFile{
 protected:
+    string FilePath;
     
 public:
 };
