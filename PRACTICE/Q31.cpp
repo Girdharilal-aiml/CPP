@@ -37,5 +37,6 @@ public:
     Movie(string FP) : MediaFile(FP), AudioTrack(FP), VideoTrack(FP){}
     void Play(){
         cout << "Playing..." << endl;
+        AudioTrack::PlayAudio();
     }
 };
