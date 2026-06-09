@@ -22,3 +22,5 @@ class AudioTrack : virtual public MediaFile{
 class VideoTrack : virtual public MediaFile{
 };
 
+class Movie : public AudioTrack, VideoTrack{
+};
