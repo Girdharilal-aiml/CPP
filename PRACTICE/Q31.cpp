@@ -10,4 +10,5 @@ protected:
     string FilePath;
     
 public:
+    MediaFile(string FP) : FilePath(FP){}
 };
