@@ -28,6 +28,7 @@ class VideoTrack : virtual public MediaFile{
 public:
     VideoTrack(string FP) : MediaFile(FP){}
     void PlayVideo(){
+        cout << "Playing VideoTrack..." << endl;
     }
 };
 
