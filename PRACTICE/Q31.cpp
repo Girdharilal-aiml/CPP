@@ -27,6 +27,8 @@ public:
 class VideoTrack : virtual public MediaFile{
 public:
     VideoTrack(string FP) : MediaFile(FP){}
+    void PlayVideo(){
+    }
 };
 
 class Movie : public AudioTrack, VideoTrack{
