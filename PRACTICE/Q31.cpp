@@ -12,5 +12,6 @@ protected:
 public:
     MediaFile(string FP) : FilePath(FP){}
     string getFile(){
+        return FilePath;
     }
 };
