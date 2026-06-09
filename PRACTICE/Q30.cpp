@@ -21,7 +21,9 @@ public:
 };
 
 class Microphone : virtual public Device{
+public:
 };
 
 class SmartDisplay : public Camera, public Microphone{
+public:
 };
