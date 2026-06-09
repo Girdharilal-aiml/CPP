@@ -38,5 +38,6 @@ public:
     void Play(){
         cout << "Playing..." << endl;
         AudioTrack::PlayAudio();
+        VideoTrack::PlayVideo();
     }
 };
