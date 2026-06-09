@@ -35,4 +35,6 @@ public:
 class Movie : public AudioTrack, VideoTrack{
 public:
     Movie(string FP) : MediaFile(FP), AudioTrack(FP), VideoTrack(FP){}
+    void Play(){
+    }
 };
