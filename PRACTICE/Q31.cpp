@@ -18,6 +18,7 @@ public:
 
 class AudioTrack : virtual public MediaFile{
 public:
+    AudioTrack(string FP) : MediaFile(FP){}
 };
 
 class VideoTrack : virtual public MediaFile{
