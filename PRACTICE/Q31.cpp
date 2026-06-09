@@ -17,10 +17,13 @@ public:
 };
 
 class AudioTrack : virtual public MediaFile{
+public:
 };
 
 class VideoTrack : virtual public MediaFile{
+public:
 };
 
 class Movie : public AudioTrack, VideoTrack{
+public:
 };
