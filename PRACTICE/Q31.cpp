@@ -6,4 +6,7 @@
 using namespace std;
 
 class MediaFile{
+protected:
+    
+public:
 };
