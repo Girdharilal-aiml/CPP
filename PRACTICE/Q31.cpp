@@ -20,6 +20,7 @@ class AudioTrack : virtual public MediaFile{
 public:
     AudioTrack(string FP) : MediaFile(FP){}
     void PlayAudio(){
+        cout << "Playing AudioTrack..." << endl;
     }
 };
 
