@@ -41,3 +41,6 @@ public:
         VideoTrack::PlayVideo();
     }
 };
+
+int main(){
+}
