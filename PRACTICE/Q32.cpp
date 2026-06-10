@@ -5,10 +5,13 @@
 using namespace std;
 
 class Animal{
+public:
 };
 
 class Lion : public Animal{
+public: 
 };
 
 class Monkey : public Animal{
+public: 
 };
