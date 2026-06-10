@@ -19,5 +19,6 @@ public:
 class Monkey : public Animal{
 public: 
     void MakeSound() override{
+        cout << "SCREAM..." << endl;
     }
 };
