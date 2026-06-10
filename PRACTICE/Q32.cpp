@@ -22,3 +22,9 @@ public:
         cout << "SCREAM..." << endl;
     }
 };
+
+int main(){
+    
+    
+    
+}
