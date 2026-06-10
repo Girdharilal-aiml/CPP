@@ -7,4 +7,5 @@ using namespace std;
 class Gadget{
 public:
     Gadget(){}
+    virtual int GetBatteryLife() = 0;
 };
