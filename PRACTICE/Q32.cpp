@@ -27,7 +27,10 @@ int main(){
     Animal* Sound[3];
     Sound[0] = new Lion();
     Sound[1] = new Monkey();
+    Sound[2] = new Lion();
     
+    for(int i=0; i<=2; i++){
+    }
     
     
 }
