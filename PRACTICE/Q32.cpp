@@ -33,5 +33,7 @@ int main(){
         Sound[i]->MakeSound();
     }
     
+    for(int i=0; i<=2; i++){
+    }
     
 }
