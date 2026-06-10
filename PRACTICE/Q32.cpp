@@ -10,3 +10,5 @@ class Animal{
 class Lion : public Animal{
 };
 
+class Monkey : public Animal{
+};
