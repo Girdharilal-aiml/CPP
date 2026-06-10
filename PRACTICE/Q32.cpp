@@ -37,4 +37,5 @@ int main(){
         delete Sound[i];
     }
     
+    return 0;
 }
