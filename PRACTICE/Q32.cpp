@@ -7,4 +7,6 @@ using namespace std;
 class Animal{
 };
 
+class Lion : public Animal{
+};
 
