@@ -9,3 +9,7 @@ public:
     Gadget(){}
     virtual int GetBatteryLife() = 0;
 };
+
+class Phone : public Gadget{
+
+};
