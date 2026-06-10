@@ -18,4 +18,6 @@ public:
 
 class Monkey : public Animal{
 public: 
+    void MakeSound() override{
+    }
 };
