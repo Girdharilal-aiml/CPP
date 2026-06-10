@@ -25,6 +25,7 @@ public:
 
 int main(){
     Animal* Sound[3];
+    Sound[0] = new Lion();
     
     
     
