@@ -2,4 +2,5 @@
 // Rule: In main(), use a generic utility function (like the one from Question 5) to compare two Phone objects and return the one with the better battery life.
 
 #include "iostream"
+using namespace std;
 
