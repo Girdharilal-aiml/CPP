@@ -44,4 +44,5 @@ public:
 
 int main(){
     Movie M1("D:/CODING LANG/CPP");
+    M1.Play();
 }
