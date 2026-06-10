@@ -11,6 +11,8 @@ public:
 
 class Lion : public Animal{
 public: 
+    void MakeSound() override{
+    }
 };
 
 class Monkey : public Animal{
