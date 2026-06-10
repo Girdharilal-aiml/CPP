@@ -29,8 +29,6 @@ int main(){
     Sound[1] = new Monkey();
     Sound[2] = new Lion();
     
-    for(int i=0; i<=2; i++){
-    }
     
     
 }
