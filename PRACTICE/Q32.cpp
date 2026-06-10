@@ -24,6 +24,7 @@ public:
 };
 
 int main(){
+    Animal* Sound[3];
     
     
     
