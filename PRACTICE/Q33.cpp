@@ -37,3 +37,7 @@ T betterBattery(T a, T b){
     }
     return b;
 }
+
+int main(){
+    
+}
