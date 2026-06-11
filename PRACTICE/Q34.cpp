@@ -8,3 +8,6 @@ using namespace std;
 
 class Node{
 };
+
+class DataBaseNode : public Node{
+};
