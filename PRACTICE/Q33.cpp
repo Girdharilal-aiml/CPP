@@ -43,4 +43,5 @@ int main(){
     Phone P2(75);
     
     Phone better = betterBattery(P1, P2);
+    cout << "Better Battery : " << better.GetBatteryLife() << endl;
 }
