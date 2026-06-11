@@ -11,5 +11,8 @@ public:
 };
 
 class Phone : public Gadget{
-
+private:
+public:
 };
+
+
