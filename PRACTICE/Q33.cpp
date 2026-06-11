@@ -39,5 +39,6 @@ T betterBattery(T a, T b){
 }
 
 int main(){
+    Phone P1(88);
     
 }
