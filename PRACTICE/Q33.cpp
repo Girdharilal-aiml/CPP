@@ -12,6 +12,7 @@ public:
 
 class Phone : public Gadget{
 private:
+    int BatteryLife;
 public:
 };
 
