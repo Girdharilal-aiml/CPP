@@ -24,5 +24,6 @@ class Tablet : public Gadget{
 private:
     int BatteryLife;
 public:
+    Tablet(int BL) : BatteryLife(BL){}
 };
 
