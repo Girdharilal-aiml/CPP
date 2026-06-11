@@ -13,4 +13,6 @@ public:
 
 class DataBaseNode : public Node{
 public:
+    double getGPU() override{
+    }
 };
