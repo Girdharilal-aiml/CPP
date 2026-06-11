@@ -21,5 +21,7 @@ public:
 };
 
 class Tablet : public Gadget{
+private:
+public:
 };
 
