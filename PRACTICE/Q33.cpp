@@ -14,6 +14,7 @@ class Phone : public Gadget{
 private:
     int BatteryLife;
 public:
+    Phone(int BL) : BatteryLife(BL){}
 };
 
 
