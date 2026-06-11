@@ -7,7 +7,9 @@
 using namespace std;
 
 class Node{
+public:
 };
 
 class DataBaseNode : public Node{
+public:
 };
