@@ -8,6 +8,7 @@ using namespace std;
 
 class Node{
 public:
+    virtual double getGPU() = 0;
 };
 
 class DataBaseNode : public Node{
