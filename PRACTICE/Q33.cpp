@@ -26,6 +26,7 @@ private:
 public:
     Tablet(int BL) : BatteryLife(BL){}
     int GetBatteryLife() override{
+        return BatteryLife;
     }
 };
 
