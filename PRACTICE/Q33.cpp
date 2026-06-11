@@ -32,4 +32,6 @@ public:
 
 template<typename T>
 T betterBattery(T a, T b){
+    if(a.GetBatteryLife() > b.GetBatteryLife()){
+    }
 }
