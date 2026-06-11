@@ -17,3 +17,5 @@ public:
         return 85.5;
     }
 };
+
+template<typename T>
