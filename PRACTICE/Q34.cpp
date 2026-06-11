@@ -4,3 +4,5 @@
 // Rule: In main(), instantiate this storage, create two dynamic DatabaseNode entities, and add them to the storage.
 
 #include "iostream"
+using namespace std;
+
