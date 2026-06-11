@@ -22,6 +22,7 @@ public:
 
 class Tablet : public Gadget{
 private:
+    int BatteryLife;
 public:
 };
 
