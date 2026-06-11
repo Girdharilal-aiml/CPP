@@ -14,5 +14,6 @@ public:
 class DataBaseNode : public Node{
 public:
     double getGPU() override{
+        return 85.5;
     }
 };
