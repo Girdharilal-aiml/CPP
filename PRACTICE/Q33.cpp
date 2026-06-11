@@ -31,3 +31,5 @@ public:
 };
 
 template<typename T>
+T betterBattery(T a, T b){
+}
