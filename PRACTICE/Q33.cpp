@@ -42,4 +42,5 @@ int main(){
     Phone P1(88);
     Phone P2(75);
     
+    Phone better = betterBattery(P1, P2);
 }
