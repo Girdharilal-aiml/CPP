@@ -16,6 +16,7 @@ private:
 public:
     Phone(int BL) : BatteryLife(BL){}
     int GetBatteryLife() override{
+        return BatteryLife;
     }
 };
 
