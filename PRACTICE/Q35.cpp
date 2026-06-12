@@ -14,3 +14,6 @@ public:
         cout << "Authentication Successful..." << endl;
     }
 };
+
+int main(){
+}
