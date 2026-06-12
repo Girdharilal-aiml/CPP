@@ -9,6 +9,7 @@ class SecuritySystem{
 public:
     void authenticate(string password){
         if(password.length() < 8){
+            throw "password too short" ;
         }
     }
 };
