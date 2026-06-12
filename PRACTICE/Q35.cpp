@@ -17,4 +17,6 @@ public:
 
 int main(){
     SecuritySystem S1;
+    try{
+    }
 }
