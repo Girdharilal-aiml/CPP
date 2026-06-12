@@ -26,6 +26,7 @@ private:
 public:
     void add(T item){
         if(count<10){
+            items[count] = item;
         }
     }
 
