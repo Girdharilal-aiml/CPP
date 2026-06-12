@@ -44,5 +44,6 @@ int main(){
     Store.add(Dh1);
     Store.add(Dh2);
     
+    cout << "Nodes in Cloud: " << Store.getCount() << endl;
     
 }
