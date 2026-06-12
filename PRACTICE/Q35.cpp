@@ -3,4 +3,5 @@
 // Rule: In your main() function, execute this method and safely capture this exact text message, printing it to the screen without crashing the program.
 
 #include"iostream"
+using namespace std;
 
