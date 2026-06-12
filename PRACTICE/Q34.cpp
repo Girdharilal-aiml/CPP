@@ -37,6 +37,8 @@ public:
 };
 
 int main(){
+    Storage<Node*> Store;
+    Node* Dh1 = new DataBaseNode();
     
     
     
