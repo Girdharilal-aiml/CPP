@@ -19,5 +19,6 @@ int main(){
     SecuritySystem S1;
     try{
         S1.authenticate("dffaa");
+    }catch(const char* msg){
     }
 }
