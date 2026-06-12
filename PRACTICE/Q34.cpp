@@ -20,5 +20,7 @@ public:
 
 template<typename T>
 class Storage{
+private:
+public:
 
 };
