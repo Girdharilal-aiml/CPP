@@ -47,4 +47,5 @@ int main(){
     cout << "Nodes in Cloud: " << Store.getCount() << endl;
     
     delete Dh1;
+    delete Dh2;
 }
