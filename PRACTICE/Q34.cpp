@@ -22,6 +22,7 @@ template<typename T>
 class Storage{
 private:
     T items[5];
+    int count=0;
 public:
 
 };
