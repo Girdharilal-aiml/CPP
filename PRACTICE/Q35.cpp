@@ -16,4 +16,5 @@ public:
 };
 
 int main(){
+    SecuritySystem S1;
 }
