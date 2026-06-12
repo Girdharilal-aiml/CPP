@@ -19,3 +19,6 @@ public:
 };
 
 template<typename T>
+class Storage{
+
+};
