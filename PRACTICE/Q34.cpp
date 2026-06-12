@@ -24,5 +24,7 @@ private:
     T items[5];
     int count=0;
 public:
+    void add(T item){
+    }
 
 };
