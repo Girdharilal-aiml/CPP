@@ -41,6 +41,7 @@ int main(){
     Node* Dh1 = new DataBaseNode();
     Node* Dh2 = new DataBaseNode();
     
+    Store.add(Dh1);
     
     
 }
