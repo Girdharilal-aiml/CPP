@@ -8,5 +8,7 @@ using namespace std;
 class SecuritySystem{
 public:
     void authenticate(string password){
+        if(password.length() < 8){
+        }
     }
 };
