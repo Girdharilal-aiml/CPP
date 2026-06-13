@@ -20,5 +20,6 @@ int main(){
     Sensor S1;
     try{
         cout << "Processing Sensor Data..." << endl;
+        S1.readData(-2);
     }
 }
