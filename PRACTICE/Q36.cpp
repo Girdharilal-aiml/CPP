@@ -19,5 +19,6 @@ public:
 int main(){
     Sensor S1;
     try{
+        cout << "Processing Sensor Data..." << endl;
     }
 }
