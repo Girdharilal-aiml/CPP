@@ -22,4 +22,6 @@ int main(){
         cout << "Processing Sensor Data..." << endl;
         S1.readData(-2);
     }
+    catch (runtime_error &e){
+    }
 }
