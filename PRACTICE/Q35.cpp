@@ -20,5 +20,6 @@ int main(){
     try{
         S1.authenticate("dffaa");
     }catch(const char* msg){
+        cout << msg << endl;
     }
 }
