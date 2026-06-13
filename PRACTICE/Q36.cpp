@@ -17,4 +17,5 @@ public:
 };
 
 int main(){
+    Sensor S1;
 }
