@@ -9,6 +9,8 @@ using namespace std;
 class Sensor{
 public:
     void readData(int value){
+        if(value < 0){
+        }
     }
 };
 
