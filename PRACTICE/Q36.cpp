@@ -23,5 +23,6 @@ int main(){
         S1.readData(-2);
     }
     catch (runtime_error &e){
+        cout << "System Error: " << e.what() << endl;
     }
 }
