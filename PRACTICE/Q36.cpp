@@ -10,6 +10,7 @@ class Sensor{
 public:
     void readData(int value){
         if(value < 0){
+            throw runtime_error("Negative value");
         }
     }
 };
