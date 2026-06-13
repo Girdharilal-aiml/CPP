@@ -3,5 +3,6 @@
 // Rule: Safely capture this specific type of system error in main() and print its embedded message using its built-in explanation method.
 
 #include"iostream"
+#include"stdexcept"
 
 
