@@ -12,6 +12,7 @@ public:
         if(value < 0){
             throw runtime_error("Negative value");
         }
+        cout << "Sensor Value " << value << " is valid." << endl;
     }
 };
 
