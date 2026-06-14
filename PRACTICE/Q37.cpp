@@ -33,5 +33,6 @@ int main() {
         myAccount.withdraw(150.0);
     }
     catch (const InsufficientFundsError& e) {
+        cout << "Error: " << e.what() << endl;
     }
 }
