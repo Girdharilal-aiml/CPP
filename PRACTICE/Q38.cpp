@@ -7,6 +7,7 @@ using namespace std;
 
 class OverheatError {
 public:
+    int currentTemp;
 };
 
 class Engine {
