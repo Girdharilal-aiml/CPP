@@ -35,4 +35,5 @@ int main() {
     catch (const InsufficientFundsError& e) {
         cout << "Error: " << e.what() << endl;
     }
+    return 0;
 }
