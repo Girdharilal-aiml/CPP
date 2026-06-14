@@ -12,5 +12,7 @@ public:
 };
 
 class Account {
+private:
+public: 
     
 };
