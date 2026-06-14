@@ -22,5 +22,6 @@ public:
             throw InsufficientFundsError();
         }
         balance -= amount;
+        cout << "Withdrawal successful. Remaining balance: " << balance << endl;
     }   
 };
