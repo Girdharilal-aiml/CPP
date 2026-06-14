@@ -17,4 +17,6 @@ private:
 public: 
     Account(double initialBalance) : balance(initialBalance) {}
     
+    void withdraw(double amount) {
+    }   
 };
