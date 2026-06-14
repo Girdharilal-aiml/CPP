@@ -3,5 +3,6 @@
 // Rule: In an Account class, write a withdraw(double amount) function. If the amount exceeds the balance, halt execution and signal this specific InsufficientFundsError object.
 
 #include"iostream"
+#include"stdexcept"
 
 
