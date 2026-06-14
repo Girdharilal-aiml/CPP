@@ -3,5 +3,6 @@
 // Rule: If an Engine entity hits 120 degrees, signal this custom object. Capture the object in main() and extract the currentTemp integer to display it.
 
 #include"iostream"
+using namespace std;
 
 
