@@ -21,5 +21,6 @@ public:
         if (amount > balance) {
             throw InsufficientFundsError();
         }
+        balance -= amount;
     }   
 };
