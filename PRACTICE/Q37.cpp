@@ -27,4 +27,5 @@ public:
 };
 
 int main() {
+    Account myAccount(100.0);
 }
