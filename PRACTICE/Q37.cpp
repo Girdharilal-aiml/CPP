@@ -32,4 +32,6 @@ int main() {
         cout << "Attempting to withdraw $150..." << endl;
         myAccount.withdraw(150.0);
     }
+    catch (const InsufficientFundsError& e) {
+    }
 }
