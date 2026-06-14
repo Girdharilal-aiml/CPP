@@ -6,4 +6,6 @@
 #include"stdexcept"
 using namespace std;
 
+class InsufficientFundsError : public runtime_error {
+};
 
