@@ -8,3 +8,6 @@ using namespace std;
 class OverheatError {
 };
 
+class Engine {
+    
+};
