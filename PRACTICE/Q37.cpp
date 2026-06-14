@@ -30,5 +30,6 @@ int main() {
     Account myAccount(100.0);
     try {
         cout << "Attempting to withdraw $150..." << endl;
+        myAccount.withdraw(150.0);
     }
 }
