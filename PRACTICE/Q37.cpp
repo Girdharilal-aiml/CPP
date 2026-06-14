@@ -25,3 +25,6 @@ public:
         cout << "Withdrawal successful. Remaining balance: " << balance << endl;
     }   
 };
+
+int main() {
+}
