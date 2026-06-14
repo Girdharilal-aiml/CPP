@@ -8,5 +8,6 @@ using namespace std;
 
 class InsufficientFundsError : public runtime_error {
 public:
+    InsufficientFundsError() : runtime_error("Insufficient funds for withdrawal") {}
 };
 
