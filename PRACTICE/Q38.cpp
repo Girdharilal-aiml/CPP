@@ -25,4 +25,6 @@ int main() {
     try {
         myEngine.Run(130);
     }
+    catch (const OverheatError& e) {
+    }
 }
