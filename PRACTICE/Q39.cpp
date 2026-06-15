@@ -18,4 +18,6 @@ int main() {
     catch (int code) {
         cout << "Network Error Code: " << code << endl;
     }
+    catch (const char* msg) {
+    }
 }
