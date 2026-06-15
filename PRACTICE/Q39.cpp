@@ -19,5 +19,6 @@ int main() {
         cout << "Network Error Code: " << code << endl;
     }
     catch (const char* msg) {
+        cout << "Network Status Message: " << msg << endl;
     }
 }
