@@ -14,6 +14,7 @@ class Engine {
 public:
     void Run(int temp){
         if (temp >= 120) {
+            throw OverheatError{temp};
         }
     }
 };
