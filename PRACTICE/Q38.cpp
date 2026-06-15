@@ -26,5 +26,6 @@ int main() {
         myEngine.Run(130);
     }
     catch (const OverheatError& e) {
+        cout << "Overheat error! Current temperature: " << e.currentTemp << " degrees." << endl;
     }
 }
