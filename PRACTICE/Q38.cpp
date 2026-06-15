@@ -28,4 +28,5 @@ int main() {
     catch (const OverheatError& e) {
         cout << "Overheat error! Current temperature: " << e.currentTemp << " degrees." << endl;
     }
+    return 0;
 }
