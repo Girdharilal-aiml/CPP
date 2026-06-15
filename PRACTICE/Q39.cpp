@@ -21,4 +21,6 @@ int main() {
     catch (const char* msg) {
         cout << "Network Status Message: " << msg << endl;
     }
+    catch (...) {
+    }
 }
