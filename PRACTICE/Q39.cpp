@@ -15,4 +15,6 @@ int main() {
         cout << "Attempting server connection (Scenario " << testCase << ")..." << endl;
         connectServer(testCase);
     }
+    catch (int code) {
+    }
 }
