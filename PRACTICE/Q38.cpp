@@ -23,5 +23,6 @@ public:
 int main() {
     Engine myEngine;
     try {
+        myEngine.Run(130);
     }
 }
