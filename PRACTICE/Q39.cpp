@@ -2,3 +2,4 @@
 // Rule: Write the execution logic in main() to safely attempt the connection, providing one safety net for the integer, a separate safety net for the string, and a final universal safety net to catch literally anything else that might halt the flow.
 
 #include "iostream"
+using namespace std;
