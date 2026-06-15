@@ -16,5 +16,6 @@ int main() {
         connectServer(testCase);
     }
     catch (int code) {
+        cout << "Network Error Code: " << code << endl;
     }
 }
