@@ -13,5 +13,6 @@ int main() {
     int testCase = 2;
     try {
         cout << "Attempting server connection (Scenario " << testCase << ")..." << endl;
+        connectServer(testCase);
     }
 }
