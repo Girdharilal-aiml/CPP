@@ -4,4 +4,5 @@
 #include "iostream"
 using namespace std;
 void connectServer(int outcome) {
+    if (outcome == 1) throw 404;          
 }
