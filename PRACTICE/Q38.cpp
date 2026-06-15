@@ -19,3 +19,6 @@ public:
         cout << "Engine running at " << temp << " degrees." << endl;
     }
 };
+
+int main() {
+}
