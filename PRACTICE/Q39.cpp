@@ -22,5 +22,6 @@ int main() {
         cout << "Network Status Message: " << msg << endl;
     }
     catch (...) {
+        cout << "An unknown catastrophic error was caught!" << endl;
     }
 }
