@@ -10,4 +10,5 @@ void connectServer(int outcome) {
     cout << "Successfully connected to server!" << endl;
 }
 int main() {
+    int testCase = 2;
 }
