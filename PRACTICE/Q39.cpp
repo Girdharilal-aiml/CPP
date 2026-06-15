@@ -6,4 +6,5 @@ using namespace std;
 void connectServer(int outcome) {
     if (outcome == 1) throw 404;          
     if (outcome == 2) throw "Timeout";       
+    if (outcome == 3) throw 3.14;           
 }
