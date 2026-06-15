@@ -22,4 +22,6 @@ public:
 
 int main() {
     Engine myEngine;
+    try {
+    }
 }
