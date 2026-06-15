@@ -9,3 +9,5 @@ void connectServer(int outcome) {
     if (outcome == 3) throw 3.14;           
     cout << "Successfully connected to server!" << endl;
 }
+int main() {
+}
