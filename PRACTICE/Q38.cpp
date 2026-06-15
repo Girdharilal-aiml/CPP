@@ -21,4 +21,5 @@ public:
 };
 
 int main() {
+    Engine myEngine;
 }
