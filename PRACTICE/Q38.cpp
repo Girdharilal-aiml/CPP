@@ -16,5 +16,6 @@ public:
         if (temp >= 120) {
             throw OverheatError{temp};
         }
+        cout << "Engine running at " << temp << " degrees." << endl;
     }
 };
