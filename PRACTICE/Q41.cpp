@@ -10,6 +10,7 @@ using namespace std;
 int main() {
 
     ofstream tempOut("config.txt");
+    tempOut << "Volume 10";
 
 
 
