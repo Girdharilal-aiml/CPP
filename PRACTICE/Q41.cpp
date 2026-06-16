@@ -19,6 +19,7 @@ int main() {
 
     if (configIn.is_open()) {
         configIn >> settingName >> settingValue;
+        configIn.close();
     }
 
 }
