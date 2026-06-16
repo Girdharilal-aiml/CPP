@@ -15,6 +15,7 @@ int main() {
 
     ifstream configIn("config.txt");
     string settingName;
+    int settingValue;
 
 
 }
