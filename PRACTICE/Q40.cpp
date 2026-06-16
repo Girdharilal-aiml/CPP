@@ -9,6 +9,7 @@ using namespace std;
 
 int main() {
     
+    ofstream logOut("server_logs.txt", ios::app);
     
     
 }
