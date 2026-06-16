@@ -11,6 +11,7 @@ int main() {
 
     ofstream tempOut("config.txt");
     tempOut << "Volume 10";
+    tempOut.close();
 
 
 
