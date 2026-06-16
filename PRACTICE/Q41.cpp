@@ -13,6 +13,7 @@ int main() {
     tempOut << "Volume 10";
     tempOut.close();
 
+    ifstream configIn("config.txt");
 
 
 }
