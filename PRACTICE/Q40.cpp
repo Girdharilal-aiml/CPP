@@ -16,5 +16,6 @@ int main() {
     }
     
     ifstream logIn("server_logs.txt");
+    string line;
     
 }
