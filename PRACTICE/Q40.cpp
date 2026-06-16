@@ -23,5 +23,6 @@ int main() {
         while (getline(logIn, line)) {
             cout << line << "\n";
         }
+        logIn.close();
     }
 }
