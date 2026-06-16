@@ -9,6 +9,7 @@ using namespace std;
 
 int main() {
 
+    ofstream tempOut("config.txt");
 
 
 
