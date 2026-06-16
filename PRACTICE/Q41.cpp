@@ -22,4 +22,6 @@ int main() {
         configIn.close();
     }
 
+    ofstream configOut("config.txt");
+    
 }
