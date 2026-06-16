@@ -10,6 +10,8 @@ using namespace std;
 int main() {
     
     ofstream logOut("server_logs.txt", ios::app);
+    if (logOut.is_open()) {
+    }
     
     
 }
