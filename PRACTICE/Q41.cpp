@@ -3,4 +3,5 @@
 // Rule: Modify the integer (e.g., add 1 to it), clear the file's previous contents entirely, and write the new settings back to the file.
 
 #include "iostream"
+#include "fstream"
 
