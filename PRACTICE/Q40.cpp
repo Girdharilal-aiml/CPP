@@ -3,3 +3,5 @@
 // Rule: After adding a new log, move the internal file reading cursor back to the absolute beginning of the file, read all the contents, and print them to the console.
 
 #include "iostream"
+#include "fstream"
+
