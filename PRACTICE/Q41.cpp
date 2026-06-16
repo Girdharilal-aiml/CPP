@@ -14,6 +14,7 @@ int main() {
     tempOut.close();
 
     ifstream configIn("config.txt");
+    string settingName;
 
 
 }
