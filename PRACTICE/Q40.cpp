@@ -19,4 +19,6 @@ int main() {
     string line;
     
     cout << "--- Current Server Logs ---" << endl;
+    if (logIn.is_open()) {
+    }
 }
