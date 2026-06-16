@@ -21,6 +21,7 @@ int main() {
     cout << "--- Current Server Logs ---" << endl;
     if (logIn.is_open()) {
         while (getline(logIn, line)) {
+            cout << line << "\n";
         }
     }
 }
