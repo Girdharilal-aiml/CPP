@@ -17,5 +17,7 @@ int main() {
     string settingName;
     int settingValue;
 
+    if (configIn.is_open()) {
+    }
 
 }
