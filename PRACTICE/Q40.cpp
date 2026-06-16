@@ -15,5 +15,6 @@ int main() {
         logOut.close();
     }
     
+    ifstream logIn("server_logs.txt");
     
 }
