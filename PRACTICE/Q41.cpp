@@ -25,5 +25,6 @@ int main() {
     ofstream configOut("config.txt");
     if (configOut.is_open()) {
         
+        configOut << settingName << " " << (settingValue + 1);
     }
 }
