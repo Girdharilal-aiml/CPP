@@ -16,6 +16,8 @@ int main() {
 
     PlayerStats p1 = {5, 100.5, 500};
     ofstream pOut("savegame.dat", ios::binary);
+    if(pOut.is_open()) {
+    }
 
     
 }
