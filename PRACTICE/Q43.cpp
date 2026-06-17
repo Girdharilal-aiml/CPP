@@ -6,4 +6,6 @@
 #include "fstream"
 using namespace std;
 
+struct PlayerStats {
+};
 
