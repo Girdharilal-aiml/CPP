@@ -6,5 +6,6 @@
 using namespace std;
 
 struct Student {
+    char name[50];
 };
 
