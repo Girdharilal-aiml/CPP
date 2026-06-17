@@ -26,5 +26,6 @@ int main() {
     if (configOut.is_open()) {
         
         configOut << settingName << " " << (settingValue + 1);
+        configOut.close();
     }
 }
