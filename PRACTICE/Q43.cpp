@@ -9,5 +9,6 @@ using namespace std;
 struct PlayerStats {
     int level;
     double health;
+    int gold;
 };
 
