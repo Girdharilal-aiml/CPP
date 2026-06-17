@@ -12,6 +12,7 @@ struct Student {
 };
 
 int main() {
+    Student s1 = {"Alice", 1001, 3.85};
 
 
 }
