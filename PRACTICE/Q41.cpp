@@ -27,5 +27,6 @@ int main() {
         
         configOut << settingName << " " << (settingValue + 1);
         configOut.close();
+        cout << "Setting updated successfully. New " << settingName << " is " << (settingValue + 1) << "." << endl;
     }
 }
