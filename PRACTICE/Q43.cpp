@@ -7,5 +7,6 @@
 using namespace std;
 
 struct PlayerStats {
+    int level;
 };
 
