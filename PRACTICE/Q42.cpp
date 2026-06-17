@@ -14,5 +14,6 @@ struct Student {
 int main() {
     Student s1 = {"Alice", 1001, 3.85};
 
+    ofstream stuOut("records.dat", ios::binary);
 
 }
