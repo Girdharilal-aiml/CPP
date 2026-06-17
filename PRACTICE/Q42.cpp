@@ -11,3 +11,7 @@ struct Student {
     float gpa;
 };
 
+int main() {
+
+
+}
