@@ -12,3 +12,8 @@ struct PlayerStats {
     int gold;
 };
 
+int main() {
+
+
+    
+}
