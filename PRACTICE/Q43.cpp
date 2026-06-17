@@ -3,5 +3,6 @@
 // Rule: Extract the entire object structure in a single disk operation, not variable-by-variable.
 
 #include "iostream"
+#include "fstream"
 
 
