@@ -16,4 +16,6 @@ int main() {
 
     ofstream stuOut("records.dat", ios::binary);
 
+    if (stuOut.is_open()) {
+    }
 }
