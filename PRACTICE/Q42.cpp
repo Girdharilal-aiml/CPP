@@ -19,5 +19,6 @@ int main() {
     if (stuOut.is_open()) {
         stuOut.write(reinterpret_cast<char*>(&s1), sizeof(Student));
         stuOut.close();
+        cout << "Student record written directly to memory bytes." << endl;
     }
 }
