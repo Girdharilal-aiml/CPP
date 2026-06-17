@@ -5,4 +5,6 @@
 #include "fstream"
 using namespace std;
 
+struct Student {
+};
 
