@@ -17,5 +17,6 @@ int main() {
     ofstream stuOut("records.dat", ios::binary);
 
     if (stuOut.is_open()) {
+        stuOut.write(reinterpret_cast<char*>(&s1), sizeof(Student));
     }
 }
