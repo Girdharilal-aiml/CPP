@@ -29,5 +29,6 @@ int main() {
         pIn.read(reinterpret_cast<char*>(&pLoaded), sizeof(PlayerStats));
         pIn.close();
 
+        cout << "--- Save State Loaded ---" << endl;
     }
 }
