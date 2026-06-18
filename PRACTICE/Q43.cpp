@@ -18,7 +18,8 @@ int main() {
     ofstream pOut("savegame.dat", ios::binary);
     if(pOut.is_open()) {
         pOut.write(reinterpret_cast<char*>(&p1), sizeof(PlayerStats));
+        pOut.close();
     }
 
-    
+
 }
