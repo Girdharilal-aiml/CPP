@@ -18,6 +18,7 @@ int main() {
     }
 
     try {
+        ofstream fleetOut("fleet.dat", ios::binary);
 
 
 
