@@ -31,5 +31,6 @@ int main() {
 
         cout << "--- Save State Loaded ---" << endl;
         cout << "Level: " << pLoaded.level << endl;
+        cout << "Health: " << pLoaded.health << endl;
     }
 }
