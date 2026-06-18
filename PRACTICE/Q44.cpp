@@ -28,6 +28,7 @@ int main() {
 
         fleetOut.close();
 
+        cout << "All 10 vehicles successfully backed up as a single memory block." << endl;
 
     } 
 }
