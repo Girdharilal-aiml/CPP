@@ -12,5 +12,6 @@ struct GasVehicle {
 };
 
 int main() {
+    GasVehicle fleet[10];
 
 }
