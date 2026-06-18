@@ -11,3 +11,6 @@ struct GasVehicle {
     double tankSize;
 };
 
+int main() {
+
+}
