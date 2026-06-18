@@ -21,6 +21,7 @@ int main() {
         ofstream fleetOut("fleet.dat", ios::binary);
 
         if (!fleetOut.is_open()) {
+            throw "Failed to open fleet data file";
         }
 
 
