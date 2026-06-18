@@ -26,6 +26,7 @@ int main() {
 
     if (pIn.is_open()) {
         
+        pIn.read(reinterpret_cast<char*>(&pLoaded), sizeof(PlayerStats));
 
     }
 }
