@@ -30,5 +30,6 @@ int main() {
         pIn.close();
 
         cout << "--- Save State Loaded ---" << endl;
+        cout << "Level: " << pLoaded.level << endl;
     }
 }
