@@ -21,5 +21,6 @@ int main() {
         pOut.close();
     }
 
+    PlayerStats pLoaded;
 
 }
