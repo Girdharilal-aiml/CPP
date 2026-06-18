@@ -24,6 +24,7 @@ int main() {
             throw "Failed to open fleet data file";
         }
 
+        fleetOut.write(reinterpret_cast<char*>(fleet), sizeof(GasVehicle) * 10);
 
 
     } 
