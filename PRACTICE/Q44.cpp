@@ -20,6 +20,8 @@ int main() {
     try {
         ofstream fleetOut("fleet.dat", ios::binary);
 
+        if (!fleetOut.is_open()) {
+        }
 
 
 
