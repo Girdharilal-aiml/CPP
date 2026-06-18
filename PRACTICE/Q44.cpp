@@ -13,5 +13,7 @@ struct GasVehicle {
 
 int main() {
     GasVehicle fleet[10];
+    for (int i = 0; i < 10; i++) {
+    }
 
 }
