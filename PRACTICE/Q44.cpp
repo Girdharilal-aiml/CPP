@@ -8,5 +8,6 @@ using namespace std;
 
 struct GasVehicle {
     int id;
+    double tankSize;
 };
 
