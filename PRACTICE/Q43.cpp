@@ -22,5 +22,6 @@ int main() {
     }
 
     PlayerStats pLoaded;
+    ifstream pIn("savegame.dat", ios::binary);
 
 }
