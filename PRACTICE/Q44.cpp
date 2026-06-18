@@ -14,6 +14,7 @@ struct GasVehicle {
 int main() {
     GasVehicle fleet[10];
     for (int i = 0; i < 10; i++) {
+        fleet[i] = {100 + i, 50.0 + (i * 2)};
     }
 
 }
