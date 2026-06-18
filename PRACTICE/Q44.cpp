@@ -26,6 +26,7 @@ int main() {
 
         fleetOut.write(reinterpret_cast<char*>(fleet), sizeof(GasVehicle) * 10);
 
+        fleetOut.close();
 
     } 
 }
