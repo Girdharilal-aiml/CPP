@@ -31,5 +31,6 @@ int main() {
         cout << "All 10 vehicles successfully backed up as a single memory block." << endl;
 
     } catch (const char* msg) {
+        cout << "Critical File Error: " << msg << endl;
     }
 }
