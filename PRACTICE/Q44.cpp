@@ -3,5 +3,6 @@
 // Rule: If the file fails to open during this process, halt execution by signaling an error using a simple text message string. Capture this error safely in main().
 
 #include "iostream"
+#include "fstream"
 
 
