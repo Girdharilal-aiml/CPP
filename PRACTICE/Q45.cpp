@@ -42,6 +42,7 @@ public:
 };
 
 class SpySatellite : public Satellite {
+public:
 };
 
 
