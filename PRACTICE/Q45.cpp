@@ -13,6 +13,7 @@
 // Rule: Traverse the array and call checkSignal() on each. Provide a safety net here: if the SignalLostError is triggered by any satellite during this loop, catch it safely. When caught, open a text file named blackbox.txt in a way that allows you to add the exact text "CONNECTION LOST" to the very end of the file without deleting the older records.
 
 
+#include "iostream"
 
 
 
