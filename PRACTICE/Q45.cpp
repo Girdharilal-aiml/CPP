@@ -47,6 +47,7 @@ public:
     SpySatellite(string d, double sig) : Satellite(d), currentSignal(sig) {}
     double checkSignal() {
         if (currentSignal < 10.0) {
+            throw SignalLostError(); // throw custom exception
         }
     }
 };
