@@ -35,6 +35,7 @@ public:
 
 class RelaySatellite : public Satellite {
 public:
+    RelaySatellite(string d) : Satellite(d) {}
 };
 
 
