@@ -16,6 +16,7 @@
 #include "iostream"
 #include "exception"
 #include "fstream"
+using namespace std;
 
 
 
