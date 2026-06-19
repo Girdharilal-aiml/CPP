@@ -46,6 +46,8 @@ class SpySatellite : public Satellite {
 public:
     SpySatellite(string d, double sig) : Satellite(d), currentSignal(sig) {}
     double checkSignal() {
+        if (currentSignal < 10.0) {
+        }
     }
 };
 
