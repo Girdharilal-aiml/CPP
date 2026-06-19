@@ -26,6 +26,8 @@ public:
 };
 
 class Satellite {
+protected:
+public:
 };
 
 
