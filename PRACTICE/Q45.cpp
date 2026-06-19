@@ -19,6 +19,7 @@
 using namespace std;
 
 class SignalLostError : public exception {
+public:
 };
 
 
