@@ -49,6 +49,7 @@ public:
         if (currentSignal < 10.0) {
             throw SignalLostError(); // throw custom exception
         }
+        return currentSignal;
     }
 };
 
