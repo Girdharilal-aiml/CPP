@@ -30,6 +30,7 @@ protected:
     string designation;
 public:
     Satellite(string d) : designation(d) {}
+    virtual double checkSignal() = 0;
 };
 
 
