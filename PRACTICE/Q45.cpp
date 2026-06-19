@@ -33,6 +33,8 @@ public:
     virtual double checkSignal() = 0;
 };
 
+class RelaySatellite : public Satellite {
+};
 
 
 
