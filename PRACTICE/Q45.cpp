@@ -21,6 +21,7 @@ using namespace std;
 class SignalLostError : public exception {
 public:
     const char* what() const noexcept override {
+        return "Critical: Orbital connection severed.";
     }
 };
 
