@@ -41,5 +41,7 @@ public:
     }
 };
 
+class SpySatellite : public Satellite {
+};
 
 
