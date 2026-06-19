@@ -37,6 +37,7 @@ class RelaySatellite : public Satellite {
 public:
     RelaySatellite(string d) : Satellite(d) {}
     double checkSignal() {
+        return 85.0;
     }
 };
 
