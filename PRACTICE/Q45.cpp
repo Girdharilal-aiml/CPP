@@ -29,6 +29,7 @@ class Satellite {
 protected:
     string designation;
 public:
+    Satellite(string d) : designation(d) {}
 };
 
 
