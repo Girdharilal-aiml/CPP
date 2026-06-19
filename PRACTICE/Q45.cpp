@@ -34,6 +34,7 @@ public:
 };
 
 class RelaySatellite : public Satellite {
+public:
 };
 
 
