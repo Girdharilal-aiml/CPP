@@ -18,6 +18,8 @@
 #include "fstream"
 using namespace std;
 
+class SignalLostError : public exception {
+};
 
 
 
