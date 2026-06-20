@@ -6,6 +6,9 @@
 // Rule: An IntensiveCarePatient acts as both an Inpatient and an ERPatient simultaneously, combining all their traits.
 // Crucial Rule: Even though an Intensive Care patient merges two roles, they are still a single human being. Your architecture must guarantee that an IntensiveCarePatient has exactly one physical medicalID in memory. Demonstrate how their constructor bypasses the intermediate roles to set this ID directly.
 
+// 2. The Triage Utility:
+// Rule: Write a generic medical utility tool called prioritize. It must accept any two entities, provided they are of the exact same data type.
+// Rule: Inside this utility, call a method .getSeverityScore() on both entities. Return the entity that has the higher score.
 
 
 
