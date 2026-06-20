@@ -61,6 +61,7 @@ public:
                 cout << "Checking " << i << ": " << satellites[i]->checkSignal() << endl;
             }
             catch (SignalLostError& e) { 
+                cout << e.what() << endl;
                 
             }
         }
