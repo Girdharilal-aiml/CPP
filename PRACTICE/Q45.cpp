@@ -75,5 +75,6 @@ public:
 
 int main() {
     Satellite* fleet[2];
+    fleet[0] = new RelaySatellite("RELAY-1");
 
 }
