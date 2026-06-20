@@ -15,4 +15,5 @@
 // Rule: Save the entire array to a file named archive.dat exactly as it appears in RAM-as a single, raw block of memory bytes in one direct operation. Do not format it using standard text insertion operators.
 
 #include"iostream"
+#include"fstream"
 
