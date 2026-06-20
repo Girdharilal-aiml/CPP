@@ -24,3 +24,6 @@ protected:
 public:   
     Patient(int id) : medicalID(id){}
 };        
+
+class Inpatient : virtual public Patient{
+};
