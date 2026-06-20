@@ -19,4 +19,6 @@
 using namespace std;
 
 class Patient{
+protected:    
+public:   
 };        
