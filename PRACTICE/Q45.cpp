@@ -73,3 +73,6 @@ public:
     }
 };
 
+int main() {
+
+}
