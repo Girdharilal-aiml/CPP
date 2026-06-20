@@ -18,3 +18,5 @@
 #include"fstream"
 using namespace std;
 
+class Patient{
+};        
