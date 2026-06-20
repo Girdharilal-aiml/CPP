@@ -55,5 +55,7 @@ public:
 
 class GroundStation {
 public:
+    void scanSky(Satellite* satellites[], int size) {
+    }
 };
 
