@@ -79,4 +79,5 @@ int main() {
     fleet[1] = new SpySatellite("SPY-99", 4.5); 
 
     GroundStation station;
+    station.scanSky(fleet, 2);
 }
