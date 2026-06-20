@@ -22,4 +22,5 @@ class Patient{
 protected:    
     int medicalID;
 public:   
+    Patient(int id) : medicalID(id){}
 };        
