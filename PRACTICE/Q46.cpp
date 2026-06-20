@@ -10,5 +10,8 @@
 // Rule: Write a generic medical utility tool called prioritize. It must accept any two entities, provided they are of the exact same data type.
 // Rule: Inside this utility, call a method .getSeverityScore() on both entities. Return the entity that has the higher score.
 
+// 3. The Archiving System:
+// Rule: The hospital tracks basic data using a simple entity called VitalRecord (containing int patientID and double heartRate). Create an array of exactly 50 VitalRecord objects.
+// Rule: Save the entire array to a file named archive.dat exactly as it appears in RAM-as a single, raw block of memory bytes in one direct operation. Do not format it using standard text insertion operators.
 
 
