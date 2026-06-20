@@ -20,5 +20,6 @@ using namespace std;
 
 class Patient{
 protected:    
+    int medicalID;
 public:   
 };        
