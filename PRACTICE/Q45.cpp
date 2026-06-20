@@ -64,6 +64,8 @@ public:
                 cout << e.what() << endl;
                 
                 ofstream outFile("blackbox.txt", ios::app);
+                if (outFile.is_open()) {
+                }
             }
         }
     }
