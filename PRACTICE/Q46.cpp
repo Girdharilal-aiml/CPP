@@ -14,4 +14,5 @@
 // Rule: The hospital tracks basic data using a simple entity called VitalRecord (containing int patientID and double heartRate). Create an array of exactly 50 VitalRecord objects.
 // Rule: Save the entire array to a file named archive.dat exactly as it appears in RAM-as a single, raw block of memory bytes in one direct operation. Do not format it using standard text insertion operators.
 
+#include"iostream"
 
