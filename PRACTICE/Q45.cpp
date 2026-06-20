@@ -57,6 +57,8 @@ class GroundStation {
 public:
     void scanSky(Satellite* satellites[], int size) {
         for (int i = 0; i < size; i++) {
+            try {
+            }
         }
     }
 };
