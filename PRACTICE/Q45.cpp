@@ -63,6 +63,7 @@ public:
             catch (SignalLostError& e) { 
                 cout << e.what() << endl;
                 
+                ofstream outFile("blackbox.txt", ios::app);
             }
         }
     }
