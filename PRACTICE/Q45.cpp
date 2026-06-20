@@ -74,5 +74,6 @@ public:
 };
 
 int main() {
+    Satellite* fleet[2];
 
 }
