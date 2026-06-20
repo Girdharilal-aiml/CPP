@@ -65,6 +65,7 @@ public:
                 
                 ofstream outFile("blackbox.txt", ios::app);
                 if (outFile.is_open()) {
+                    outFile << "CONNECTION LOST\n";
                 }
             }
         }
