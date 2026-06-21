@@ -63,3 +63,9 @@ struct VitalRecord{
     double heartRate;
 };
 
+int main(){
+
+
+
+
+}
