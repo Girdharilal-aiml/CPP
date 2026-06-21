@@ -41,6 +41,7 @@ public:
     IntensiveCarePatient(int id, int score) : Inpatient(id), ERPatient(id), Patient(id), severityScore(score){}
 
     int getMedicalID(){
+        return medicalID;
     }
 
 };
