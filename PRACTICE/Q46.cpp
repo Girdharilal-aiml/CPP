@@ -50,5 +50,7 @@ public:
 };
 
 template<typename T>
+T prioritize(T a, T b){
+}
 
 
