@@ -45,6 +45,7 @@ public:
     }
 
     int getSeverityScore(){
+        return severityScore;
     }
 };
 
