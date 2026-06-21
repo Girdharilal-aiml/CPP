@@ -44,6 +44,8 @@ public:
         return medicalID;
     }
 
+    int getSeverityScore(){
+    }
 };
 
 
