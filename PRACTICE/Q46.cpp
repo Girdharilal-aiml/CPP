@@ -36,6 +36,7 @@ public:
 };
 
 class IntensiveCarePatient : public Inpatient, public ERPatient{
+public:   
 
 
 };
