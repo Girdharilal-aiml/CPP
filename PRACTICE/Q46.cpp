@@ -52,6 +52,7 @@ public:
 template<typename T>
 T prioritize(T a, T b){
     if(a.getSeverityScore() > b.getSeverityScore()){
+        return a;
     }
 }
 
