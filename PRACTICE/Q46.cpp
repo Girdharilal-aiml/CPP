@@ -27,6 +27,7 @@ public:
 
 class Inpatient : virtual public Patient{
 public:   
+    Inpatient(int id) : Patient(id){}
 };
 
 class ERPatient : virtual public Patient{
