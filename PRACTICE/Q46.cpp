@@ -69,6 +69,7 @@ int main(){
 
     IntensiveCarePatient prioritizedPatient = prioritize(ICP, ICP2);
 
+    cout << "Prioritized Patient ID: " << prioritizedPatient.getMedicalID() << " with Severity Score: " << prioritizedPatient.getSeverityScore() << endl;
 
 
 }
