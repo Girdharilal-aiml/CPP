@@ -30,6 +30,7 @@ public:
 };
 
 class ERPatient : virtual public Patient{
+public:   
 };
 
 
