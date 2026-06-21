@@ -58,4 +58,6 @@ T prioritize(T a, T b){
     }
 }
 
+struct VitalRecord{
+};
 
