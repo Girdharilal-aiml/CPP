@@ -38,6 +38,7 @@ public:
 class IntensiveCarePatient : public Inpatient, public ERPatient{
     int severityScore;
 public:   
+    IntensiveCarePatient(int id, int score) : Inpatient(id), ERPatient(id), Patient(id), severityScore(score){}
 
 
 };
