@@ -67,6 +67,7 @@ int main(){
     IntensiveCarePatient ICP(12345, 85);
     IntensiveCarePatient ICP2(54321, 90);
 
+    IntensiveCarePatient prioritizedPatient = prioritize(ICP, ICP2);
 
 
 
