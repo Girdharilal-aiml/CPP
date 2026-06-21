@@ -32,6 +32,7 @@ public:
 
 class ERPatient : virtual public Patient{
 public:   
+    ERPatient(int id) : Patient(id){}
 };
 
 
