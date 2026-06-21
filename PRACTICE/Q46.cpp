@@ -64,6 +64,7 @@ struct VitalRecord{
 };
 
 int main(){
+    IntensiveCarePatient ICP(12345, 85);
 
 
 
