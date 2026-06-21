@@ -26,6 +26,7 @@ public:
 };        
 
 class Inpatient : virtual public Patient{
+public:   
 };
 
 class ERPatient : virtual public Patient{
