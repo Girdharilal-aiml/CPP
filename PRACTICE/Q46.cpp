@@ -27,3 +27,10 @@ public:
 
 class Inpatient : virtual public Patient{
 };
+
+class ERPatient : virtual public Patient{
+};
+
+
+
+
