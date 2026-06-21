@@ -35,6 +35,10 @@ public:
     ERPatient(int id) : Patient(id){}
 };
 
+class IntensiveCarePatient : public Inpatient, public ERPatient{
+
+
+};
 
 
 
