@@ -5,6 +5,10 @@
 // Rule: Design a generic storage entity called Silo. It must contain a fixed array capable of holding exactly 100 items of any one specific data type.
 // Rule: Include an integer tracking the current count. Write an addCrop(item) method that adds an item to the array, but silently ignores the action if the Silo is full.
 
+// 2. The Crop System:
+// Rule: Create a general concept Crop that requires a calculateYield() method. Create specific Wheat and Corn entities based on this concept.
+// Rule: For Corn, if its internal waterLevel variable is a negative number, calling calculateYield() must halt execution and signal a standard C++ system runtime error containing the exact text "Drought failure".
+
 
 
 
