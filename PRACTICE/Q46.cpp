@@ -81,5 +81,6 @@ int main(){
     if(outFile.is_open()){
         outFile.write(reinterpret_cast<char*>(records), sizeof(records));
         outFile.close();
+        cout << "Vital records archived successfully." << endl;
     }
 }
