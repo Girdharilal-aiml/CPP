@@ -37,4 +37,6 @@ public:
 class Crop {
 };
 
+class Wheat : public Crop {
+};
 
