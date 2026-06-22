@@ -20,6 +20,7 @@ using namespace std;
 
 template <typename T>
 class Silo {
+    T items[100];
 public:
 };
 
