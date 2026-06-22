@@ -29,6 +29,8 @@ public:
             items[count++] = item;
         }
     }
+    T getCrop(int index) {
+    }
 };
 
 
