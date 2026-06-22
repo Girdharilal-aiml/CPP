@@ -77,4 +77,5 @@ int main(){
         records[i].heartRate = 60.0 + i;
     }
 
+    ofstream outFile("archive.dat", ios::binary);
 }
