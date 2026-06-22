@@ -35,10 +35,13 @@ public:
 };
 
 class Crop {
+public:
 };
 
 class Wheat : public Crop {
+public:
 };
 
 class Corn : public Crop {
+public:
 };
