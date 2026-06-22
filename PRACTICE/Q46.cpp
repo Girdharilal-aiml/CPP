@@ -78,4 +78,6 @@ int main(){
     }
 
     ofstream outFile("archive.dat", ios::binary);
+    if(outFile.is_open()){
+    }
 }
