@@ -23,6 +23,7 @@ class Silo {
     T items[100];
     int count;
 public:
+    Silo() : count(0) {}
 };
 
 
