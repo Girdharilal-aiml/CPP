@@ -40,3 +40,5 @@ class Crop {
 class Wheat : public Crop {
 };
 
+class Corn : public Crop {
+};
