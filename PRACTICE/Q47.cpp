@@ -24,6 +24,8 @@ class Silo {
     int count;
 public:
     Silo() : count(0) {}
+    void addCrop(T item) {
+    }
 };
 
 
