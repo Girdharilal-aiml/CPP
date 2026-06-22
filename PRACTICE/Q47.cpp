@@ -30,6 +30,7 @@ public:
         }
     }
     T getCrop(int index) {
+        return items[index];
     }
 };
 
