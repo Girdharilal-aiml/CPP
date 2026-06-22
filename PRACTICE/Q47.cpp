@@ -15,6 +15,7 @@
 // Rule: Attempt to calculate its yield, providing a safety net to safely capture the standard system error and print its internal message to the screen.
 
 #include "iostream"
+#include "stdexcept"
 
 
 
