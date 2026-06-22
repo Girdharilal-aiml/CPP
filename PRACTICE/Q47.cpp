@@ -9,6 +9,11 @@
 // Rule: Create a general concept Crop that requires a calculateYield() method. Create specific Wheat and Corn entities based on this concept.
 // Rule: For Corn, if its internal waterLevel variable is a negative number, calling calculateYield() must halt execution and signal a standard C++ system runtime error containing the exact text "Drought failure".
 
+// 3. System Execution (Main):
+// Rule: In main(), instantiate a Silo that is capable of holding polymorphic pointers to the general Crop concept.
+// Rule: Dynamically create a Corn entity (with a negative water level) and add it to the Silo.
+// Rule: Attempt to calculate its yield, providing a safety net to safely capture the standard system error and print its internal message to the screen.
+
 
 
 
