@@ -36,6 +36,7 @@ public:
 
 class Crop {
 public:
+    virtual double calculateYield() = 0;
 };
 
 class Wheat : public Crop {
