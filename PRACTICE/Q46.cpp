@@ -74,6 +74,7 @@ int main(){
     VitalRecord records[50];
     for(int i=0; i<50; i++){
         records[i].patientID = 1000 + i;
+        records[i].heartRate = 60.0 + i;
     }
 
 }
