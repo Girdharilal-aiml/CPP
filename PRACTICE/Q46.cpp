@@ -80,5 +80,6 @@ int main(){
     ofstream outFile("archive.dat", ios::binary);
     if(outFile.is_open()){
         outFile.write(reinterpret_cast<char*>(records), sizeof(records));
+        outFile.close();
     }
 }
