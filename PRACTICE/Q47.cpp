@@ -25,6 +25,8 @@ class Silo {
 public:
     Silo() : count(0) {}
     void addCrop(T item) {
+        if (count < 100) {
+        }
     }
 };
 
