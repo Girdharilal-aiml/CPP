@@ -50,4 +50,6 @@ class Corn : public Crop {
     int waterLevel;
 public:
     Corn(int water) : waterLevel(water) {}
+    double calculateYield() {
+    }
 };
