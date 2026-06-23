@@ -8,6 +8,7 @@ using namespace std;
 // to define their own version of showRole()
 // ============================================
 class Role {
+public:
 };
 
 
