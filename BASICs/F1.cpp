@@ -10,6 +10,7 @@ using namespace std;
 class Role {
 public:
     virtual void showRole() = 0; // Pure virtual function
+    virtual void display() = 0;  // Pure virtual function
 };
 
 
