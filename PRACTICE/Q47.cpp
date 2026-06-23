@@ -47,5 +47,6 @@ public:
 };
 
 class Corn : public Crop {
+    int waterLevel;
 public:
 };
