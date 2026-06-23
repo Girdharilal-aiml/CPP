@@ -54,5 +54,6 @@ public:
         if (waterLevel < 0) {
             throw runtime_error("Drought failure");
         }
+        return 800.0;
     }
 };
