@@ -15,4 +15,8 @@ public:
 };
 
 
+// ============================================
+// BASE CLASS — Encapsulation in action
+// Private data, public getters/setters
+// ============================================
 
