@@ -52,6 +52,7 @@ public:
     Corn(int water) : waterLevel(water) {}
     double calculateYield() {
         if (waterLevel < 0) {
+            throw runtime_error("Drought failure");
         }
     }
 };
