@@ -42,6 +42,7 @@ public:
 class Wheat : public Crop {
 public:
     double calculateYield() {
+        return 500.0;
     }
 };
 
