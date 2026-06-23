@@ -69,6 +69,7 @@ int main() {
 
     for (int i = 0; i < 2; i++) {
         try {
+            cout << "Crop " << i << " yield: " << farmSilo.getCrop(i)->calculateYield() << endl;
         }
     }
 }
