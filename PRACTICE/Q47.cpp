@@ -51,5 +51,7 @@ class Corn : public Crop {
 public:
     Corn(int water) : waterLevel(water) {}
     double calculateYield() {
+        if (waterLevel < 0) {
+        }
     }
 };
