@@ -59,6 +59,7 @@ public:
 };
 
 int main() {
+    Silo<Crop*> farmSilo;
 
 
 
