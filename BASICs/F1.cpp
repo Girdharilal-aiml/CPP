@@ -7,6 +7,8 @@ using namespace std;
 // Cannot be instantiated, forces child classes
 // to define their own version of showRole()
 // ============================================
+class Role {
+};
 
 
 
