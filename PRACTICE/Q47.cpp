@@ -64,5 +64,6 @@ int main() {
     Crop* crop1 = new Wheat();
     Crop* crop2 = new Corn(-5); 
 
+    farmSilo.addCrop(crop1);
 
 }
