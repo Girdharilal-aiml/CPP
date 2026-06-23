@@ -71,5 +71,7 @@ int main() {
         try {
             cout << "Crop " << i << " yield: " << farmSilo.getCrop(i)->calculateYield() << endl;
         }
+        catch (runtime_error& e) { 
+        }
     }
 }
