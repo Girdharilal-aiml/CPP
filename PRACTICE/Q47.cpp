@@ -62,6 +62,7 @@ int main() {
     Silo<Crop*> farmSilo;
 
     Crop* crop1 = new Wheat();
+    Crop* crop2 = new Corn(-5); 
 
 
 }
