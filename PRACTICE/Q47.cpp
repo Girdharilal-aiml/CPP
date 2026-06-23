@@ -61,6 +61,7 @@ public:
 int main() {
     Silo<Crop*> farmSilo;
 
+    Crop* crop1 = new Wheat();
 
 
 }
