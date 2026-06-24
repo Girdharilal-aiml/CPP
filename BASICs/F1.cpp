@@ -33,6 +33,8 @@ public:
         id = i;
     }
 
+    // Getters (controlled access to private data)
+    string getName() { return name; }
 
 };
 
