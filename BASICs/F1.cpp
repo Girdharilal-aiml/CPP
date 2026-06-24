@@ -30,6 +30,7 @@ public:
     Person(string n, int a, string i) {
         name = n;
         age = a;
+        id = i;
     }
 
 
