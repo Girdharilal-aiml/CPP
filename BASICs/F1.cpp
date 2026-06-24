@@ -57,6 +57,10 @@ private:
     string enrolledCourse;
 
 public:
+    // Constructor calls parent constructor
+    Student(string n, int a, string id, float c, string course)
+    }
+
 
 
     
