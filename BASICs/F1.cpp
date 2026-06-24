@@ -21,6 +21,7 @@ public:
 // ============================================
 class Person : public Role {
 private:
+    string name;   // private = encapsulated
 
 public:
 
