@@ -40,5 +40,7 @@ public:
 
     // Setters (controlled modification)
     void setName(string n) { name = n; }
+    void setAge(int a) {
+    }
 };
 
