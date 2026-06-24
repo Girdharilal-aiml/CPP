@@ -64,6 +64,7 @@ public:
         enrolledCourse = course;
     }
 
+    float getCGPA() { return cgpa; }
 
 
     
