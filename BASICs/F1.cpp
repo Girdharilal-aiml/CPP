@@ -20,6 +20,10 @@ public:
 // Private data, public getters/setters
 // ============================================
 class Person : public Role {
-   
+private:
+
+public:
+
+
 };
 
