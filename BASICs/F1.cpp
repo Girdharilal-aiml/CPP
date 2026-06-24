@@ -41,6 +41,7 @@ public:
     // Setters (controlled modification)
     void setName(string n) { name = n; }
     void setAge(int a) {
+        if (a > 0) age = a;  // validation
     }
 };
 
