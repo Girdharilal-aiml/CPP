@@ -38,5 +38,7 @@ public:
     int getAge()     { return age; }
     string getID()   { return id; }
 
+    // Setters (controlled modification)
+    void setName(string n) { name = n; }
 };
 
