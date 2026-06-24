@@ -22,6 +22,7 @@ public:
 class Person : public Role {
 private:
     string name;   // private = encapsulated
+    int age;
 
 public:
 
