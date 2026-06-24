@@ -65,6 +65,8 @@ public:
     }
 
     float getCGPA() { return cgpa; }
+    void setCGPA(float c) {
+    }
 
 
     
