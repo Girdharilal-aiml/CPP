@@ -35,6 +35,7 @@ public:
 
     // Getters (controlled access to private data)
     string getName() { return name; }
+    int getAge()     { return age; }
 
 };
 
