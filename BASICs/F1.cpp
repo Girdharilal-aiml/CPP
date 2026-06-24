@@ -26,6 +26,9 @@ private:
     string id;
 
 public:
+    // Constructor
+    Person(string n, int a, string i) {
+    }
 
 
 };
