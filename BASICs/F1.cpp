@@ -51,3 +51,8 @@ public:
 // CHILD CLASS 1 — Inheritance from Person
 // Student IS-A Person
 // ============================================
+class Student : public Person {
+
+
+    
+};
