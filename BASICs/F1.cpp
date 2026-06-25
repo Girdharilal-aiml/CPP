@@ -108,6 +108,7 @@ public:
 
     // POLYMORPHISM — Teacher's own version of showRole()
     void showRole() override {
+        cout << "I am a Teacher." << endl;
     }
 
 };
