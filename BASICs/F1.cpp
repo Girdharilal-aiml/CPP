@@ -106,6 +106,9 @@ public:
 
     string getSubject() { return subject; }
 
+    // POLYMORPHISM — Teacher's own version of showRole()
+    void showRole() override {
+    }
 
 };
 
