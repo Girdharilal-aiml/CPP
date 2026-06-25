@@ -93,6 +93,9 @@ public:
 // Teacher IS-A Person
 // ============================================
 class Teacher : public Person {
+private:
+
+public:
 
 
 };
