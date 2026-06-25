@@ -78,6 +78,7 @@ public:
     // POLYMORPHISM — Student's own version of display()
     void display() override {
         cout << "----------------------------------------" << endl;
+        cout << "STUDENT RECORD" << endl;
     }
 };
 
