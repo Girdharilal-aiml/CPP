@@ -94,6 +94,7 @@ public:
 // ============================================
 class Teacher : public Person {
 private:
+    string subject;
 
 public:
 
