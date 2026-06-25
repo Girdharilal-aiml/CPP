@@ -98,6 +98,7 @@ private:
     double salary;
 
 public:
+    Teacher(string n, int a, string id, string sub, double sal)
 
 
 };
