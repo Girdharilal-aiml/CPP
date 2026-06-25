@@ -114,6 +114,7 @@ public:
     // POLYMORPHISM — Teacher's own version of display()
     void display() override {
         cout << "----------------------------------------" << endl;
+        cout << "TEACHER RECORD" << endl;
     }
 };
 
