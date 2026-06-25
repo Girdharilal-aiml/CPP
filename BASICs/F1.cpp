@@ -104,6 +104,7 @@ public:
         salary = sal;
     }
 
+    string getSubject() { return subject; }
 
 
 };
