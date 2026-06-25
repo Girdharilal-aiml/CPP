@@ -75,6 +75,9 @@ public:
         cout << "I am a Student." << endl;
     }
 
+    // POLYMORPHISM — Student's own version of display()
+    void display() override {
+    }
 };
 
 
