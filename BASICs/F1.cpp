@@ -111,5 +111,8 @@ public:
         cout << "I am a Teacher." << endl;
     }
 
+    // POLYMORPHISM — Teacher's own version of display()
+    void display() override {
+    }
 };
 
