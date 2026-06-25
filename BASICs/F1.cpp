@@ -80,6 +80,7 @@ public:
         cout << "----------------------------------------" << endl;
         cout << "STUDENT RECORD" << endl;
         cout << "Name    : " << getName() << endl;
+        cout << "ID      : " << getID() << endl;
     }
 };
 
