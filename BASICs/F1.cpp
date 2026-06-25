@@ -88,4 +88,8 @@ public:
 };
 
 
+// ============================================
+// CHILD CLASS 2 — Inheritance from Person
+// Teacher IS-A Person
+// ============================================
 
