@@ -138,6 +138,7 @@ private:
 public:
     Course(string name, Teacher* t) {
         courseName = name;
+        teacher = t;
     }
 
 
