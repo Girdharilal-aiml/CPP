@@ -130,6 +130,7 @@ public:
 // ============================================
 class Course {
 private:
+    string courseName;
 
 public:
 
