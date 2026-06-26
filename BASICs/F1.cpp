@@ -128,3 +128,8 @@ public:
 // SEPARATE CLASS — Course
 // Has a Teacher and list of Students
 // ============================================
+class Course {
+
+
+};
+
