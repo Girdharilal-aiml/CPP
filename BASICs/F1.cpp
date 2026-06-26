@@ -131,6 +131,7 @@ public:
 class Course {
 private:
     string courseName;
+    Teacher* teacher;        // Pointer to a Teacher object
 
 public:
 
