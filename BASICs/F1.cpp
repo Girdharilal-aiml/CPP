@@ -168,3 +168,6 @@ public:
 // ============================================
 // UNIVERSITY CLASS — Brings everything together
 // ============================================
+class University {
+
+};
