@@ -136,6 +136,8 @@ private:
     int studentCount;
 
 public:
+    Course(string name, Teacher* t) {
+    }
 
 
 };
