@@ -132,6 +132,7 @@ class Course {
 private:
     string courseName;
     Teacher* teacher;        // Pointer to a Teacher object
+    Student* students[50];   // Array of Student pointers
 
 public:
 
