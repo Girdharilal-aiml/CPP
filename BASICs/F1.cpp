@@ -154,6 +154,7 @@ public:
 
     void displayCourse() {
         cout << "========================================" << endl;
+        cout << "COURSE  : " << courseName << endl;
     }
 };
 
