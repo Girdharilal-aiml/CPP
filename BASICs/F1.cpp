@@ -142,6 +142,8 @@ public:
         studentCount = 0;
     }
 
+    void enrollStudent(Student* s) {
+    }
 
 };
 
