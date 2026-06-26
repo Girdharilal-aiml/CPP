@@ -171,6 +171,7 @@ public:
 class University {
 private:
     string uniName;
+    Student* students[100];
 
 public:
 
