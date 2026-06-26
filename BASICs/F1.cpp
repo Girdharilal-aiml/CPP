@@ -148,6 +148,7 @@ public:
             studentCount++;
             cout << s->getName() << " enrolled in " << courseName << endl;
         } else {
+            cout << "Course is full!" << endl;
         }
     }
 
