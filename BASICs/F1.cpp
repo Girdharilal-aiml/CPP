@@ -157,6 +157,8 @@ public:
         cout << "COURSE  : " << courseName << endl;
         cout << "TEACHER : " << teacher->getName() << endl;
         cout << "STUDENTS ENROLLED: " << studentCount << endl;
+        for (int i = 0; i < studentCount; i++) {
+        }
     }
 };
 
