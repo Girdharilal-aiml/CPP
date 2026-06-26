@@ -146,6 +146,7 @@ public:
         if (studentCount < 50) {
             students[studentCount] = s;
             studentCount++;
+            cout << s->getName() << " enrolled in " << courseName << endl;
         } 
     }
 
