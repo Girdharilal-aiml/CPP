@@ -159,6 +159,7 @@ public:
         cout << "STUDENTS ENROLLED: " << studentCount << endl;
         for (int i = 0; i < studentCount; i++) {
             cout << "  -> " << students[i]->getName()
+                 << " (CGPA: " << students[i]->getCGPA() << ")" << endl;
         }
     }
 };
