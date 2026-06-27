@@ -203,6 +203,7 @@ public:
             students[i]->showRole();  // Polymorphism in action
         }
 
+        cout << "\n--- COURSES ---" << endl;
     }
 };
 
