@@ -200,6 +200,7 @@ public:
         cout << "\n--- STUDENTS ---" << endl;
         for (int i = 0; i < sCount; i++) {
             students[i]->display();
+            students[i]->showRole();  // Polymorphism in action
         }
 
     }
