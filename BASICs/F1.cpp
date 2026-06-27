@@ -204,6 +204,8 @@ public:
         }
 
         cout << "\n--- COURSES ---" << endl;
+        for (int i = 0; i < cCount; i++) {
+        }
     }
 };
 
