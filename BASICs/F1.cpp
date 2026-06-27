@@ -182,5 +182,6 @@ public:
         sCount = tCount = cCount = 0;
     }
 
+    void addStudent(Student* s) { students[sCount++] = s; }
 };
 
