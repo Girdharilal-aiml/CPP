@@ -192,6 +192,8 @@ public:
         cout << "========================================" << endl;
 
         cout << "\n--- TEACHERS ---" << endl;
+        for (int i = 0; i < tCount; i++) {
+        }
 
 
     }
