@@ -222,5 +222,6 @@ int main() {
 
     // Create Students
     Student s1("Ali", 20, "S001", 3.5, "OOP in C++");
+    Student s2("Sara", 19, "S002", 3.8, "OOP in C++");
    
 }
