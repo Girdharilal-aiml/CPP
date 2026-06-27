@@ -216,5 +216,8 @@ public:
 // ============================================
 int main() {
 
+    // Create Teachers
+    Teacher t1("Sir Ahmed", 45, "T001", "OOP in C++", 85000);
+
    
 }
