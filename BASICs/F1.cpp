@@ -183,5 +183,6 @@ public:
     }
 
     void addStudent(Student* s) { students[sCount++] = s; }
+    void addTeacher(Teacher* t) { teachers[tCount++] = t; }
 };
 
