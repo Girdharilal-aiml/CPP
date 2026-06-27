@@ -220,5 +220,7 @@ int main() {
     Teacher t1("Sir Ahmed", 45, "T001", "OOP in C++", 85000);
     Teacher t2("Ma'am Sana", 38, "T002", "Data Structures", 90000);
 
+    // Create Students
+    Student s1("Ali", 20, "S001", 3.5, "OOP in C++");
    
 }
