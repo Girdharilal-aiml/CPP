@@ -178,6 +178,7 @@ private:
 
 public:
     University(string name) {
+        uniName = name;
     }
 
 };
