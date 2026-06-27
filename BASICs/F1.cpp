@@ -189,6 +189,7 @@ public:
     void generateReport() {
         cout << "\n========================================" << endl;
         cout << "   UNIVERSITY REPORT: " << uniName << endl;
+        cout << "========================================" << endl;
 
 
 
