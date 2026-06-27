@@ -191,6 +191,7 @@ public:
         cout << "   UNIVERSITY REPORT: " << uniName << endl;
         cout << "========================================" << endl;
 
+        cout << "\n--- TEACHERS ---" << endl;
 
 
     }
