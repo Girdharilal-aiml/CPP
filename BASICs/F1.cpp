@@ -185,5 +185,11 @@ public:
     void addStudent(Student* s) { students[sCount++] = s; }
     void addTeacher(Teacher* t) { teachers[tCount++] = t; }
     void addCourse(Course* c)   { courses[cCount++] = c; }
+
+    void generateReport() {
+
+
+
+    }
 };
 
