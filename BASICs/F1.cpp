@@ -252,6 +252,7 @@ int main() {
     Role* people[4];
     people[0] = &t1;
     people[1] = &t2;
+    people[2] = &s1;
 
 
 }
