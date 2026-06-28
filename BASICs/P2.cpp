@@ -4,5 +4,6 @@ using namespace std;
 
 class Entity{
 public:
+    virtual void showRole()  = 0;  
 };
 
