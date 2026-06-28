@@ -227,6 +227,7 @@ int main() {
 
     // Create Courses and assign teachers
     Course c1("OOP in C++", &t1);
+    Course c2("Data Structures", &t2);
 
 
 
