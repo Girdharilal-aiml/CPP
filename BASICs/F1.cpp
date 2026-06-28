@@ -249,6 +249,7 @@ int main() {
 
     // POLYMORPHISM DEMO — Same pointer type, different behavior
     cout << "\n--- POLYMORPHISM DEMO ---" << endl;
+    Role* people[4];
 
 
 }
