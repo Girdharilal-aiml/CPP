@@ -253,6 +253,7 @@ int main() {
     people[0] = &t1;
     people[1] = &t2;
     people[2] = &s1;
+    people[3] = &s2;
 
 
 }
