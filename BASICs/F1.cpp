@@ -225,5 +225,12 @@ int main() {
     Student s2("Sara", 19, "S002", 3.8, "OOP in C++");
     Student s3("Hamza", 21, "S003", 2.9, "Data Structures");
 
-  
+    // Create Courses and assign teachers
+    Course c1("OOP in C++", &t1);
+
+
+
+
+
+
 }
