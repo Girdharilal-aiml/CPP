@@ -231,6 +231,7 @@ int main() {
 
     // Enroll students in courses
     c1.enrollStudent(&s1);
+    c1.enrollStudent(&s2);
 
 
 
