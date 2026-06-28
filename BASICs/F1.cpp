@@ -234,6 +234,8 @@ int main() {
     c1.enrollStudent(&s2);
     c2.enrollStudent(&s3);
 
+    // Build University
+    University uni("FAST NUCES");
 
 
 
