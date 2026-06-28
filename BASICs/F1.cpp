@@ -259,4 +259,5 @@ int main() {
         people[i]->showRole(); // Calls correct version automatically!
     }
 
+    return 0;
 }
