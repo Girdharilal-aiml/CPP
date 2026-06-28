@@ -256,6 +256,7 @@ int main() {
     people[3] = &s2;
 
     for (int i = 0; i < 4; i++) {
+        people[i]->showRole(); // Calls correct version automatically!
     }
 
 }
