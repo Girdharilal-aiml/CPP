@@ -244,6 +244,8 @@ int main() {
     uni.addCourse(&c1);
     uni.addCourse(&c2);
 
+    // Generate full report
+    uni.generateReport();
 
 
 
