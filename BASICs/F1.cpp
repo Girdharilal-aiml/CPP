@@ -247,6 +247,8 @@ int main() {
     // Generate full report
     uni.generateReport();
 
+    // POLYMORPHISM DEMO — Same pointer type, different behavior
+    cout << "\n--- POLYMORPHISM DEMO ---" << endl;
 
 
 }
