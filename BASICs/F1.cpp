@@ -229,6 +229,8 @@ int main() {
     Course c1("OOP in C++", &t1);
     Course c2("Data Structures", &t2);
 
+    // Enroll students in courses
+    c1.enrollStudent(&s1);
 
 
 
