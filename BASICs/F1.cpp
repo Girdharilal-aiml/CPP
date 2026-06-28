@@ -236,6 +236,7 @@ int main() {
 
     // Build University
     University uni("FAST NUCES");
+    uni.addTeacher(&t1);
 
 
 
