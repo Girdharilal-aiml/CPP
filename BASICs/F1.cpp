@@ -242,6 +242,7 @@ int main() {
     uni.addStudent(&s2);
     uni.addStudent(&s3);
     uni.addCourse(&c1);
+    uni.addCourse(&c2);
 
 
 
