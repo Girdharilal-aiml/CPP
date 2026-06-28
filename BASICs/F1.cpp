@@ -238,6 +238,7 @@ int main() {
     University uni("FAST NUCES");
     uni.addTeacher(&t1);
     uni.addTeacher(&t2);
+    uni.addStudent(&s1);
 
 
 
