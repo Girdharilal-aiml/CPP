@@ -10,4 +10,11 @@ public:
     virtual ~Entity() {}            
 };
 
+class Grade{
+
+
+
+
+
+};
 
