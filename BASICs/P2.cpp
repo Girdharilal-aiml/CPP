@@ -55,3 +55,6 @@ public:
         cout << city << ", " << country;
     }
 };
+
+class Person : public Entity {
+};
