@@ -24,6 +24,7 @@ public:
     }
 
     bool operator>(const Grade& other) const {
+        return marks > other.marks;
     }
 
 
