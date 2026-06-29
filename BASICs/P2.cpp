@@ -27,6 +27,8 @@ public:
         return marks > other.marks;
     }
 
+    bool operator==(const Grade& other) const {
+    }
 
 };
 
