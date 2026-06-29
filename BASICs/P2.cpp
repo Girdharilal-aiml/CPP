@@ -31,5 +31,7 @@ public:
         return marks == other.marks;
     }
 
+    friend ostream& operator<<(ostream& out, const Grade& g) {
+    }
 };
 
