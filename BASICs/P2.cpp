@@ -38,5 +38,8 @@ public:
 };
 
 class Address {
+private:
+
+public:
 
 };
