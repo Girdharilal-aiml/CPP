@@ -32,6 +32,7 @@ public:
     }
 
     friend ostream& operator<<(ostream& out, const Grade& g) {
+        out << g.marks << "/100";
     }
 };
 
