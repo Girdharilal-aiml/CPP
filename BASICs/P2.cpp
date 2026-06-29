@@ -17,6 +17,7 @@ private:
 public:
     Grade(float m = 0.0) { marks = m; }
 
+    float getMarks() const { return marks; }
 
 
 
