@@ -48,5 +48,6 @@ public:
         country = co;
     }
 
+    string getCity() const { return city; }
 
 };
