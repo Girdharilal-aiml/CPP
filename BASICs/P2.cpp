@@ -15,6 +15,7 @@ private:
     float marks;
 
 public:
+    Grade(float m = 0.0) { marks = m; }
 
 
 
