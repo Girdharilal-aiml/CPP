@@ -20,6 +20,7 @@ public:
     float getMarks() const { return marks; }
 
     Grade operator+(const Grade& other) const {
+        return Grade(marks + other.marks);
     }
 
 
