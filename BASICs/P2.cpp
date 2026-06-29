@@ -45,6 +45,7 @@ private:
 public:
     Address(string c = "karachi", string co = "Pakistan"){
         city = c;
+        country = co;
     }
 
 
