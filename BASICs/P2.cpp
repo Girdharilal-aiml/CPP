@@ -57,4 +57,9 @@ public:
 };
 
 class Person : public Entity {
+private:
+
+protected:
+
+public:
 };
