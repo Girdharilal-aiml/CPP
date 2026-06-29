@@ -52,5 +52,6 @@ public:
     string getCountry() const { return country; }
 
     void display() const {
+        cout << city << ", " << country;
     }
 };
