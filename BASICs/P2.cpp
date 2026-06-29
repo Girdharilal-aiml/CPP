@@ -39,6 +39,7 @@ public:
 
 class Address {
 private:
+    string city;
 
 public:
 
