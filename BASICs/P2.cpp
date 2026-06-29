@@ -40,6 +40,7 @@ public:
 class Address {
 private:
     string city;
+    string country;
 
 public:
 
