@@ -12,6 +12,7 @@ public:
 
 class Grade{
 private:
+    float marks;
 
 public:
 
