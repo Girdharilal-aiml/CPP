@@ -71,3 +71,6 @@ public:
 };
 
 
+class Calculator {
+public:
+};
