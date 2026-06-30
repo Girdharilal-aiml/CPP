@@ -73,6 +73,7 @@ public:
         : CNIC(cnic), address(addr) {
         name = n;
         age  = a;
+        id = i;
     }
 
 
