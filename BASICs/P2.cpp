@@ -85,6 +85,7 @@ public:
     void setName(string n) { name = n; }
     void setAge(int a) {
         if (a > 0 && a < 120) age = a;
+        else cout << "Invalid age!\n";
     }
 
 
