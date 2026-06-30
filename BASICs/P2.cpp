@@ -96,6 +96,7 @@ public:
         cout << endl;
     }
 
+    virtual void showRole()       = 0;
 };
 
 
