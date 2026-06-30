@@ -78,6 +78,7 @@ public:
     }
 
     string getName() const { return name; }
+    int getAge() const { return age; }
 
 
 
