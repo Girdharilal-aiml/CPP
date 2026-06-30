@@ -79,6 +79,7 @@ public:
 
     string getName() const { return name; }
     int getAge() const { return age; }
+    string getCNIC() const { return CNIC; }
 
 
 
