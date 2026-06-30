@@ -82,6 +82,7 @@ public:
     string getCNIC() const { return CNIC; }
     string getID() const { return id; }
 
+    void setName(string n) { name = n; }
 
 
 };
