@@ -60,6 +60,7 @@ class Person : public Entity {
 private:
     string name;
     int age;
+    const string CNIC;
 
 protected:
 
