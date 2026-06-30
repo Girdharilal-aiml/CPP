@@ -64,6 +64,7 @@ private:
     Address address;
 
 protected:
+    string id;
 
 public:
 
