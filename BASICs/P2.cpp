@@ -83,6 +83,8 @@ public:
     string getID() const { return id; }
 
     void setName(string n) { name = n; }
+    void setAge(int a) {
+    }
 
 
 };
