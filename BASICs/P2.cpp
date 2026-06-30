@@ -88,6 +88,7 @@ public:
         else cout << "Invalid age!\n";
     }
 
+    static int getTotalPersons() { return totalPersons; }
 
 };
 
