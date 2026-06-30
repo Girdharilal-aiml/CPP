@@ -92,6 +92,7 @@ public:
 
     void showAddress() const {
         cout << "Address : ";
+        address.display();
     }
 
 };
