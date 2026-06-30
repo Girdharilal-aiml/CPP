@@ -101,6 +101,7 @@ public:
     virtual double computePay()   = 0;
 };
 
+int  Person::totalPersons = 0;
 
 class Calculator {
 public:
