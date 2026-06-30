@@ -61,6 +61,7 @@ private:
     string name;
     int age;
     const string CNIC;
+    Address address;
 
 protected:
 
