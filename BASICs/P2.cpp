@@ -77,6 +77,7 @@ public:
         totalPersons++;
     }
 
+    string getName() const { return name; }
 
 
 
