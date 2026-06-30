@@ -67,6 +67,7 @@ protected:
     string id;
 
 public:
+    static int totalPersons;
 
 
 
