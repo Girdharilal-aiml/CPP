@@ -70,6 +70,7 @@ public:
     static int totalPersons;
 
     Person(string n, int a, string cnic, string i, Address addr = Address())
+        : CNIC(cnic), address(addr) {
     }
 
 
