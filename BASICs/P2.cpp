@@ -134,6 +134,7 @@ public:
         totalStudents++;
     }
 
+    float getCGPA() const { return cgpa; }
 
 
 
