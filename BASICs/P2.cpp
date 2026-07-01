@@ -124,6 +124,7 @@ private:
     static int totalStudents;
 
 public:
+    Student(string n, int a, string cnic, string i,
 
 
 
