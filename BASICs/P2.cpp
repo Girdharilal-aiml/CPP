@@ -140,6 +140,7 @@ public:
 
     void setCGPA(float c) {
         if (c >= 0.0 && c <= 4.0) cgpa = c;
+        else cout << "Invalid CGPA!\n";
     }
 
 
