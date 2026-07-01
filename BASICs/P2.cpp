@@ -117,6 +117,9 @@ public:
 };
 
 class Student : public Person {
+private:
+
+public:
 
 
 
