@@ -129,6 +129,7 @@ public:
             Address addr = Address())
         : Person(n, a, cnic, i, addr) {
         cgpa       = c;
+        department = dept;
     }
 
 
