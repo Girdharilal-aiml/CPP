@@ -131,6 +131,7 @@ public:
         cgpa       = c;
         department = dept;
         grade      = g;
+        totalStudents++;
     }
 
 
