@@ -143,6 +143,7 @@ public:
         else cout << "Invalid CGPA!\n";
     }
 
+    static int getTotalStudents() { return totalStudents; }
 
 
  
