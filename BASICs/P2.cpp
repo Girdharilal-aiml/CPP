@@ -138,6 +138,8 @@ public:
     string getDepartment() const { return department; }
     Grade getGrade() const { return grade; }
 
+    void setCGPA(float c) {
+    }
 
 
 
