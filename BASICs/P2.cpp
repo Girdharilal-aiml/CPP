@@ -146,6 +146,7 @@ public:
     static int getTotalStudents() { return totalStudents; }
 
     void showRole() override {
+        cout << "Role    : Student" << endl;
     }
 
  
