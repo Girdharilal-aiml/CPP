@@ -128,6 +128,7 @@ public:
             float c, string dept, Grade g,
             Address addr = Address())
         : Person(n, a, cnic, i, addr) {
+        cgpa       = c;
     }
 
 
