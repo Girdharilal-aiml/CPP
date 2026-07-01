@@ -127,6 +127,8 @@ public:
     Student(string n, int a, string cnic, string i,
             float c, string dept, Grade g,
             Address addr = Address())
+        : Person(n, a, cnic, i, addr) {
+    }
 
 
 
