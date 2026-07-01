@@ -135,6 +135,7 @@ public:
     }
 
     float getCGPA() const { return cgpa; }
+    string getDepartment() const { return department; }
 
 
 
