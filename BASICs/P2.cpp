@@ -121,6 +121,7 @@ private:
     float cgpa;
     string department;
     Grade grade;
+    static int totalStudents;
 
 public:
 
