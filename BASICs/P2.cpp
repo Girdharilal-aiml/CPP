@@ -139,6 +139,7 @@ public:
     Grade getGrade() const { return grade; }
 
     void setCGPA(float c) {
+        if (c >= 0.0 && c <= 4.0) cgpa = c;
     }
 
 
