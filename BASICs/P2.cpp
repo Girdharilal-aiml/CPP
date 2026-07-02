@@ -181,6 +181,7 @@ public:
         subject       = sub;
         salaryPerHour = sal;
         hoursWorked   = hours;
+        totalTeachers++;
     }
 
 
