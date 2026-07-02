@@ -179,6 +179,7 @@ public:
             Address addr = Address())
         : Person(n, a, cnic, i, addr) {
         subject       = sub;
+        salaryPerHour = sal;
     }
 
 
