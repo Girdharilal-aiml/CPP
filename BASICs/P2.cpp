@@ -184,6 +184,7 @@ public:
         totalTeachers++;
     }
 
+    string getSubject() const { return subject; }
 
 
 
