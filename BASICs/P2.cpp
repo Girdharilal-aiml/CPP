@@ -174,6 +174,7 @@ private:
     static int totalTeachers;
 
 public:
+    Teacher(string n, int a, string cnic, string i,
 
 
 
