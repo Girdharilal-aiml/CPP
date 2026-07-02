@@ -171,6 +171,7 @@ private:
     string subject;
     double salaryPerHour;
     int hoursWorked;
+    static int totalTeachers;
 
 public:
 
