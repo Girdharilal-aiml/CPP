@@ -155,6 +155,7 @@ public:
         cout << "Name    : " << getName()       << endl;
         cout << "ID      : " << getID()         << endl;
         cout << "CGPA    : " << getCGPA()       << endl;
+        cout << "Dept    : " << getDepartment() << endl;
     }
 
 };
