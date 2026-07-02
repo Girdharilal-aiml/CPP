@@ -188,6 +188,7 @@ public:
     double getSalaryPerHour() const { return salaryPerHour; }
     int getHoursWorked() const { return hoursWorked; }
 
+    static int getTotalTeachers() { return totalTeachers; }
 
 
 
