@@ -166,3 +166,10 @@ public:
 
 int Student::totalStudents = 0;
 
+class Teacher : public Person {
+
+
+
+
+
+};
