@@ -170,6 +170,7 @@ class Teacher : public Person {
 private:
     string subject;
     double salaryPerHour;
+    int hoursWorked;
 
 public:
 
