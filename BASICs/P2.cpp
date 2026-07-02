@@ -190,6 +190,8 @@ public:
 
     static int getTotalTeachers() { return totalTeachers; }
 
+    double computePay() override {
+    }
 
 
 };
