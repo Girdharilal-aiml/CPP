@@ -157,6 +157,7 @@ public:
         cout << "CGPA    : " << getCGPA()       << endl;
         cout << "Dept    : " << getDepartment() << endl;
         cout << "Grade   : " << getGrade()      << endl;
+        showAddress();
     }
 
 };
