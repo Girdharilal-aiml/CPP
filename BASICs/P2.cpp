@@ -176,6 +176,7 @@ private:
 public:
     Teacher(string n, int a, string cnic, string i,
             string sub, double sal, int hours,
+            Address addr = Address())
 
 
 
