@@ -161,6 +161,7 @@ public:
         showRole();
     }
 
+    double computePay() override { return 0; }
 };
 
 
