@@ -153,6 +153,7 @@ public:
         cout << "----------------------------------------\n";
         cout << "STUDENT RECORD\n";
         cout << "Name    : " << getName()       << endl;
+        cout << "ID      : " << getID()         << endl;
     }
 
 };
