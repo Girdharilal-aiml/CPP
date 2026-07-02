@@ -178,6 +178,7 @@ public:
             string sub, double sal, int hours,
             Address addr = Address())
         : Person(n, a, cnic, i, addr) {
+        subject       = sub;
     }
 
 
