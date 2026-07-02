@@ -154,6 +154,7 @@ public:
         cout << "STUDENT RECORD\n";
         cout << "Name    : " << getName()       << endl;
         cout << "ID      : " << getID()         << endl;
+        cout << "CGPA    : " << getCGPA()       << endl;
     }
 
 };
