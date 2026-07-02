@@ -164,4 +164,5 @@ public:
     double computePay() override { return 0; }
 };
 
+int Student::totalStudents = 0;
 
