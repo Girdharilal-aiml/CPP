@@ -180,6 +180,7 @@ public:
         : Person(n, a, cnic, i, addr) {
         subject       = sub;
         salaryPerHour = sal;
+        hoursWorked   = hours;
     }
 
 
