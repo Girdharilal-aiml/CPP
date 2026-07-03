@@ -220,6 +220,7 @@ private:
 public:
     HeadOfDepartment(string n, int a, string cnic, string i,
                      string dept, double b,
+                     Address addr = Address())
     }
 
 
