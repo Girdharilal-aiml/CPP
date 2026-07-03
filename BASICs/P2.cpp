@@ -223,6 +223,7 @@ public:
                      Address addr = Address())
         : Teacher(n, a, cnic, i, "", 0, 0, addr) {
         department = dept;
+        bonus      = b;
     }
 
 
