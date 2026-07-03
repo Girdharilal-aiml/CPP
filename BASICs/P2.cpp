@@ -214,6 +214,7 @@ int Teacher::totalTeachers = 0;
 
 class HeadOfDepartment : public Teacher {
 private:
+    string department;
 public:
 
 
