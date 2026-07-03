@@ -205,6 +205,7 @@ public:
         cout << "ID      : " << getID()           << endl;
         cout << "Age     : " << getAge()           << endl;
         cout << "Subject : " << subject            << endl;
+        cout << "Pay     : Rs." << computePay()    << endl;
     }
 };
 
