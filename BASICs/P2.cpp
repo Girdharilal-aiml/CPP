@@ -198,5 +198,7 @@ public:
         cout << "Role    : Teacher" << endl;
     }
 
+    void display() override {
+    }
 };
 
