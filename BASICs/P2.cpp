@@ -222,6 +222,7 @@ public:
                      string dept, double b,
                      Address addr = Address())
         : Teacher(n, a, cnic, i, "", 0, 0, addr) {
+        department = dept;
     }
 
 
