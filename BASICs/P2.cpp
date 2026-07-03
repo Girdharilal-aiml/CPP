@@ -201,6 +201,7 @@ public:
     void display() override {
         cout << "----------------------------------------\n";
         cout << "TEACHER RECORD\n";
+        cout << "Name    : " << getName()         << endl;
     }
 };
 
