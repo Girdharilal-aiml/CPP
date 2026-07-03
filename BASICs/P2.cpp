@@ -227,6 +227,7 @@ public:
     }
 
     double computePay() override {
+        return Teacher::computePay() + bonus;
     }
 
 
