@@ -218,6 +218,8 @@ private:
     double bonus;
 
 public:
+    HeadOfDepartment(string n, int a, string cnic, string i,
+    }
 
 
 
