@@ -226,6 +226,8 @@ public:
         bonus      = b;
     }
 
+    double computePay() override {
+    }
 
 
 };
