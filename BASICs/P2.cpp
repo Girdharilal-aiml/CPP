@@ -210,4 +210,5 @@ public:
         showRole();
     }
 };
+int Teacher::totalTeachers = 0;
 
