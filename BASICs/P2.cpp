@@ -194,6 +194,8 @@ public:
         return salaryPerHour * hoursWorked;
     }
 
+    void showRole() override {
+    }
 
 };
 
