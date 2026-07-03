@@ -231,6 +231,7 @@ public:
     }
 
     void showRole() override {
+        cout << "Role    : Head of Department" << endl;
     }
 
 };
