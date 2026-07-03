@@ -221,6 +221,7 @@ public:
     HeadOfDepartment(string n, int a, string cnic, string i,
                      string dept, double b,
                      Address addr = Address())
+        : Teacher(n, a, cnic, i, "", 0, 0, addr) {
     }
 
 
