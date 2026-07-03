@@ -207,6 +207,7 @@ public:
         cout << "Subject : " << subject            << endl;
         cout << "Pay     : Rs." << computePay()    << endl;
         showAddress();
+        showRole();
     }
 };
 
