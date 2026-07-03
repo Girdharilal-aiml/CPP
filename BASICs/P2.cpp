@@ -234,4 +234,7 @@ public:
         cout << "Role    : Head of Department" << endl;
     }
 
+    void display() override {
+    }
+
 };
