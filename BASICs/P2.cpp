@@ -203,6 +203,7 @@ public:
         cout << "TEACHER RECORD\n";
         cout << "Name    : " << getName()         << endl;
         cout << "ID      : " << getID()           << endl;
+        cout << "Age     : " << getAge()           << endl;
     }
 };
 
