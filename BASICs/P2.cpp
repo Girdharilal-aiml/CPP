@@ -266,5 +266,7 @@ public:
         cout << "Role    : Researcher — " << researchArea << endl;
     }
 
+    void display() override {
+    }
 };
 
