@@ -236,6 +236,7 @@ public:
 
     void display() override {
         cout << "----------------------------------------\n";
+        cout << "HEAD OF DEPARTMENT RECORD\n";
     }
 
 };
