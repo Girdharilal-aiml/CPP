@@ -238,6 +238,7 @@ public:
         cout << "----------------------------------------\n";
         cout << "HEAD OF DEPARTMENT RECORD\n";
         cout << "Name    : " << getName()         << endl;
+        cout << "ID      : " << getID()           << endl;
     }
 
 };
