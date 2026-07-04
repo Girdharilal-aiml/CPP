@@ -283,6 +283,7 @@ public:
         subject = sub;
     }
 
+    double computePay() override { return 70000; }
 
 
 };
