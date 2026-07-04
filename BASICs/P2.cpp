@@ -262,6 +262,8 @@ public:
 
     double computePay() override { return 50000; }
 
+    void showRole() override {
+    }
 
 };
 
