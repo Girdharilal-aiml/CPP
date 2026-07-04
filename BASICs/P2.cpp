@@ -269,6 +269,7 @@ public:
     void display() override {
         cout << "Name    : " << getName() << endl;
         cout << "Research: " << researchArea << endl;
+        showRole();
     }
 };
 
