@@ -250,6 +250,7 @@ public:
 
 class Researcher : virtual public Person {
 private:
+    string researchArea;
 
 public:
 
