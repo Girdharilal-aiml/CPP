@@ -241,6 +241,7 @@ public:
         cout << "ID      : " << getID()           << endl;
         cout << "Age     : " << getAge()           << endl;
         cout << "Department : " << department     << endl;
+        cout << "Bonus   : Rs." << bonus          << endl;
     }
 
 };
