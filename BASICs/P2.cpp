@@ -273,3 +273,7 @@ public:
     }
 };
 
+class VirtualTeacher : virtual public Person {
+
+
+};
