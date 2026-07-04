@@ -260,6 +260,7 @@ public:
 
     string getResearchArea() const { return researchArea; }
 
+    double computePay() override { return 50000; }
 
 
 };
