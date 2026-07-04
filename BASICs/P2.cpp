@@ -278,6 +278,8 @@ private:
     string subject;
 
 public:
+    VirtualTeacher(string n, int a, string cnic, string i, string sub)
+    }
 
 
 
