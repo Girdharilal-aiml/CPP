@@ -258,6 +258,7 @@ public:
         researchArea = area;
     }
 
+    string getResearchArea() const { return researchArea; }
 
 
 
