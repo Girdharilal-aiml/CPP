@@ -253,6 +253,7 @@ private:
     string researchArea;
 
 public:
+    Researcher(string n, int a, string cnic, string i, string area)
 
 
 
