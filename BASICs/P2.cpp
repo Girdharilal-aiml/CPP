@@ -275,6 +275,7 @@ public:
 
 class VirtualTeacher : virtual public Person {
 private:
+    string subject;
 
 public:
 
