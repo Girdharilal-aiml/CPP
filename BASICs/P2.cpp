@@ -249,6 +249,9 @@ public:
 };
 
 class Researcher : virtual public Person {
+private:
+
+public:
 
 
 
