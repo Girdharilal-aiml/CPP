@@ -243,6 +243,7 @@ public:
         cout << "Department : " << department     << endl;
         cout << "Bonus   : Rs." << bonus          << endl;
         showAddress();
+        showRole();
     }
 
 };
