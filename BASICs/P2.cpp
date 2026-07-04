@@ -247,3 +247,11 @@ public:
     }
 
 };
+
+class Researcher : virtual public Person {
+
+
+
+
+};
+
