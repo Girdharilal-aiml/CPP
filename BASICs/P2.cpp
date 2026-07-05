@@ -300,6 +300,7 @@ class AcademicStaff : public VirtualTeacher, public Researcher {
 public:
     AcademicStaff(string n, int a, string cnic, string i,
                   string sub, string area)
+        : Person(n, a, cnic, i),             // called ONCE due to virtual
 
 
 
