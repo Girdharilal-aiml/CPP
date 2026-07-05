@@ -328,6 +328,7 @@ private:
     double balance;
 
 public:
+    Wallet(double b = 0) { balance = b; }
 
 
 
