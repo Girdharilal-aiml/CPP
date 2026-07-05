@@ -323,3 +323,8 @@ public:
 
 class Scholarship;
 
+class Wallet{
+
+
+
+};
