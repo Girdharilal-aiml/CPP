@@ -296,4 +296,11 @@ public:
     }
 };
 
+class AcademicStaff : public VirtualTeacher, public Researcher {
+public:
+
+
+
+};
+
 
