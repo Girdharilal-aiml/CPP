@@ -286,6 +286,9 @@ public:
     double computePay() override { return 70000; }
 
     void showRole() override {
+        cout << "Role    : Virtual Teacher — " << subject << endl;
     }
 
 };
+
+
