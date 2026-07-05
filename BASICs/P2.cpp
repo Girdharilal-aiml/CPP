@@ -302,6 +302,7 @@ public:
                   string sub, string area)
         : Person(n, a, cnic, i),             // called ONCE due to virtual
           VirtualTeacher(n, a, cnic, i, sub),
+          Researcher(n, a, cnic, i, area) {}
 
 
 
