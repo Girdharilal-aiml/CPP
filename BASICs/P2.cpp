@@ -299,6 +299,7 @@ public:
 class AcademicStaff : public VirtualTeacher, public Researcher {
 public:
     AcademicStaff(string n, int a, string cnic, string i,
+                  string sub, string area)
 
 
 
