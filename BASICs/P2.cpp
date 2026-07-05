@@ -312,6 +312,8 @@ public:
         cout << "Role    : Academic Staff (Teacher + Researcher)" << endl;
     }
 
+    void display() override {
+    }
 };
 
 
