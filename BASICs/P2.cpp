@@ -332,5 +332,6 @@ public:
 
     double getBalance() const { return balance; }
 
+    friend void addBonus(Wallet& w, double bonus);
 
 };
