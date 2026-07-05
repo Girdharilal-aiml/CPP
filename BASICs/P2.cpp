@@ -330,6 +330,7 @@ private:
 public:
     Wallet(double b = 0) { balance = b; }
 
+    double getBalance() const { return balance; }
 
 
 };
