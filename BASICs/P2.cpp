@@ -305,6 +305,7 @@ public:
           Researcher(n, a, cnic, i, area) {}
 
     double computePay() override {
+        return VirtualTeacher::computePay() + Researcher::computePay();
     }
 
 
