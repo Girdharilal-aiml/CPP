@@ -334,4 +334,5 @@ public:
 
     friend void addBonus(Wallet& w, double bonus);
 
+    friend class BankAuditor;
 };
