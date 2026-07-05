@@ -324,6 +324,9 @@ public:
 class Scholarship;
 
 class Wallet{
+private:
+
+public:
 
 
 
