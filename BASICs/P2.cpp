@@ -325,6 +325,7 @@ class Scholarship;
 
 class Wallet{
 private:
+    double balance;
 
 public:
 
