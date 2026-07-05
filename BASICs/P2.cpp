@@ -308,6 +308,8 @@ public:
         return VirtualTeacher::computePay() + Researcher::computePay();
     }
 
+    void showRole() override {
+    }
 
 };
 
