@@ -304,6 +304,8 @@ public:
           VirtualTeacher(n, a, cnic, i, sub),
           Researcher(n, a, cnic, i, area) {}
 
+    double computePay() override {
+    }
 
 
 };
