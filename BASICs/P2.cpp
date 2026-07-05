@@ -316,6 +316,7 @@ public:
         cout << "----------------------------------------\n";
         cout << "ACADEMIC STAFF\n";
         cout << "Name    : " << getName()      << endl;
+        cout << "Total Pay: Rs." << computePay()<< endl;
     }
 };
 
