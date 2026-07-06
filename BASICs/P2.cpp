@@ -380,6 +380,8 @@ public:
         if (studentCount == 0) return nullptr;
         Student* top = students[0];
         for (int i = 1; i < studentCount; i++) {
+            if (students[i]->getCGPA() > top->getCGPA()) {
+            }
         }
     }
 
