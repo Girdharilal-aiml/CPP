@@ -364,6 +364,7 @@ public:
         courseName      = name;
         courseCode      = code;
         assignedTeacher = t;
+        studentCount    = 0;
     }
 
 
