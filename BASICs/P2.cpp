@@ -339,6 +339,7 @@ public:
 
 void addBonus(Wallet& w, double bonus) {
     w.balance += bonus;
+    cout << "Bonus added! New balance: Rs." << w.balance << endl;
 }
 
 
