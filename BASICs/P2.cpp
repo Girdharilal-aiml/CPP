@@ -354,6 +354,7 @@ class Course{
 private:
     string courseName;
     string courseCode;
+    Teacher* assignedTeacher;
 
 public:
 
