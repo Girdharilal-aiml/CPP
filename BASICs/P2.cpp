@@ -368,6 +368,8 @@ public:
     }
 
     bool enrollStudent(Student* s) {
+        if (studentCount < MAX_STUDENTS) {
+        }
     }
 
 
