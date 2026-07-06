@@ -344,6 +344,8 @@ void addBonus(Wallet& w, double bonus) {
 
 class BankAuditor {
 public:
+    void auditWallet(const Wallet& w) {
+    }
 
 };
 
