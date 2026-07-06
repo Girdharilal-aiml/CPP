@@ -376,5 +376,7 @@ public:
         return false;
     }
 
+    Student* getTopStudent() {
+    }
 
 };
