@@ -360,6 +360,8 @@ private:
     const int MAX_STUDENTS = 50;
 
 public:
+    Course(string name, string code, Teacher* t) {
+    }
 
 
 
