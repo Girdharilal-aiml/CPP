@@ -342,4 +342,8 @@ void addBonus(Wallet& w, double bonus) {
     cout << "Bonus added! New balance: Rs." << w.balance << endl;
 }
 
+class BankAuditor {
+public:
+
+};
 
