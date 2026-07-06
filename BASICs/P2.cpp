@@ -373,6 +373,7 @@ public:
             return true;
         }
         cout << "Course full!\n";
+        return false;
     }
 
 
