@@ -353,6 +353,7 @@ public:
 class Course{
 private:
     string courseName;
+    string courseCode;
 
 public:
 
