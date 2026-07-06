@@ -350,3 +350,8 @@ public:
 
 };
 
+class Course{
+
+
+
+};
