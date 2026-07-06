@@ -367,6 +367,8 @@ public:
         studentCount    = 0;
     }
 
+    bool enrollStudent(Student* s) {
+    }
 
 
 };
