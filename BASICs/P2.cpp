@@ -356,6 +356,7 @@ private:
     string courseCode;
     Teacher* assignedTeacher;
     Student* students[50];
+    int studentCount;
 
 public:
 
