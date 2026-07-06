@@ -357,6 +357,7 @@ private:
     Teacher* assignedTeacher;
     Student* students[50];
     int studentCount;
+    const int MAX_STUDENTS = 50;
 
 public:
 
