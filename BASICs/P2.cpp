@@ -408,6 +408,7 @@ public:
 class University {
 private:
     string uniName;
+    Student* students[200];
 
 public:
 
