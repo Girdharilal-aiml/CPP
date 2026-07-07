@@ -396,6 +396,7 @@ public:
             cout << "  [" << i+1 << "] "
                  << students[i]->getName()
                  << " | CGPA: " << students[i]->getCGPA()
+                 << " | Grade: " << students[i]->getGrade() << "\n";
         }
     }
 };
