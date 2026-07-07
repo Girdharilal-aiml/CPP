@@ -424,6 +424,7 @@ public:
     void addCourse(Course* c) { courses[cCount++] = c; }
 
     void generatePayroll() {
+        cout << "\n========================================\n";
 
 
     }
