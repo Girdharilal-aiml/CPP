@@ -416,6 +416,7 @@ private:
 public:
     University(string name){
         uniName = name;
+        sCount = tCount = cCount = 0;
     }
 
 
