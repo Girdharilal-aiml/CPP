@@ -389,6 +389,7 @@ public:
 
     void display() {
         cout << "========================================\n";
+        cout << "COURSE   : " << courseName << " (" << courseCode << ")\n";
     }
 };
 
