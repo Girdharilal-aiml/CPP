@@ -393,6 +393,7 @@ public:
         cout << "TEACHER  : " << assignedTeacher->getName() << "\n";
         cout << "STUDENTS : " << studentCount << "\n";
         for (int i = 0; i < studentCount; i++) {
+            cout << "  [" << i+1 << "] "
         }
     }
 };
