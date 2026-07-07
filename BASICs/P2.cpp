@@ -399,6 +399,8 @@ public:
                  << " | Grade: " << students[i]->getGrade() << "\n";
         }
         Student* top = getTopStudent();
+        if (top) {
+        }
     }
 };
 
