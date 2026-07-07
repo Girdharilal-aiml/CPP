@@ -414,6 +414,8 @@ private:
     int sCount, tCount, cCount;
 
 public:
+    University(string name){
+    }
 
 
    
