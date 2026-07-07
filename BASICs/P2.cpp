@@ -384,6 +384,8 @@ public:
                 top = students[i];
             }
         }
+        return top;
     }
 
 };
+
