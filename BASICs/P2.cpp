@@ -387,5 +387,7 @@ public:
         return top;
     }
 
+    void display() {
+    }
 };
 
