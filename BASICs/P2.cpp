@@ -405,3 +405,10 @@ public:
     }
 };
 
+class University {
+
+
+   
+
+   
+};
