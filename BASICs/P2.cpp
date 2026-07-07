@@ -400,6 +400,7 @@ public:
         }
         Student* top = getTopStudent();
         if (top) {
+            cout << "TOP STUDENT: " << top->getName() << "\n";
         }
     }
 };
