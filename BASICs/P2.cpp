@@ -443,6 +443,7 @@ public:
         cout << "========================================\n";
 
         cout << "Total Persons Created : " << Person::getTotalPersons() << "\n";
+        cout << "Total Students        : " << Student::getTotalPersons() << "\n";
 
     }
 };
