@@ -466,5 +466,6 @@ int main(){
 
     cout << "--- OPERATOR OVERLOADING ---\n";
     Grade g1(85.5), g2(90.0);
+    Grade g3 = g1 + g2;
     
 }
