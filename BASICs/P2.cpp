@@ -431,6 +431,7 @@ public:
 
         for (int i = 0; i < tCount; i++) {
             cout << teachers[i]->getName()
+                 << " — Rs." << teachers[i]->computePay() << "\n";
         }
     }
 };
