@@ -447,6 +447,7 @@ public:
         cout << "Total Teachers        : " << Teacher::getTotalPersons() << "\n";
 
         for (int i = 0; i < tCount; i++) {
+            teachers[i]->display();
         }
     }
 };
