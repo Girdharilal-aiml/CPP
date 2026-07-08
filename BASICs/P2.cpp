@@ -465,4 +465,6 @@ int main(){
     cout << "=== Ultimate OOP Demo: University Management System ===\n";    
 
     cout << "--- OPERATOR OVERLOADING ---\n";
+    Grade g1(85.5), g2(90.0);
+    
 }
