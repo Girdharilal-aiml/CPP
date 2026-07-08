@@ -442,6 +442,7 @@ public:
         cout << "   UNIVERSITY REPORT\n";
         cout << "========================================\n";
 
+        cout << "Total Persons Created : " << Person::getTotalPersons() << "\n";
 
     }
 };
