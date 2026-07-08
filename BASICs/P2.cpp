@@ -451,6 +451,7 @@ public:
             cout << endl;
         }
         for (int i = 0; i < sCount; i++) {
+            students[i]->display();
         }
     }
 };
