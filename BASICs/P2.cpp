@@ -430,6 +430,7 @@ public:
         double total = 0;
 
         for (int i = 0; i < tCount; i++) {
+            cout << teachers[i]->getName()
         }
     }
 };
