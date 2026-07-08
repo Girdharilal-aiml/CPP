@@ -444,6 +444,7 @@ public:
 
         cout << "Total Persons Created : " << Person::getTotalPersons() << "\n";
         cout << "Total Students        : " << Student::getTotalPersons() << "\n";
+        cout << "Total Teachers        : " << Teacher::getTotalPersons() << "\n";
 
     }
 };
