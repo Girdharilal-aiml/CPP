@@ -439,6 +439,7 @@ public:
 
     void generateReport() {
         cout << "\n========================================\n";
+        cout << "   UNIVERSITY REPORT\n";
 
 
     }
