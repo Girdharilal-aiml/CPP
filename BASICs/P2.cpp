@@ -450,5 +450,7 @@ public:
             teachers[i]->display();
             cout << endl;
         }
+        for (int i = 0; i < sCount; i++) {
+        }
     }
 };
