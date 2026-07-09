@@ -483,6 +483,7 @@ int main(){
     addBonus(w, 500);
     BankAuditor auditor;
     auditor.auditWallet(w);
+    cout << "\n";
 
     
 
