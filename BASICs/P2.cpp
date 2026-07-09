@@ -490,6 +490,8 @@ int main(){
 
     Teacher* t1 = new Teacher("Dr. Smith", 45, "12345-6789012-3", "T001",
                               "Mathematics", 1000, 20, addr1);
+    Teacher* t2 = new Teacher("Dr. Johnson", 50, "98765-4321098-7", "T002",
+                                "Physics", 1200, 15, addr2);        
     
 
 
