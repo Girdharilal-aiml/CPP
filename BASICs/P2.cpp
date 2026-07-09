@@ -479,6 +479,7 @@ int main(){
     cout << "add(1,2,3) = " << calc.add(1, 2, 3) << "\n";
 
     cout << "\n--- FRIEND FUNCTION & CLASS ---\n";
+    Wallet w(1000);
 
     
 
