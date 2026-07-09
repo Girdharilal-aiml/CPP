@@ -470,6 +470,7 @@ int main(){
     cout << "Grade 1: " << g1 << "\n";
     cout << "Grade 2: " << g2 << "\n";
     cout << "Grade 3: " << g3 << "\n";
+    cout << "g2 > g1? " << (g2 > g1 ? "Yes" : "No") << "\n";
 
 
 
