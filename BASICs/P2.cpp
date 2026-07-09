@@ -478,6 +478,7 @@ int main(){
     cout << "add(2.5, 3.1) = " << calc.add(2.5, 3.1) << "\n";
     cout << "add(1,2,3) = " << calc.add(1, 2, 3) << "\n";
 
+    cout << "\n--- FRIEND FUNCTION & CLASS ---\n";
 
     
 
