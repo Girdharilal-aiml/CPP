@@ -504,6 +504,7 @@ int main(){
     Student s3("Charlie", 21, "44444-5555555-6", "S003", 3.2, "Physics", 75, addr2);
     Student s4("Diana", 19, "55555-6666666-7", "S004", 3.9, "Computer Science", 91, addr1);
 
+    Course c1("Data Structures", "CS101", &t1);
 
 
 }
