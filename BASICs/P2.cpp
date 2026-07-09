@@ -501,6 +501,7 @@ int main(){
 
     Student s1("Alice", 20, "22222-3333333-4", "S001", 3.8, "Computer Science", 88, addr2);
     Student s2("Bob", 22, "33333-4444444-5", "S002", 3.5, "Mathematics", 82, addr1);     
+    Student s3("Charlie", 21, "44444-5555555-6", "S003", 3.2, "Physics", 75, addr2);
 
 
 
