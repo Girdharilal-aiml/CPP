@@ -469,5 +469,14 @@ int main(){
     Grade g3 = g1 + g2;
     cout << "Grade 1: " << g1 << "\n";
     cout << "Grade 2: " << g2 << "\n";
-   
+    cout << "Grade 3: " << g3 << "\n";
+
+
+
+    
+
+
+
+
+
 }
