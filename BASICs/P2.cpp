@@ -480,6 +480,7 @@ int main(){
 
     cout << "\n--- FRIEND FUNCTION & CLASS ---\n";
     Wallet w(1000);
+    addBonus(w, 500);
 
     
 
