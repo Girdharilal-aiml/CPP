@@ -485,6 +485,7 @@ int main(){
     auditor.auditWallet(w);
     cout << "\n";
 
+    Address addr1("Lahore", "Pakistan");
     
 
 
