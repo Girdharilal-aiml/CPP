@@ -499,6 +499,7 @@ int main(){
                                             "Chemistry", "Organic Chemistry");                  
 
 
+    Student s1("Alice", 20, "22222-3333333-4", "S001", 3.8, "Computer Science", 88, addr2);
 
 
 
