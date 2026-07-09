@@ -474,6 +474,7 @@ int main(){
 
     cout << "\n--- FUNCTION OVERLOADING ---\n";
     Calculator calc;
+    cout << "add(3,4) = " << calc.add(3, 4) << "\n";
 
 
     
