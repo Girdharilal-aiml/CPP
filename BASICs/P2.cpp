@@ -486,6 +486,8 @@ int main(){
     cout << "\n";
 
     Address addr1("Lahore", "Pakistan");
+    Address addr2("Islamabad", "Pakistan");
+
     
 
 
