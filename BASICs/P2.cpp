@@ -505,6 +505,7 @@ int main(){
     Student s4("Diana", 19, "55555-6666666-7", "S004", 3.9, "Computer Science", 91, addr1);
 
     Course c1("Data Structures", "CS101", &t1);
+    Course c2("Quantum Mechanics", "PH101", &t2);
 
 
 }
