@@ -508,5 +508,6 @@ int main(){
     Course c2("Quantum Mechanics", "PH101", &t2);
 
     c1.enrollStudent(&s1);
+    c1.enrollStudent(&s2);
 
 }
