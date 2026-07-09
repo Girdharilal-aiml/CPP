@@ -512,4 +512,6 @@ int main(){
     c2.enrollStudent(&s3);
     c2.enrollStudent(&s4);
 
+    University uni("FAST NUCES");
+
 }
