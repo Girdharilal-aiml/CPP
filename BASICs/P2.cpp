@@ -482,6 +482,7 @@ int main(){
     Wallet w(1000);
     addBonus(w, 500);
     BankAuditor auditor;
+    auditor.auditWallet(w);
 
     
 
