@@ -488,6 +488,8 @@ int main(){
     Address addr1("Lahore", "Pakistan");
     Address addr2("Islamabad", "Pakistan");
 
+    Teacher* t1 = new Teacher("Dr. Smith", 45, "12345-6789012-3", "T001",
+                              "Mathematics", 1000, 20, addr1);
     
 
 
