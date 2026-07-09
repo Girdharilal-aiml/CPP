@@ -493,6 +493,8 @@ int main(){
     Teacher* t2 = new Teacher("Dr. Johnson", 50, "98765-4321098-7", "T002",
                                 "Physics", 1200, 15, addr2);        
     
+    HeadOfDepartment hod("Dr. Williams", 55, "55555-5555555-5", "HOD01",
+                                                 "Computer Science", 20000, addr1);
 
 
 
