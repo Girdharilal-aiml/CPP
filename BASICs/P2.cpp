@@ -495,6 +495,8 @@ int main(){
     
     HeadOfDepartment hod("Dr. Williams", 55, "55555-5555555-5", "HOD01",
                                                  "Computer Science", 20000, addr1);
+    AcademicStaff as1("Dr. Brown", 40, "11111-2222222-3", "AS001", 
+                                            "Chemistry", "Organic Chemistry");                  
 
 
 
