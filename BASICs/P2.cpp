@@ -528,6 +528,7 @@ int main(){
     cout << "\n--- POLYMORPHISM DEMO (Virtual Functions)---\n";
     Entity* staff[4];
     staff[0] = t1;    
+    staff[1] = t2;
 
 
 
