@@ -539,5 +539,6 @@ int main(){
 
     cout << "--- STATIC MEMBERS ---\n";
     cout << "Total Persons Created : " << Person::getTotalPersons() << "\n";
+    cout << "Total Students        : " << Student::getTotalStudents() << "\n";
 
 }
