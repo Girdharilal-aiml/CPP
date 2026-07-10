@@ -529,6 +529,7 @@ int main(){
     Entity* staff[4];
     staff[0] = t1;    
     staff[1] = t2;
+    staff[2] = &hod;
 
 
 
