@@ -542,4 +542,5 @@ int main(){
     cout << "Total Students        : " << Student::getTotalStudents() << "\n";
     cout << "Total Teachers        : " << Teacher::getTotalTeachers() << "\n";
 
+    return 0;
 }
