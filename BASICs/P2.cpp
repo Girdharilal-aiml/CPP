@@ -537,5 +537,6 @@ int main(){
         cout << "Pay: Rs." << staff[i]->computePay() << "\n\n";
     }
 
+    cout << "--- STATIC MEMBERS ---\n";
 
 }
