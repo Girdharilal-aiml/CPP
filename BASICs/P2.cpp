@@ -513,5 +513,10 @@ int main(){
     c2.enrollStudent(&s4);
 
     University uni("FAST NUCES");
+    uni.addTeacher(t1);
+
+    
+
+
 
 }
