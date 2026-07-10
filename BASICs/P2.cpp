@@ -533,6 +533,7 @@ int main(){
     staff[3] = &as1;
 
     for (int i = 0; i < 4; i++) {
+        staff[i]->showRole();
     }
 
 
