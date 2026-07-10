@@ -520,6 +520,7 @@ int main(){
     uni.addStudent(&s3);
     uni.addStudent(&s4);
     uni.addCourse(&c1);
+    uni.addCourse(&c2);
 
     
 
