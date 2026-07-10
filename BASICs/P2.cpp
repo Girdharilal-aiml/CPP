@@ -523,6 +523,7 @@ int main(){
     uni.addCourse(&c2);
 
     uni.generatePayroll();
+    uni.generateReport();
     
 
 
