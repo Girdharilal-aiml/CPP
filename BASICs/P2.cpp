@@ -526,6 +526,7 @@ int main(){
     uni.generateReport();
     
     cout << "\n--- POLYMORPHISM DEMO (Virtual Functions)---\n";
+    Entity* staff[4];
 
 
 
