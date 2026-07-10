@@ -519,6 +519,7 @@ int main(){
     uni.addStudent(&s2);
     uni.addStudent(&s3);
     uni.addStudent(&s4);
+    uni.addCourse(&c1);
 
     
 
