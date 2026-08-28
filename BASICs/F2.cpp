@@ -23,3 +23,9 @@
 using namespace std;
 
 
+// =======================================================================
+// CONCEPT 1: ABSTRACT CLASS + PURE VIRTUAL FUNCTIONS (Abstraction)
+// =======================================================================
+// This is a contract — any class inheriting this MUST implement these
+// Pure virtual function = virtual void func() = 0;
+// A class with even ONE pure virtual function becomes abstract (can't make objects)
