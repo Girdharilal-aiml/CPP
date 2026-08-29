@@ -31,5 +31,6 @@ using namespace std;
 // A class with even ONE pure virtual function becomes abstract (can't make objects)
 class Entity {
 public:
+    virtual void showRole()  = 0;   // pure virtual — MUST be overridden
 };
 
