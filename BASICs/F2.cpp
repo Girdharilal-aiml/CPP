@@ -34,5 +34,6 @@ public:
     virtual void showRole()  = 0;   // pure virtual — MUST be overridden
     virtual void display()   = 0;   // pure virtual — MUST be overridden
     virtual double computePay() = 0; // pure virtual — MUST be overridden
+    virtual ~Entity() {}            // always add virtual destructor in abstract classes
 };
 
