@@ -37,3 +37,8 @@ public:
     virtual ~Entity() {}            // always add virtual destructor in abstract classes
 };
 
+
+// =======================================================================
+// CONCEPT 2: OPERATOR OVERLOADING
+// A separate Grade class — we'll overload + and << operators
+// =======================================================================
