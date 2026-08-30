@@ -43,6 +43,8 @@ public:
 // A separate Grade class — we'll overload + and << operators
 // =======================================================================
 class Grade {
+private:
+    float marks;
 
 
 };
