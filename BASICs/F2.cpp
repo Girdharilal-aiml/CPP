@@ -42,3 +42,7 @@ public:
 // CONCEPT 2: OPERATOR OVERLOADING
 // A separate Grade class — we'll overload + and << operators
 // =======================================================================
+class Grade {
+
+
+};
