@@ -58,6 +58,7 @@ private:
 class Address {
 private:
     string city;
+    string country;
 
 public:
 
