@@ -57,6 +57,7 @@ private:
 // =======================================================================
 class Address {
 private:
+    string city;
 
 public:
 
