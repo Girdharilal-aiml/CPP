@@ -69,5 +69,6 @@ public:
     // CONSTANT FUNCTION — 'const' at end means it cannot modify any member
     // Use const on functions that only READ data, never change it
     string getCity()    const { return city; }
+    string getCountry() const { return country; }
 
 };
