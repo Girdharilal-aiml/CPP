@@ -75,3 +75,9 @@ public:
         cout << city << ", " << country;
     }
 };
+
+
+// =======================================================================
+// CONCEPT 4: BASE CLASS — Person
+// Has static members, const members, HAS-A Address
+// =======================================================================
