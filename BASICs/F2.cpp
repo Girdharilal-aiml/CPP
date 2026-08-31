@@ -48,3 +48,16 @@ private:
 
 
 };
+
+
+// =======================================================================
+// CONCEPT 3: ADDRESS CLASS — demonstrates HAS-A relationship
+// A Person HAS-A Address (composition)
+// HAS-A = one class contains an OBJECT of another class
+// =======================================================================
+class Address {
+private:
+
+public:
+
+};
