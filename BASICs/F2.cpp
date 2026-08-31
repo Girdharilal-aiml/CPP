@@ -71,4 +71,6 @@ public:
     string getCity()    const { return city; }
     string getCountry() const { return country; }
 
+    void display() const {
+    }
 };
