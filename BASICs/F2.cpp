@@ -89,7 +89,9 @@ private:
     Address address;      // HAS-A relationship — Person HAS-A Address
 
 protected:
-    
+    // 'protected' = accessible in child classes but not outside
+    string id;
+
 public:
     
 };
