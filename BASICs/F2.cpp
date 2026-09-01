@@ -86,6 +86,7 @@ private:
     string name;
     int age;
     const string CNIC;    // CONSTANT MEMBER — set once, never changes (like ID)
+    Address address;      // HAS-A relationship — Person HAS-A Address
 
 protected:
     
