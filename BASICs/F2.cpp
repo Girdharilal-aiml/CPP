@@ -83,6 +83,7 @@ public:
 // =======================================================================
 class Person : public Entity {
 private:
+    string name;
 protected:
     
 public:
