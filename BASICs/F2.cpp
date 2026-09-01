@@ -85,6 +85,8 @@ class Person : public Entity {
 private:
     string name;
     int age;
+    const string CNIC;    // CONSTANT MEMBER — set once, never changes (like ID)
+
 protected:
     
 public:
