@@ -82,4 +82,9 @@ public:
 // Has static members, const members, HAS-A Address
 // =======================================================================
 class Person : public Entity {
+private:
+protected:
+    
+public:
+    
 };
