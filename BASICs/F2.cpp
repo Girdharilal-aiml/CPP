@@ -84,6 +84,7 @@ public:
 class Person : public Entity {
 private:
     string name;
+    int age;
 protected:
     
 public:
