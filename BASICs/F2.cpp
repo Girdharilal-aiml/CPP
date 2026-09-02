@@ -93,5 +93,11 @@ protected:
     string id;
 
 public:
+    // STATIC MEMBER — belongs to the CLASS, not any single object
+    // All Person objects SHARE this one variable
+    // Use case: counting how many Person objects have been created
+    static int totalPersons;
+
     
 };
+
