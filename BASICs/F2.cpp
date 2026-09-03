@@ -98,6 +98,13 @@ public:
     // Use case: counting how many Person objects have been created
     static int totalPersons;
 
-    
-};
+    // Constructor — notice const member CNIC must be initialized in initializer list
+    Person(string n, int a, string cnic, string i, Address addr = Address())
+        : CNIC(cnic), address(addr) {   // const member initialized here
+        name = n;
+        age  = a;
+        id   = i;
+        totalPersons++;   // every time a Person is made, count goes up
+    }
 
+};
