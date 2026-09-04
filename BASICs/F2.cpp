@@ -132,4 +132,10 @@ public:
         address.display();
         cout << endl;
     }
+
+    // These are still pure virtual (inherited from Entity)
+    // Person doesn't implement them — child classes will
+    virtual void showRole()     = 0;
+    virtual void display()      = 0;
+    virtual double computePay() = 0;
 };
