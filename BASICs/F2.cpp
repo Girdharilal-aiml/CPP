@@ -120,5 +120,10 @@ public:
         else cout << "Invalid age!\n";
     }
 
+    // STATIC FUNCTION — can only access static members
+    // Called on CLASS, not object: Person::getTotalPersons()
+    static int getTotalPersons() {
+        return totalPersons;
+    }
 
 };
