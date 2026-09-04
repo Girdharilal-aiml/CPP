@@ -126,4 +126,10 @@ public:
         return totalPersons;
     }
 
+    // Display address using HAS-A object
+    void showAddress() const {
+        cout << "Address : ";
+        address.display();
+        cout << endl;
+    }
 };
