@@ -107,4 +107,8 @@ public:
         totalPersons++;   // every time a Person is made, count goes up
     }
 
-};
+    // Getters — marked const because they only read
+    string getName() const { return name; }
+    int    getAge()  const { return age; }
+    string getCNIC() const { return CNIC; }
+    string getID()   const { return id; }
