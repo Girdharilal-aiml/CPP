@@ -112,3 +112,13 @@ public:
     int    getAge()  const { return age; }
     string getCNIC() const { return CNIC; }
     string getID()   const { return id; }
+
+    // Setters
+    void setName(string n) { name = n; }
+    void setAge(int a) {
+        if (a > 0 && a < 120) age = a;
+        else cout << "Invalid age!\n";
+    }
+
+
+};
