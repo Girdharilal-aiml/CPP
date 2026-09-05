@@ -139,3 +139,13 @@ public:
     virtual void display()      = 0;
     virtual double computePay() = 0;
 };
+
+// Static member must be defined OUTSIDE the class
+int Person::totalPersons = 0;
+
+
+// =======================================================================
+// CONCEPT 5: FUNCTION OVERLOADING
+// Same function name, different parameters
+// Decided at COMPILE TIME (not runtime)
+// =======================================================================
