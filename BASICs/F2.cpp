@@ -149,3 +149,18 @@ int Person::totalPersons = 0;
 // Same function name, different parameters
 // Decided at COMPILE TIME (not runtime)
 // =======================================================================
+class Calculator {
+public:
+    // Three functions with SAME name but DIFFERENT parameters
+    int add(int a, int b) {
+        return a + b;
+    }
+    double add(double a, double b) {
+        return a + b;
+    }
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+    // Compiler decides WHICH add() to call based on arguments you pass
+};
+
