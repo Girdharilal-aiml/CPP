@@ -164,3 +164,9 @@ public:
     // Compiler decides WHICH add() to call based on arguments you pass
 };
 
+
+// =======================================================================
+// CONCEPT 6: SINGLE INHERITANCE — Student inherits from Person
+// Mode: public inheritance (most common)
+// public inheritance = public stays public, protected stays protected
+// =======================================================================
