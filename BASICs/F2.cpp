@@ -170,3 +170,12 @@ public:
 // Mode: public inheritance (most common)
 // public inheritance = public stays public, protected stays protected
 // =======================================================================
+class Student : public Person {
+private:
+    float cgpa;
+    string department;
+    Grade grade;              // HAS-A Grade object
+    static int totalStudents; // counts only students
+
+};
+int Student::totalStudents = 0;
