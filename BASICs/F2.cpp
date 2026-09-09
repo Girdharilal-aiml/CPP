@@ -177,5 +177,15 @@ private:
     Grade grade;              // HAS-A Grade object
     static int totalStudents; // counts only students
 
+public:
+    Student(string n, int a, string cnic, string i,
+            float c, string dept, float marks,
+            Address addr = Address())
+        : Person(n, a, cnic, i, addr), grade(marks) {
+        cgpa       = c;
+        department = dept;
+        totalStudents++;
+    }
+
 };
 int Student::totalStudents = 0;
