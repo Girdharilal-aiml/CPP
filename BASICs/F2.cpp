@@ -187,5 +187,13 @@ public:
         totalStudents++;
     }
 
+    float  getCGPA()       const { return cgpa; }
+    string getDepartment() const { return department; }
+    Grade  getGrade()      const { return grade; }
+
+    void setCGPA(float c) {
+        if (c >= 0.0 && c <= 4.0) cgpa = c;
+        else cout << "Invalid CGPA!\n";
+    }
 };
 int Student::totalStudents = 0;
