@@ -195,5 +195,11 @@ public:
         if (c >= 0.0 && c <= 4.0) cgpa = c;
         else cout << "Invalid CGPA!\n";
     }
-};
-int Student::totalStudents = 0;
+
+    static int getTotalStudents() { return totalStudents; }
+
+    // FUNCTION OVERRIDING — Student gives its OWN version of showRole()
+    // 'override' keyword is good practice — tells compiler we're overriding
+    void showRole() override {
+        cout << "Role    : Student" << endl;
+    }
