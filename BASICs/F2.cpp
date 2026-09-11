@@ -203,3 +203,10 @@ public:
     void showRole() override {
         cout << "Role    : Student" << endl;
     }
+
+   
+
+    // computePay not applicable for student — return 0
+    double computePay() override { return 0; }
+};
+int Student::totalStudents = 0;
