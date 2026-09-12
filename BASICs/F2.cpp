@@ -204,9 +204,22 @@ public:
         cout << "Role    : Student" << endl;
     }
 
-   
+    void display() override {
+        cout << "----------------------------------------\n";
+        cout << "STUDENT RECORD\n";
+        cout << "Name    : " << getName()       << endl;
+        cout << "ID      : " << getID()         << endl;
+        cout << "CNIC    : " << getCNIC()        << endl;
+        cout << "Age     : " << getAge()         << endl;
+        cout << "CGPA    : " << cgpa             << endl;
+        cout << "Dept    : " << department       << endl;
+        cout << "Grade   : " << grade            << endl;  // uses overloaded <<
+        showAddress();
+        showRole();
+    }
 
     // computePay not applicable for student — return 0
     double computePay() override { return 0; }
 };
 int Student::totalStudents = 0;
+
