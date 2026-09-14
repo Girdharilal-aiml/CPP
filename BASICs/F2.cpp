@@ -228,3 +228,13 @@ int Student::totalStudents = 0;
 // CONCEPT 7: HIERARCHICAL INHERITANCE
 // Both Teacher and Admin inherit from Person (one parent, many children)
 // =======================================================================
+class Teacher : public Person {
+private:
+    string subject;
+    double salaryPerHour;
+    int    hoursWorked;
+    static int totalTeachers;
+
+public:
+};
+int Teacher::totalTeachers = 0;
