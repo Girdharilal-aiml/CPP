@@ -236,5 +236,15 @@ private:
     static int totalTeachers;
 
 public:
+    Teacher(string n, int a, string cnic, string i,
+            string sub, double sal, int hours,
+            Address addr = Address())
+        : Person(n, a, cnic, i, addr) {
+        subject       = sub;
+        salaryPerHour = sal;
+        hoursWorked   = hours;
+        totalTeachers++;
+    }
+
 };
 int Teacher::totalTeachers = 0;
