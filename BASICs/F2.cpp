@@ -252,6 +252,11 @@ public:
 
     static int getTotalTeachers() { return totalTeachers; }
 
+    // computePay = salary x hours
+    double computePay() override {
+        return salaryPerHour * hoursWorked;
+    }
+
    
 
   
