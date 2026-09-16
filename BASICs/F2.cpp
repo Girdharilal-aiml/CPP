@@ -246,5 +246,13 @@ public:
         totalTeachers++;
     }
 
+    string getSubject()      const { return subject; }
+    double getSalaryPerHour()const { return salaryPerHour; }
+    int    getHoursWorked()  const { return hoursWorked; }
+
+   
+   
+
+  
 };
 int Teacher::totalTeachers = 0;
