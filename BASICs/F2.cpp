@@ -257,7 +257,9 @@ public:
         return salaryPerHour * hoursWorked;
     }
 
-   
+    void showRole() override {
+        cout << "Role    : Teacher" << endl;
+    }
 
   
 };
