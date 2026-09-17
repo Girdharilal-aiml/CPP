@@ -261,6 +261,17 @@ public:
         cout << "Role    : Teacher" << endl;
     }
 
-  
+    void display() override {
+        cout << "----------------------------------------\n";
+        cout << "TEACHER RECORD\n";
+        cout << "Name    : " << getName()         << endl;
+        cout << "ID      : " << getID()           << endl;
+        cout << "Age     : " << getAge()           << endl;
+        cout << "Subject : " << subject            << endl;
+        cout << "Pay     : Rs." << computePay()    << endl;
+        showAddress();
+        showRole();
+    }
 };
 int Teacher::totalTeachers = 0;
+
