@@ -280,3 +280,9 @@ int Teacher::totalTeachers = 0;
 // CONCEPT 8: MULTI-LEVEL INHERITANCE
 // Person → Teacher → HeadOfDepartment (grandchild)
 // =======================================================================
+class HeadOfDepartment : public Teacher {
+private:
+   
+public:
+   
+};
