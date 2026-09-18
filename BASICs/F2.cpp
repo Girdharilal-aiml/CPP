@@ -275,3 +275,8 @@ public:
 };
 int Teacher::totalTeachers = 0;
 
+
+// =======================================================================
+// CONCEPT 8: MULTI-LEVEL INHERITANCE
+// Person → Teacher → HeadOfDepartment (grandchild)
+// =======================================================================
