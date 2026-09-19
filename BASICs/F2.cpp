@@ -286,5 +286,15 @@ private:
     double bonus;
 
 public:
-   
+    HeadOfDepartment(string n, int a, string cnic, string i,
+                     string sub, double sal, int hours,
+                     string dept, double bon,
+                     Address addr = Address())
+        : Teacher(n, a, cnic, i, sub, sal, hours, addr) {
+        department = dept;
+        bonus      = bon;
+    }
+
+    
 };
+
