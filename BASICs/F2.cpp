@@ -300,7 +300,10 @@ public:
         return Teacher::computePay() + bonus;   // calls parent's computePay()
     }
 
-   
+    void showRole() override {
+        cout << "Role    : Head of Department — " << department << endl;
+    }
+
     
 };
 
