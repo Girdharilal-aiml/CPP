@@ -305,7 +305,12 @@ public:
     }
 
     void display() override {
-   
+        cout << "----------------------------------------\n";
+        cout << "HOD RECORD\n";
+        cout << "Name    : " << getName()       << endl;
+        cout << "Dept    : " << department      << endl;
+        cout << "Total Pay: Rs." << computePay()<< endl;
+        showRole();
     }
 };
 
