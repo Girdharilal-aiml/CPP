@@ -295,6 +295,12 @@ public:
         bonus      = bon;
     }
 
+    // Multi-level: HOD gets Teacher's pay PLUS bonus
+    double computePay() override {
+        return Teacher::computePay() + bonus;   // calls parent's computePay()
+    }
+
+   
     
 };
 
