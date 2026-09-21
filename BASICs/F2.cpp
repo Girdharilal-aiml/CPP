@@ -314,3 +314,16 @@ public:
     }
 };
 
+
+// =======================================================================
+// CONCEPT 9: DIAMOND PROBLEM & VIRTUAL BASE CLASS
+//
+//         Person
+//        /      \
+//   Teacher    Researcher
+//        \      /
+//       AcademicStaff        ← inherits from BOTH
+//
+// Problem: AcademicStaff gets TWO copies of Person
+// Fix: use 'virtual' keyword in intermediate classes
+// =======================================================================
