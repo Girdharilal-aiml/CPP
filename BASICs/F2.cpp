@@ -327,3 +327,11 @@ public:
 // Problem: AcademicStaff gets TWO copies of Person
 // Fix: use 'virtual' keyword in intermediate classes
 // =======================================================================
+
+class Researcher : virtual public Person {
+private:
+    string researchArea;
+
+public:
+    
+};
