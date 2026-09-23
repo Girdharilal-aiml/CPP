@@ -342,7 +342,9 @@ public:
 
     double computePay() override { return 50000; } // flat stipend
 
-   
+    void showRole() override {
+        cout << "Role    : Researcher — " << researchArea << endl;
+    }
 
     
 };
