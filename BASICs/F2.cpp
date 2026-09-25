@@ -372,5 +372,6 @@ public:
     }
 
     void display() override {
+        cout << "Name    : " << getName() << endl;
     }
 };
