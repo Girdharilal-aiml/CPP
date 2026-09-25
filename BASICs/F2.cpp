@@ -357,6 +357,7 @@ public:
 // But we already defined Teacher — let's make a VirtualTeacher for demo
 class VirtualTeacher : virtual public Person {
 private:
+    string subject;
 
 public:
 
