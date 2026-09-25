@@ -355,3 +355,8 @@ public:
 
 // Teacher must ALSO be virtual for diamond fix
 // But we already defined Teacher — let's make a VirtualTeacher for demo
+class VirtualTeacher : virtual public Person {
+
+
+
+};
