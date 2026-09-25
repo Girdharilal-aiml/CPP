@@ -371,4 +371,6 @@ public:
         cout << "Role    : Virtual Teacher — " << subject << endl;
     }
 
+    void display() override {
+    }
 };
