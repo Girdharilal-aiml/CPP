@@ -377,3 +377,5 @@ public:
         showRole();
     }
 };
+
+// AcademicStaff inherits from BOTH — diamond resolved via virtual
