@@ -379,3 +379,8 @@ public:
 };
 
 // AcademicStaff inherits from BOTH — diamond resolved via virtual
+class AcademicStaff : public VirtualTeacher, public Researcher {
+public:
+    
+};
+
