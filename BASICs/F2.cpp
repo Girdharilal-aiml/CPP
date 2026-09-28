@@ -381,6 +381,16 @@ public:
 // AcademicStaff inherits from BOTH — diamond resolved via virtual
 class AcademicStaff : public VirtualTeacher, public Researcher {
 public:
-    
-};
+    // Must call Person constructor directly in diamond situation
+    AcademicStaff(string n, int a, string cnic, string i,
+                  string sub, string area)
+        : Person(n, a, cnic, i),             // called ONCE due to virtual
+          VirtualTeacher(n, a, cnic, i, sub),
+          Researcher(n, a, cnic, i, area) {}
 
+    double computePay() override {
+        return VirtualTeacher::computePay() + Researcher::computePay();
+    }
+
+
+};
