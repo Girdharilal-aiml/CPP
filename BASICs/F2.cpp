@@ -392,5 +392,8 @@ public:
         return VirtualTeacher::computePay() + Researcher::computePay();
     }
 
+    void showRole() override {
+        cout << "Role    : Academic Staff (Teacher + Researcher)" << endl;
+    }
 
 };
