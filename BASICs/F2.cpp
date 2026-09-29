@@ -398,5 +398,6 @@ public:
 
     void display() override {
         cout << "----------------------------------------\n";
+        cout << "ACADEMIC STAFF\n";
     }
 };
