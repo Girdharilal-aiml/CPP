@@ -417,3 +417,10 @@ class Scholarship;
 // Declared inside Student... but Student is already defined above.
 // So let's make a simpler demo class:
 
+class Wallet {
+private:
+    double balance;  // private — normally no one can touch this
+
+public:
+   
+};
