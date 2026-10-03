@@ -405,22 +405,3 @@ public:
     }
 };
 
-
-// =======================================================================
-// CONCEPT 10: FRIEND FUNCTION & FRIEND CLASS
-// =======================================================================
-
-// Forward declaration (needed so Scholarship knows about Student)
-class Scholarship;
-
-// FRIEND CLASS — Scholarship can access private members of Student
-// Declared inside Student... but Student is already defined above.
-// So let's make a simpler demo class:
-
-class Wallet {
-private:
-    double balance;  // private — normally no one can touch this
-
-public:
-   
-};
