@@ -422,3 +422,4 @@ private:
     double balance;  // private — normally no one can touch this
 
 public:
+    Wallet(double b) { balance = b; }
