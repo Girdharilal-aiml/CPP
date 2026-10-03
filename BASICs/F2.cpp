@@ -424,3 +424,5 @@ private:
 public:
     Wallet(double b) { balance = b; }
     double getBalance() const { return balance; }
+
+    // FRIEND FUNCTION declaration — this non-member function
