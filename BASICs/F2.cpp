@@ -420,3 +420,5 @@ class Scholarship;
 class Wallet {
 private:
     double balance;  // private — normally no one can touch this
+
+public:
