@@ -411,3 +411,4 @@ public:
 // =======================================================================
 
 // Forward declaration (needed so Scholarship knows about Student)
+class Scholarship;
