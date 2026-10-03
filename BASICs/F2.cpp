@@ -428,3 +428,5 @@ public:
     // FRIEND FUNCTION declaration — this non-member function
     // can access Wallet's private members
     friend void addBonus(Wallet& w, double amount);
+
+    // FRIEND CLASS declaration — BankAuditor can access Wallet's private data
