@@ -418,3 +418,5 @@ class Scholarship;
 // So let's make a simpler demo class:
 
 class Wallet {
+private:
+    double balance;  // private — normally no one can touch this
