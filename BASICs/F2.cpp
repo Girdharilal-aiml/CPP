@@ -409,3 +409,5 @@ public:
 // =======================================================================
 // CONCEPT 10: FRIEND FUNCTION & FRIEND CLASS
 // =======================================================================
+
+// Forward declaration (needed so Scholarship knows about Student)
