@@ -414,3 +414,4 @@ public:
 class Scholarship;
 
 // FRIEND CLASS — Scholarship can access private members of Student
+// Declared inside Student... but Student is already defined above.
