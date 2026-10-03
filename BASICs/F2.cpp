@@ -412,3 +412,5 @@ public:
 
 // Forward declaration (needed so Scholarship knows about Student)
 class Scholarship;
+
+// FRIEND CLASS — Scholarship can access private members of Student
