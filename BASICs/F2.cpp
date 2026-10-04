@@ -435,5 +435,6 @@ public:
 
 // FRIEND FUNCTION definition — not a member of Wallet, but has private access
 void addBonus(Wallet& w, double amount) {
-
+    w.balance += amount;   // accessing private 'balance' — only works because friend
+    cout << "Bonus added! New balance: Rs." << w.balance << endl;
 }
