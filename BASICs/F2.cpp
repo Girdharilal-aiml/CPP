@@ -444,5 +444,6 @@ class BankAuditor {
 public:
     void audit(Wallet& w) {
         // Accessing private balance directly because BankAuditor is a friend
+        cout << "[AUDIT] Wallet balance is: Rs." << w.balance << endl;
     }
 };
