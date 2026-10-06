@@ -443,5 +443,6 @@ void addBonus(Wallet& w, double amount) {
 class BankAuditor {
 public:
     void audit(Wallet& w) {
+        // Accessing private balance directly because BankAuditor is a friend
     }
 };
