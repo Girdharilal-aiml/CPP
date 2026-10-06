@@ -440,3 +440,5 @@ void addBonus(Wallet& w, double amount) {
 }
 
 // FRIEND CLASS — all functions in BankAuditor can access Wallet's private data
+class BankAuditor {
+};
