@@ -453,3 +453,6 @@ public:
 // CONCEPT 11: ARRAY OF OBJECTS — Course has array of Student objects
 // HAS-A relationship at scale
 // =======================================================================
+class Course {
+   
+};
