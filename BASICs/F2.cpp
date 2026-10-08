@@ -459,6 +459,7 @@ private:
     string   courseCode;
     Teacher* assignedTeacher;     // HAS-A pointer to Teacher
     Student* students[50];        // ARRAY OF OBJECT POINTERS
+    int      studentCount;
 public:
    
 };
