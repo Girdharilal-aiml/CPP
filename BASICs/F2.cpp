@@ -460,6 +460,8 @@ private:
     Teacher* assignedTeacher;     // HAS-A pointer to Teacher
     Student* students[50];        // ARRAY OF OBJECT POINTERS
     int      studentCount;
+    const int MAX_STUDENTS = 50;  // const member
+
 public:
    
 };
