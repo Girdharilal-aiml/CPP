@@ -454,5 +454,7 @@ public:
 // HAS-A relationship at scale
 // =======================================================================
 class Course {
+private:
+public:
    
 };
