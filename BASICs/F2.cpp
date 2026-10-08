@@ -457,6 +457,7 @@ class Course {
 private:
     string   courseName;
     string   courseCode;
+    Teacher* assignedTeacher;     // HAS-A pointer to Teacher
 public:
    
 };
