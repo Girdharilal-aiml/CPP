@@ -465,6 +465,7 @@ private:
 public:
     Course(string name, string code, Teacher* t) {
         courseName      = name;
+        courseCode      = code;
     }
 
 };
