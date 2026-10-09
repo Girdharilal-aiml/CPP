@@ -463,5 +463,7 @@ private:
     const int MAX_STUDENTS = 50;  // const member
 
 public:
-   
+    Course(string name, string code, Teacher* t) {
+    }
+
 };
