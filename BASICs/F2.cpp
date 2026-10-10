@@ -475,7 +475,8 @@ public:
             students[studentCount++] = s;
             return true;
         }
-      
+        cout << "Course full!\n";
+        return false;
     }
 
 };
