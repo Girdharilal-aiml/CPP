@@ -470,4 +470,11 @@ public:
         studentCount    = 0;
     }
 
+    bool enrollStudent(Student* s) {
+        if (studentCount < MAX_STUDENTS) {
+           
+        }
+      
+    }
+
 };
