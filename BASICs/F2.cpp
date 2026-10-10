@@ -472,7 +472,8 @@ public:
 
     bool enrollStudent(Student* s) {
         if (studentCount < MAX_STUDENTS) {
-           
+            students[studentCount++] = s;
+            return true;
         }
       
     }
