@@ -479,4 +479,9 @@ public:
         return false;
     }
 
+    // Find student with highest CGPA
+    Student* getTopStudent() {
+       
+    }
+
 };
