@@ -487,6 +487,7 @@ public:
             if (students[i]->getCGPA() > top->getCGPA())
                 top = students[i];
         }
+        return top;
     }
 
 };
