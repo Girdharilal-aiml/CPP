@@ -482,6 +482,7 @@ public:
     // Find student with highest CGPA
     Student* getTopStudent() {
         if (studentCount == 0) return nullptr;
+        Student* top = students[0];
     }
 
 };
