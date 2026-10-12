@@ -483,6 +483,8 @@ public:
     Student* getTopStudent() {
         if (studentCount == 0) return nullptr;
         Student* top = students[0];
+        for (int i = 1; i < studentCount; i++) {
+        }
     }
 
 };
