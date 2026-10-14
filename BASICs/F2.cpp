@@ -497,6 +497,7 @@ public:
         cout << "STUDENTS : " << studentCount << "\n";
         for (int i = 0; i < studentCount; i++) {
             cout << "  [" << i+1 << "] "
+                 << students[i]->getName()
         }
     }
 };
