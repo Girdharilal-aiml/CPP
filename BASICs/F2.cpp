@@ -495,5 +495,7 @@ public:
         cout << "COURSE   : " << courseName << " (" << courseCode << ")\n";
         cout << "TEACHER  : " << assignedTeacher->getName() << "\n";
         cout << "STUDENTS : " << studentCount << "\n";
+        for (int i = 0; i < studentCount; i++) {
+        }
     }
 };
