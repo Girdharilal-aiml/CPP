@@ -501,5 +501,6 @@ public:
                  << " | CGPA: " << students[i]->getCGPA()
                  << " | Grade: " << students[i]->getGrade() << "\n";
         }
+        Student* top = getTopStudent();
     }
 };
