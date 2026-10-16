@@ -506,3 +506,9 @@ public:
             cout << "TOP STUDENT: " << top->getName() << "\n";
     }
 };
+
+
+// =======================================================================
+// CONCEPT 12: UNIVERSITY — The master class
+// Uses arrays of objects, polymorphism, static members
+// =======================================================================
