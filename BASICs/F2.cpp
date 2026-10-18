@@ -514,6 +514,7 @@ public:
 // =======================================================================
 class University {
 private:
+    Course*  courses[50];
 
 public:
 
