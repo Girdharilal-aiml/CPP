@@ -516,6 +516,7 @@ class University {
 private:
     string   uniName;
     Student* students[200];
+    Teacher* teachers[100];
     Course*  courses[50];
 
 public:
