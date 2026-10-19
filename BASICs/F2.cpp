@@ -530,4 +530,8 @@ public:
     void addTeacher(Teacher* t) { teachers[tCount++] = t; }
     void addCourse (Course*  c) { courses[cCount++]  = c; }
 
+    // POLYMORPHISM in action — using base class pointer
+    // Same function call, different behavior based on actual object type
+   
 };
+
