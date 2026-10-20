@@ -535,6 +535,7 @@ public:
     void generatePayroll() {
         cout << "\n========================================\n";
         cout << "   PAYROLL REPORT\n";
+        cout << "========================================\n";
 
       
     }
