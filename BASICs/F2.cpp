@@ -532,6 +532,9 @@ public:
 
     // POLYMORPHISM in action — using base class pointer
     // Same function call, different behavior based on actual object type
-   
-};
+    void generatePayroll() {
 
+      
+    }
+
+};
