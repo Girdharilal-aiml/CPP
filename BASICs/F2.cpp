@@ -541,6 +541,7 @@ public:
         // Entity* can point to Teacher, HOD, AcademicStaff — all work!
         for (int i = 0; i < tCount; i++) {
             cout << teachers[i]->getName()
+                 << " — Rs." << teachers[i]->computePay() << "\n";
         }
     }
 
