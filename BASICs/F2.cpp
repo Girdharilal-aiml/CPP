@@ -538,7 +538,8 @@ public:
         cout << "========================================\n";
         double total = 0;
 
-      
+        // Entity* can point to Teacher, HOD, AcademicStaff — all work!
+
     }
 
 };
