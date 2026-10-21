@@ -544,6 +544,7 @@ public:
                  << " — Rs." << teachers[i]->computePay() << "\n";
             total += teachers[i]->computePay();
         }
+        cout << "TOTAL PAYROLL: Rs." << total << "\n";
     }
 
 };
