@@ -539,7 +539,8 @@ public:
         double total = 0;
 
         // Entity* can point to Teacher, HOD, AcademicStaff — all work!
-
+        for (int i = 0; i < tCount; i++) {
+        }
     }
 
 };
