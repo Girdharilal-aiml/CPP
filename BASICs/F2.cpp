@@ -547,4 +547,7 @@ public:
         cout << "TOTAL PAYROLL: Rs." << total << "\n";
     }
 
+    void generateReport() {
+
+        
 };
