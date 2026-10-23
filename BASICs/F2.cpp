@@ -552,6 +552,8 @@ public:
         cout << "   UNIVERSITY REPORT: " << uniName << "\n";
         cout << "========================================\n";
 
-        
+        // Static member access
+
+
     }
 };
