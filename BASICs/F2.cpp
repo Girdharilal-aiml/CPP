@@ -553,6 +553,7 @@ public:
         cout << "========================================\n";
 
         // Static member access
+        cout << "Total Persons Created : " << Person::getTotalPersons() << "\n";
 
 
     }
