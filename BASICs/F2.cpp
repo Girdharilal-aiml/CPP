@@ -566,5 +566,6 @@ public:
             students[i]->display();
 
         cout << "\n--- COURSES ---\n";
+        for (int i = 0; i < cCount; i++)
     }
 };
