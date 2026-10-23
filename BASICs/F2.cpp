@@ -554,6 +554,7 @@ public:
 
         // Static member access
         cout << "Total Persons Created : " << Person::getTotalPersons() << "\n";
+        cout << "Total Students        : " << Student::getTotalStudents() << "\n";
 
 
     }
