@@ -558,6 +558,7 @@ public:
         cout << "Total Teachers        : " << Teacher::getTotalTeachers() << "\n";
 
         cout << "\n--- TEACHERS ---\n";
+        for (int i = 0; i < tCount; i++)
 
 
     }
