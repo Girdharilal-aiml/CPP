@@ -562,6 +562,7 @@ public:
             teachers[i]->display();   // virtual dispatch — calls correct display()
 
         cout << "\n--- STUDENTS ---\n";
+        for (int i = 0; i < sCount; i++)
 
     }
 };
