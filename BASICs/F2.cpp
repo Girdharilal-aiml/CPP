@@ -563,6 +563,7 @@ public:
 
         cout << "\n--- STUDENTS ---\n";
         for (int i = 0; i < sCount; i++)
+            students[i]->display();
 
     }
 };
