@@ -576,5 +576,144 @@ public:
 // MAIN — Brings EVERYTHING together
 // =======================================================================
 int main() {
-   
+    cout << "=== ULTIMATE C++ OOP DEMO ===\n\n";
+
+    // --- OPERATOR OVERLOADING DEMO ---
+    cout << "--- OPERATOR OVERLOADING ---\n";
+    Grade g1(78.5), g2(85.0);
+    Grade g3 = g1 + g2;             // uses overloaded +
+    cout << "Grade 1 : " << g1 << "\n";  // uses overloaded <<
+    cout << "Grade 2 : " << g2 << "\n";
+    cout << "Combined: " << g3 << "\n";
+    cout << "g2 > g1 ? " << (g2 > g1 ? "Yes" : "No") << "\n\n";
+
+    // --- FUNCTION OVERLOADING DEMO ---
+    cout << "--- FUNCTION OVERLOADING ---\n";
+    Calculator calc;
+    cout << "add(3,4)       = " << calc.add(3, 4)       << "\n";
+    cout << "add(2.5, 3.1)  = " << calc.add(2.5, 3.1)   << "\n";
+    cout << "add(1,2,3)     = " << calc.add(1, 2, 3)     << "\n\n";
+
+    // --- FRIEND FUNCTION & FRIEND CLASS DEMO ---
+    cout << "--- FRIEND FUNCTION & CLASS ---\n";
+    Wallet w(5000);
+    addBonus(w, 1500);      // friend function accessing private data
+    BankAuditor auditor;
+    auditor.audit(w);       // friend class accessing private data
+    cout << "\n";
+
+    // --- CREATING OBJECTS WITH HAS-A (Address) ---
+    Address addr1("Karachi", "Pakistan");
+    Address addr2("Lahore", "Pakistan");
+
+    // --- HIERARCHICAL INHERITANCE: Teacher & Student both from Person ---
+    Teacher t1("Sir Ahmed", 45, "42101-1234567-1", "T001",
+               "OOP", 2000, 40, addr1);
+    Teacher t2("Ma'am Sana", 38, "42101-7654321-2", "T002",
+               "DS", 2200, 40, addr2);
+
+    // --- MULTI-LEVEL INHERITANCE: HOD is a Teacher is a Person ---
+    HeadOfDepartment hod("Dr. Bilal", 52, "42101-1111111-3", "H001",
+                         "AI", 3000, 40, "CS Department", 15000, addr1);
+
+    // --- DIAMOND PROBLEM SOLUTION: AcademicStaff ---
+    AcademicStaff as1("Dr. Zara", 41, "42101-2222222-4", "AS001",
+                      "Machine Learning", "Neural Networks");
+
+    // --- STUDENTS ---
+    Student s1("Ali",   20, "42101-3333333-5", "S001", 3.5, "CS",   78.5, addr1);
+    Student s2("Sara",  19, "42101-4444444-6", "S002", 3.8, "AI",   85.0, addr1);
+    Student s3("Hamza", 21, "42101-5555555-7", "S003", 2.9, "CS",   65.0, addr2);
+    Student s4("Zara",  20, "42101-6666666-8", "S004", 3.2, "DS",   72.0, addr2);
+
+    // --- COURSES — HAS-A Teacher, ARRAY OF Student pointers ---
+    Course c1("OOP in C++",      "CS201", &t1);
+    Course c2("Data Structures", "CS301", &t2);
+
+    c1.enrollStudent(&s1);
+    c1.enrollStudent(&s2);
+    c2.enrollStudent(&s3);
+    c2.enrollStudent(&s4);
+
+    // --- UNIVERSITY ---
+    University uni("FAST NUCES Karachi");
+    uni.addTeacher(&t1);
+    uni.addTeacher(&t2);
+    uni.addStudent(&s1);
+    uni.addStudent(&s2);
+    uni.addStudent(&s3);
+    uni.addStudent(&s4);
+    uni.addCourse(&c1);
+    uni.addCourse(&c2);
+
+    // Generate full reports
+    uni.generatePayroll();
+    uni.generateReport();
+
+    // --- POLYMORPHISM DEMO — Base class pointer, different behaviors ---
+    cout << "\n--- POLYMORPHISM DEMO (virtual dispatch) ---\n";
+    Entity* staff[4];
+    staff[0] = &t1;    // Teacher
+    staff[1] = &t2;    // Teacher
+    staff[2] = &hod;   // HeadOfDepartment
+    staff[3] = &as1;   // AcademicStaff
+
+    for (int i = 0; i < 4; i++) {
+        staff[i]->showRole();   // calls correct version for each object
+        cout << "Pay: Rs." << staff[i]->computePay() << "\n\n";
+    }
+
+    // --- STATIC MEMBER DEMO ---
+    cout << "--- STATIC MEMBER ---\n";
+    cout << "Total Person objects ever created: "
+         << Person::getTotalPersons() << "\n";
+    cout << "Total Students: " << Student::getTotalStudents() << "\n";
+    cout << "Total Teachers: " << Teacher::getTotalTeachers() << "\n";
+
+    return 0;
 }
+
+/*
+=======================================================================
+CONCEPT SUMMARY — WHERE TO FIND EACH THING IN THIS CODE:
+
+1. STATIC MEMBER/FUNCTION     → Person::totalPersons, getTotalPersons()
+                                Student::totalStudents, Teacher::totalTeachers
+
+2. CONST MEMBER/FUNCTION      → const string CNIC in Person
+                                getAge() const, getName() const etc.
+                                MAX_STUDENTS in Course
+
+3. HAS-A RELATIONSHIP         → Person HAS-A Address
+                                Course HAS-A Teacher*, Student*[]
+                                Student HAS-A Grade
+
+4. ARRAY OF OBJECTS           → Student* students[50] in Course
+                                Student* students[200] in University
+
+5. SINGLE INHERITANCE         → Student : public Person
+6. HIERARCHICAL INHERITANCE   → Student & Teacher both from Person
+7. MULTI-LEVEL INHERITANCE    → Person→Teacher→HeadOfDepartment
+8. MULTIPLE INHERITANCE       → AcademicStaff from VirtualTeacher+Researcher
+
+9. PUBLIC MODE INHERITANCE    → class Student : public Person
+   (protected/private modes change what child can access from parent)
+   protected mode → parent's public becomes protected in child
+   private mode   → parent's public becomes private in child
+
+10. DIAMOND PROBLEM           → Virtual base class: virtual public Person
+                                AcademicStaff calls Person() once directly
+
+11. POLYMORPHISM              → Entity* staff[] array in main()
+                                showRole() and computePay() behave differently
+
+12. FUNCTION OVERLOADING      → Calculator::add() — 3 versions
+13. FUNCTION OVERRIDING       → showRole(), display(), computePay() with override
+14. VIRTUAL FUNCTIONS         → virtual void showRole() = 0 in Entity
+
+15. FRIEND FUNCTION           → addBonus(Wallet&, double) — accesses private
+16. FRIEND CLASS              → BankAuditor — full private access to Wallet
+
+17. OPERATOR OVERLOADING      → Grade: +, >, ==, << all overloaded
+=======================================================================
+*/
